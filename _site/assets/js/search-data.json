@@ -1,0 +1,44 @@
+{"0": {
+    "doc": "Home",
+    "title": "Psionica",
+    "content": "An open collective on a mission to augment thought for all. Learn More Join Us . ",
+    "url": "http://localhost:4001/#psionica",
+    "relUrl": "/#psionica"
+  },"1": {
+    "doc": "Home",
+    "title": "About",
+    "content": "Just like there are sound frequencies we cannot hear and wavelengths of light we cannot see, there are thoughts we cannot think.1 However, just like intricate sensors help us detect sound and light beyond our senses, there are transformative tools which enable us to think beyond what was previously thinkable.2 Our mission is to develop and leverage such tools for thought by exploring the intersection between artificial intelligence and cognitive science. In our work, we’re routinely addressing questions such as: . | What if you had a search engine for your own memory? | What if there was a Photoshop for editing concepts? | What if a chatbot helped you challenge your assumptions? | What if you could radically edit your belief system on command? | What if you could instantly make a textbook easier to digest? | . ",
+    "url": "http://localhost:4001/#about",
+    "relUrl": "/#about"
+  },"2": {
+    "doc": "Home",
+    "title": "Current Focus",
+    "content": "Live . | Exploring approaches to AI-informed cognitive augmentation through a series of experimental prototypes. | Enabling individuals to perceive high-dimensional data more effectively through photorealistic facial representations. | . ",
+    "url": "http://localhost:4001/#current-focus",
+    "relUrl": "/#current-focus"
+  },"3": {
+    "doc": "Home",
+    "title": "Structure",
+    "content": "Psionica’s organizational structure is a project in itself. We’re suggesting a triple approach to cognitive augmentation in an attempt to surpass some of the challenges identified the field. By incorporating three nested constraints in our process, we try to strike a balance between open-ended exploration through experimental prototypes and results-oriented development of software tools. Those layers are embedded in the studio, the lab, and the workshop. The Studio . This is the realm of the conceivable: concept renders, design fictions, speculative works, future visions, vignettes, and diegetic prototypes. Any tool for thought a designer can dream up and somehow illustrate is welcome here. The Lab . This is the realm of the feasible: experimental tools, proof of concepts, and rapid prototyping. The purpose here is to build stuff that works and gain insight in the process. This attitude implicitly guides the exploration process towards the technically possible. The Workshop . This is the realm of the practical: software projects, polished interfaces, and accessible utilities. The goal here is to develop versatile tools for thought which anyone can use in their knowledge work. It’s important to note that the three spaces aren’t by any means rigid departments. Rather, they’re simply mindsets which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn’t. ",
+    "url": "http://localhost:4001/#structure",
+    "relUrl": "/#structure"
+  },"4": {
+    "doc": "Home",
+    "title": "Join Us",
+    "content": "Do you enjoy chatting about minds and machines? Do you want to contribute to ambitious tools for thought? If so, make sure to join our Discord server! . Become a Member . ",
+    "url": "http://localhost:4001/#join-us",
+    "relUrl": "/#join-us"
+  },"5": {
+    "doc": "Home",
+    "title": "References",
+    "content": ". | Richard Hamming,The Unreasonable Effectiveness of Mathematics. &#8617; . | Bret Victor,Media for Thinking the Unthinkable. &#8617; . | . ",
+    "url": "http://localhost:4001/#references",
+    "relUrl": "/#references"
+  },"6": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://localhost:4001/",
+    "relUrl": "/"
+  }
+}
