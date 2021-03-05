@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-| Question              | Answer                                             |
-|-----------------------|----------------------------------------------------|
-| Driving Question      | How can [technology] augment [cognitive function]? |
-| Tentative Answer      |                                                    |
-| Deliverable Prototype | (e.g. web app, mobile app, device, utility, etc.)  |
-| Approximate Timeline  |                                                    |
-| Required Resources    | (e.g. expertise, compute, etc.)                    |
+| Question              	| Answer                                             	|
+|-----------------------	|----------------------------------------------------	|
+| Driving Question      	| How can [technology] augment [cognitive function]? 	|
+| Tentative Answer      	|                                                    	|
+| Deliverable Prototype 	| (e.g. web app, mobile app, device, utility, etc.)  	|
+| Approximate Timeline  	|                                                    	|
+| Required Resources    	| (e.g. expertise, compute, etc.)                    	|
