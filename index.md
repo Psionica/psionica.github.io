@@ -35,7 +35,6 @@ In our work, we're routinely addressing questions such as:
 Live
 {: .label }
 
-- Defining spec templates for projects in the three spaces. **#meta**
 - Augmenting non-linear note-taking with natural language processing. **#workshop**
 - Augmenting perception of data through photorealistic renders. **#lab**
 
@@ -54,7 +53,6 @@ Psionica's organizational structure is a project in itself. We're suggesting a t
 | **This space is constrained by:** | imagination | imagination, technical feasibility | imagination, technical feasibility, practical utility |
 | **Related paths include:** | designers, futurists | makers, researchers, tinkerers | developers, engineers |
 | **It supports Psionica's mission by:** | inspiring people to envision radical tools for thought | shedding light on promising avenues in cognitive augmentation | directly building useful tools for thought |
-| **Mindset qualities include:** | open-minded, free thinking, creative | curious, inquisitive, exploratory | results-oriented, pragmatic |
 
 It's important to note that the three spaces aren't by any means rigid departments. Rather, they're simply *mindsets* which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn't, all while mutually informing each other.
 
