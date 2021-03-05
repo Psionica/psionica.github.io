@@ -13,4 +13,4 @@ assignees: ''
 | Tentative Answer      	|                                                                      	|
 | Deliverable Prototype 	| (e.g. design fiction, vignette, concept render, future vision, etc.) 	|
 | Approximate Timeline  	|                                                                      	|
-| Required Resources    	| (e.g. expertise, etc.)                                               	|
+| Required Resources    	| (e.g. collaborators, expertise, etc.)                                               	|

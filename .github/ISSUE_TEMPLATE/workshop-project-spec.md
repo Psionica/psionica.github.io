@@ -13,4 +13,4 @@ assignees: ''
 | Tentative Answer      	|                                                	|
 | Deliverable Prototype 	| (e.g. software utility, web service, etc.)     	|
 | Approximate Timeline  	|                                                	|
-| Required Resources    	| (e.g. expertise, compute, etc.)                	|
+| Required Resources    	| (e.g. collaborators, expertise, compute, etc.)                	|

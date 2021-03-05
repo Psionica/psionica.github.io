@@ -13,4 +13,4 @@ assignees: ''
 | Tentative Answer      	|                                                    	|
 | Deliverable Prototype 	| (e.g. web app, mobile app, device, utility, etc.)  	|
 | Approximate Timeline  	|                                                    	|
-| Required Resources    	| (e.g. expertise, compute, etc.)                    	|
+| Required Resources    	| (e.g. collaborators, expertise, compute, etc.)                    	|
