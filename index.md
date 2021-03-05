@@ -12,11 +12,11 @@ description: "An open collective on a mission to augment thought for all."
 An open collective on a mission to augment thought for all.
 {: .fs-6 .fw-300 .text-left }
 
-[Learn More](./#about){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./#join-us){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./#join-us){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## About
+## Mission
 
 Just like there are sound frequencies we cannot hear and wavelengths of light we cannot see, there are thoughts we cannot think.[^1] However, just like intricate sensors help us detect sound and light beyond our senses, there are transformative tools which enable us to think beyond what was previously thinkable.[^2] Our mission is to develop and leverage such tools for thought by exploring the intersection between artificial intelligence and cognitive science.
 
@@ -35,8 +35,11 @@ In our work, we're routinely addressing questions such as:
 Live
 {: .label }
 
-- Exploring approaches to AI-informed cognitive augmentation through a series of experimental prototypes.
-- Enabling individuals to perceive high-dimensional data more effectively through photorealistic facial representations.
+- Defining spec templates for projects in the three spaces. **#meta**
+- Augmenting non-linear note-taking with natural language processing. **#workshop**
+- Augmenting perception of data through photorealistic renders. **#lab**
+
+[View Roadmap](https://github.com/orgs/Psionica/projects/1){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -53,12 +56,12 @@ This is the realm of the feasible: experimental tools, proof of concepts, and ra
 ### The Workshop
 This is the realm of the practical: software projects, polished interfaces, and accessible utilities. The goal here is to develop versatile tools for thought which anyone can use in their knowledge work.
 
-It's important to note that the three spaces aren't by any means rigid departments. Rather, they're simply *mindsets* which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn't.
+It's important to note that the three spaces aren't by any means rigid departments. Rather, they're simply *mindsets* which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn't. Moreover, they're constantly informing each other in tight loops.
 
 ---
 
 ## Join Us
-Do you enjoy chatting about minds and machines? Do you want to contribute to ambitious tools for thought? If so, make sure to join our Discord server!
+Do you enjoy chatting about minds and machines? Do you want to contribute to ambitious tools for thought? If so, make sure to join our Discord server.
 
 [Become a Member](https://discord.gg/MJZDdXkFGa){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
