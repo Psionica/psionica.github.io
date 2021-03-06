@@ -9,7 +9,7 @@ assignees: ''
 
 | Question              	| Answer                                                               	|
 |-----------------------	|----------------------------------------------------------------------	|
-| Driving Question      	| How could [cognitive function] be augmented?                         	|
+| Driving Question      	| How could **cognitive function** be augmented?                         	|
 | Tentative Answer      	|                                                                      	|
 | Deliverable Prototype 	| (e.g. design fiction, vignette, concept render, future vision, etc.) 	|
 | Approximate Timeline  	|                                                                      	|

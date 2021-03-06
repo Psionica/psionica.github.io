@@ -9,7 +9,7 @@ assignees: ''
 
 | Question              	| Answer                                         	|
 |-----------------------	|------------------------------------------------	|
-| Driving Question      	| How can [technology] support [knowledge work]? 	|
+| Driving Question      	| How can **technology** support **knowledge work**? 	|
 | Tentative Answer      	|                                                	|
 | Deliverable Prototype 	| (e.g. software utility, web service, etc.)     	|
 | Approximate Timeline  	|                                                	|
