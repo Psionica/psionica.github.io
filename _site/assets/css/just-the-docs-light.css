@@ -886,12 +886,12 @@ body {
 
 .info {
   background: rgba(44, 132, 250, 0.2);
-  border-left: 4px solid #183385;
+  border-left: 4px solid #2869e6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: .8rem; }
   .info::before {
-    color: #183385;
+    color: #2869e6;
     content: "INFO";
     display: block;
     font-weight: bold;
@@ -900,12 +900,12 @@ body {
 
 .warn {
   background: rgba(44, 132, 250, 0.2);
-  border-left: 4px solid #183385;
+  border-left: 4px solid #2869e6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: .8rem; }
   .warn::before {
-    color: #183385;
+    color: #2869e6;
     content: "WARNING";
     display: block;
     font-weight: bold;
@@ -928,12 +928,12 @@ body {
 
 .quote {
   background: rgba(44, 132, 250, 0.2);
-  border-left: 4px solid #183385;
+  border-left: 4px solid #2869e6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: .8rem; }
   .quote::before {
-    color: #183385;
+    color: #2869e6;
     content: "QUOTE";
     display: block;
     font-weight: bold;
@@ -955,6 +955,7 @@ body {
     padding-bottom: .125rem; }
 
 .code-block {
+  background: rgba(44, 132, 250, 0.2);
   border-left: 4px solid #959396;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);

@@ -886,12 +886,12 @@ body {
 
 .info {
   background: rgba(44, 132, 250, 0.2);
-  border-left: 4px solid #183385;
+  border-left: 4px solid #2869e6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: .8rem; }
   .info::before {
-    color: #183385;
+    color: #2869e6;
     content: "INFO";
     display: block;
     font-weight: bold;
@@ -900,12 +900,12 @@ body {
 
 .warn {
   background: rgba(44, 132, 250, 0.2);
-  border-left: 4px solid #183385;
+  border-left: 4px solid #2869e6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: .8rem; }
   .warn::before {
-    color: #183385;
+    color: #2869e6;
     content: "WARNING";
     display: block;
     font-weight: bold;
@@ -928,12 +928,12 @@ body {
 
 .quote {
   background: rgba(44, 132, 250, 0.2);
-  border-left: 4px solid #183385;
+  border-left: 4px solid #2869e6;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: .8rem; }
   .quote::before {
-    color: #183385;
+    color: #2869e6;
     content: "QUOTE";
     display: block;
     font-weight: bold;
@@ -955,6 +955,7 @@ body {
     padding-bottom: .125rem; }
 
 .code-block {
+  background: rgba(44, 132, 250, 0.2);
   border-left: 4px solid #959396;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
@@ -1530,7 +1531,7 @@ thead th {
 code {
   padding: 0.2em 0.15em;
   font-weight: 400;
-  background-color: #302d36;
+  background-color: #44434d;
   border: 1px solid #44434d;
   border-radius: 4px; }
 
@@ -1542,7 +1543,7 @@ div.highlighter-rouge {
   margin-top: 0;
   margin-bottom: 0.75rem;
   overflow-x: auto;
-  background-color: #302d36;
+  background-color: #44434d;
   border-radius: 4px;
   box-shadow: none;
   -webkit-overflow-scrolling: touch; }
@@ -1557,7 +1558,7 @@ figure.highlight {
   padding: 0.75rem;
   margin-top: 0;
   margin-bottom: 0.75rem;
-  background-color: #302d36;
+  background-color: #44434d;
   border-radius: 4px;
   box-shadow: none;
   -webkit-overflow-scrolling: touch; }
@@ -1577,7 +1578,7 @@ figure.highlight {
     font-size: 11px !important;
     min-width: 0;
     padding: 0;
-    background-color: #302d36;
+    background-color: #44434d;
     border: 0; }
     @media (min-width: 31.25rem) {
       .highlight .table-wrapper td,

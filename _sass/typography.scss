@@ -4,10 +4,10 @@
 // stylelint-disable primer/selector-no-utility, primer/no-override, selector-no-type, selector-max-type
 
 $callouts: (
-    info: ($blue-300, rgba($blue-000, .2), 'INFO'),
-    warn: ($blue-300, rgba($blue-000, .2), 'WARNING'),
+    info: ($blue-100, rgba($blue-000, .2), 'INFO'),
+    warn: ($blue-100, rgba($blue-000, .2), 'WARNING'),
     danger: ($red-300, rgba($red-000, .2), 'DANGER'),
-    quote: ($blue-300, rgba($blue-000, .2), 'QUOTE'),
+    quote: ($blue-100, rgba($blue-000, .2), 'QUOTE'),
     sample: ($blue-300, rgba($blue-000, .2), 'SAMPLE')
 );
 
@@ -31,6 +31,7 @@ $callouts: (
 }
 
 .code-block {
+  background: rgba($blue-000, .2);
   border-left: $border-radius solid $grey-dk-000;
   border-radius: $border-radius;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
