@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Lab
-nav_order: 2
+nav_order: 3
 has_children: True
 ---
 
 # Lab
 {: .no_toc .fs-9 }
 
-Experimental prototypes designed to augment the mind.
+Experimental prototypes expanding thought.
 {: .fs-6 .fw-300 }
 
 ---
