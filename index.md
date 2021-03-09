@@ -90,7 +90,7 @@ There's a slight overlap between Psionica's structure and the futures cone model
 
 ## Join Us
 
-We're passionate about exploring what lies beyond the human mind, but we're still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers commited to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat.
+We're passionate about exploring what lies beyond the human mind, but we're still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat.
 
 [Become a Member](https://discord.gg/MJZDdXkFGa){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
