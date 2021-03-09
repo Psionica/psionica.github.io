@@ -18,7 +18,7 @@ An open collective on a mission to augment thought for all.
 
 ## Mission
 
-Just like there are sound frequencies we cannot hear and wavelengths of light we cannot see, there might very well be thoughts we cannot think.[^1] Being confined to a limited domain of thought is unsettling for many, especially considering our adoration of freedom of thought and the ever more complex challenges we're facing as a species.
+Just like there are sound frequencies we cannot hear and wavelengths of light we cannot see, there might very well be thoughts we cannot think.[^1] Being confined to a limited domain of thought is unsettling for many, especially considering our ideal of freedom of thought and the ever more complex challenges we're facing as a species.
 
 However, just like advanced sensors can help us detect sound and light beyond our bodily senses, there are transformative tools which can help us think beyond what was previously thinkable.[^2] We can engineer "spacecraft" for venturing into the depths of conceptual space, exploring what lies beyond the pale blue dot of native human cognition.[^3] Artificial intelligence is especially well-positioned to fuel the expansion of our cognitive horizons through its remarkable skill of manipulating abstract representations.[^5]
 
