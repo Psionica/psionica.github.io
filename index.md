@@ -80,7 +80,7 @@ Psionica's structure is a project in itself. We're suggesting a triple approach 
 | **Typical projects include:** | concept renders, design fictions, speculative works, future visions, vignettes, diegetic prototypes | experimental tools, proof of concepts, prototypes | software projects, production-ready tools, accessible utilities |
 | **This space is constrained by:** | imagination | imagination, technical feasibility | imagination, technical feasibility, practical utility |
 | **Related paths include:** | designers, futurists | makers, researchers, hackers | developers, engineers |
-| **It supports Psionica's mission by:** | inspiring people to envision radical tools for thought | shedding light on promising avenues in cognitive augmentation | directly building useful tools for thought |
+| **It supports Psionica's mission by:** | inspiring people to envision radical tools for thought | shedding light on promising avenues in cognitive enhancement | directly building useful tools for thought |
 
 It's important to note that the three spaces aren't by any means rigid departments. Rather, they're simply *mindsets* which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn't, all while mutually informing each other.
 
