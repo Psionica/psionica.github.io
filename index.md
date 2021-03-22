@@ -84,6 +84,8 @@ Psionica's structure is a project in itself. We're suggesting a triple approach 
 
 It's important to note that the three spaces aren't by any means rigid departments. Rather, they're simply *mindsets* which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn't, all while mutually informing each other.
 
+Besides being focused on creative output, Psionica is a self-sustained testing ground for newly developed tools for thought. Means of cognitive augmentation are being recursively applied to the process of developing means of cognitive augmentation. This insight-through-making loop is designed to exponentially expand the realms of what's conceivable, feasible, and practical.
+
 There's a slight overlap between Psionica's structure and the futures cone model in futurism.[^6] The three spaces seem to provide a progressively narrower cone, from the possible to the probable. However, the futures cone is framed as a passive tool for contemplating possible technological trajectories, rather than as a prime instrument in actively guiding development. Psionica's triple approach is geared towards impact by design.
 
 ---
