@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 2
-description: "An open collective on a mission to augment thought for all."
+description: "Psionica: An open collective on a mission to augment thought for all."
 ---
 
 # About
