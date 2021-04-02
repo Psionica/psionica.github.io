@@ -70,26 +70,6 @@ Promoting critical thinking through machine-generated prompts.
 
 ---
 
-## Structure
-
-Psionica's structure is a project in itself. We're suggesting a triple approach to cognitive augmentation in an attempt to surpass some of the challenges identified the field.[^4] By incorporating three nested constraints in our process, we're trying to strike a balance between open-ended exploration through experimental prototypes and results-oriented development of software tools. Those layers are embedded in the Studio, the Lab, and the Workshop.
-
-|  | Studio | Lab | Workshop |
-|-|-|-|-|
-| **This is the realm of the:** | conceivable | feasible | practical |
-| **Typical projects include:** | concept renders, design fictions, speculative works, future visions, vignettes, diegetic prototypes | experimental tools, proof of concepts, prototypes | software projects, production-ready tools, accessible utilities |
-| **This space is constrained by:** | imagination | imagination, technical feasibility | imagination, technical feasibility, practical utility |
-| **Related paths include:** | designers, futurists | makers, researchers, hackers | developers, engineers |
-| **It supports Psionica's mission by:** | inspiring people to envision radical tools for thought | shedding light on promising avenues in cognitive enhancement | directly building useful tools for thought |
-
-It's important to note that the three spaces aren't by any means rigid departments. Rather, they're simply *mindsets* which anyone can fluidly adopt as part of their work. Together, the three attitudes guide our foraging into cognitive augmentation in a manner any one mindset alone couldn't, all while mutually informing each other.
-
-Besides being focused on creative output, Psionica is a self-sustained testing ground for newly developed tools for thought. Means of cognitive augmentation are being recursively applied to the process of developing means of cognitive augmentation. This insight-through-making loop is designed to exponentially expand the realms of what's conceivable, feasible, and practical.
-
-There's a slight overlap between Psionica's structure and the futures cone model in futurism.[^6] The three spaces seem to provide a progressively narrower cone, from the possible to the probable. However, the futures cone is framed as a passive tool for contemplating possible technological trajectories, rather than as a prime instrument in actively guiding development. Psionica's triple approach is geared towards impact by design.
-
----
-
 ## Join Us
 
 We're passionate about exploring what lies beyond the human mind, but we're still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat.
