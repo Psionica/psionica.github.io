@@ -12,7 +12,7 @@ description: "Promoting critical thinking through machine-generated prompts."
 Promoting critical thinking through machine-generated prompts.
 {: .fs-6 .fw-300 .text-left }
 
-[View Code](https://github.com/paulbricman/K-Probes){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/5){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Code](https://github.com/Psionica/K-Probes){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/5){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Table of contents
 {: .no_toc .text-delta }

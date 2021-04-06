@@ -12,7 +12,7 @@ description: "Extending conceptual thinking through semantic embeddings."
 Extending conceptual thinking through semantic embeddings.
 {: .fs-6 .fw-300 .text-left }
 
-[View Code](https://github.com/paulbricman/Semantica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Open Demo](https://colab.research.google.com/drive/1NCPktYHVYvD03DRMevbhb51_yjnO4aTa?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/3){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Code](https://github.com/Psionica/Semantica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Open Demo](https://colab.research.google.com/drive/1NCPktYHVYvD03DRMevbhb51_yjnO4aTa?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/3){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Table of contents
 {: .no_toc .text-delta }

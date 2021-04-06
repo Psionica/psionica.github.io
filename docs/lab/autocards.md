@@ -13,7 +13,7 @@ published: True
 Accelerating learning through machine-generated flashcards.
 {: .fs-6 .fw-300 .text-left }
 
-[View Code](https://github.com/paulbricman/Autocards){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Open Demo](https://colab.research.google.com/drive/1Z6D8ncYiavbrc72-Hc84M3qFVgWnQnNx?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/6){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Code](https://github.com/Psionica/Autocards){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Open Demo](https://colab.research.google.com/drive/1Z6D8ncYiavbrc72-Hc84M3qFVgWnQnNx?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/6){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Table of contents
 {: .no_toc .text-delta }
