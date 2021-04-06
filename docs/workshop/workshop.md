@@ -2,7 +2,7 @@
 layout: default
 title: Workshop
 nav_order: 5
-has_children: False
+has_children: True
 ---
 
 # Workshop
