@@ -68,7 +68,7 @@ Your Dual consists of three broad components: the essence, the skeleton, and the
 
 ### Essence
 
-The essence is an instance of GPT-2, a language model which has learned to generate human-like text based on giant internet archives. Crucially, this language model is fine-tuned on your personal notes before use in order to internalize your way of thinking. The essence is the central component of your Dual and the only one of the three which differs from user to user. It's here that your thought patterns are captured.
+The essence is an instance of GPT-2, a language model which has learned to generate human-like text based on giant internet archives. Crucially, this language model is fine-tuned on your personal notes before use in order to internalize your way of thinking. The essence is the central component of your Dual and the only one of the three which differs from user to user. It's here that your thought patterns are captured and extrapolated.
 
 ### Skeleton
 
@@ -80,11 +80,38 @@ The interface resembles an instant messaging chat, complete with a message histo
 
 ## Features
 
+Your Dual's architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Samples from the author's own Dual are provided for illustration purposes.
+
 ### Fluid Search
+
+This search feature all about what your notes are *about*. It goes beyond *Find in text* and can locate relevant notes in your second brain regardless of whether they explicity contain the words you're using in your query or not. In this, it's *fluid*, it's frictionless.
+
+- ***Find notes about seamlessly navigating one's notes.***
+
+{: .sample }
+By using fluid search through a collection of previous notes, one can elevate into their awareness the most semantically related items in their second brain. This way, they are then easily able to optimally weave together new information with old information, in the spirit of constructivism.
 
 ### Descriptive Search
 
+This search feature builds on the previous one and takes things a step further. You can now more flexibly describe the entries you are looking for, not only in terms of topic. Find examples, arguments, parallels, and others. The possibilities are endless.
+
+- ***Look for a note which describes an analogy between machine learning and sociology.***
+
+{: .sample }
+Contrastive learning is machine learning based on strategically sampling counterexamples for a given concept. Similarly, some sociologists argue that criminality and deviant behavior are essential for a well-functioning society as they provide "counterexamples" to the norm. Essentially, deviants successfully inform the social norm space, perhaps better than actual explicit norms. Their expressiveness is essential, as without them society would lose a sense of identity, there would be a collapse, just as in machine learning.
+
+- ***Search for a note which argues that measuring neural activity with EEG is tricky.***
+
+{: .sample }
+In the brain-stadium metaphor, neural activity is associated with the vivid activity which happens inside a stadium during a sport event. Each individual supporter from the audience represents a neuron firing. According to this mapping, EEG corresponds to recording sound from outside the stadium, trying to reconstruct individual supporter activity. Additionally, single unit recording corresponds to having microphones down the throats of individual supporters.
+
+- ***Find a note which contains an application of VR.***
+
+{: .sample }
+In virtual and augmented reality, abstract concepts can be grounded in concrete objects. For instance, in programming, a code library can become an actual physical library, a game tree can be an actual tree, calling a function can involve a phone. What's more, virtual reality provides the necessary context for attempting to make any abstract concept tangible, in an effort to infuse them with embodied knowledge, forcing a host of cognitive functions to be applied to the same concept.
+
 ### Open Dialogue
+
 
 ## Workflows
 
