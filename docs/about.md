@@ -46,7 +46,7 @@ There's a slight overlap between Psionica's structure and the futures cone model
 
 ## Lore
 
-The name Psionica is inspired by *psionics*, the fictional discipline concerned with applying principles of engineering to the study of otherworldly mental abilities, such as telepathy or psychokinesis. Despite its firm bound to science fiction, the discipline of psionics highlights an increasingly tangible ideal -- using technology to radically extend mental abilities. What's more, the fictional connotations of psionics capture an ambitious drive to explore the ever fuzzier border between science and fiction. It's precisely this ideal and attitude which define Psionica.
+The name Psionica is inspired by *psionics*, the fictional discipline concerned with applying principles of engineering to the study of otherworldly mental abilities, such as telepathy or psychokinesis. Despite its strong association with science fiction, the discipline of psionics highlights an increasingly tangible ideal -- using technology to radically extend mental abilities. What's more, the fictional connotations of psionics capture an ambitious drive to explore the ever fuzzier border between science and fiction. It's precisely this ideal and attitude which define Psionica.
 
 ---
 
