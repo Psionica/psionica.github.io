@@ -8,7 +8,9 @@ $callouts: (
     warn: ($blue-100, rgba($blue-000, .2), 'WARNING'),
     danger: ($red-300, rgba($red-000, .2), 'DANGER'),
     quote: ($blue-100, rgba($blue-000, .2), 'QUOTE'),
-    sample: ($blue-100, rgba($blue-000, .2), 'SAMPLE')
+    sample: ($blue-100, rgba($blue-000, .2), 'SAMPLE'),
+    existing-note: ($blue-100, rgba($blue-000, .2), 'EXISTING NOTE'),
+    original-response: ($red-100, rgba($red-000, .2), 'ORIGINAL RESPONSE')
 );
 
 @each $class, $props in $callouts {
