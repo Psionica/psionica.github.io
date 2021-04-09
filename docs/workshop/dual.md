@@ -39,6 +39,8 @@ This abundance, naturally, powered recent advances in natural language processin
 
 We'll now explore the inner workings of Dual, the piece of software which learns to be its user, named so as a tribute to Egan. However, before doing that, we'll consider some useful framings for better understanding what your Dual is and what it isn't.
 
+---
+
 ## Paradigms
 
 ### Your Dual is your second brain come to life
@@ -62,6 +64,8 @@ Your Dual can't make changes to your notes directly, it can only read from them 
 
 Your Dual is very apt at searching for items in your knowledge base, just like a librarian knows their way around the bookshelves. Ask it for notes which describe metaphors of the mind, and you'll get a list of candidates in seconds, even if part of the search results were written years ago. Ask it for entries which provide arguments supporting the feasibility of mind upload, and it will readily point you towards the (numerous) relevant items.
 
+---
+
 ## Architecture
 
 Your Dual consists of three broad components: the essence, the skeleton, and the interface. Together, these components enable a conversational medium between you and your emulated self.
@@ -79,6 +83,8 @@ The skeleton consists of a collection of several smaller language models which p
 The interface resembles an instant messaging chat, complete with a message history which you can scroll through, and even with a status indicator which signals whether your Dual is typing. This component (currently) consists of an Obsidian plugin which defines a new view in a side panel. Use the chat as you normally would, except that at the other end is your emulated self, rather than a peer. The interface is your main point of contact with your Dual.
 
 ![Dual Screenshot](/assets/images/dual.png)
+
+---
 
 ## Features
 
@@ -143,6 +149,8 @@ In a sense, yes. However, in an arguably conflicting way. By using ambiguity as 
 {: .original-response }
 If one's purpose is to develop a large body of knowledge, then one should actively seek out, learn from, and publish work. This would presumably lead to a positive feedback loop of more knowledge being gained, helping the individual maximize their contribution. However, the incentive for creation and creation of knowledge is also plagued by censorship, limiting the flow of knowledge. A good alternative is open access, enabling anyone to search through one's work for useful insights. The creation of commonsense through machine learning...
 
+---
+
 ## Workflows
 Your Dual can naturally enable a wide variety of workflows as part of your knowledge work. An early selection is included below.
 
@@ -157,6 +165,8 @@ When revisiting previous notes, you might seek to integrate new perspectives, ar
 ### Computer-Aided Brainstorming
 {: .no_toc}
 When tackling big questions or tough problems, throw your Dual into the mix as a brainstorming partner and wait for the surprising nuggets it inevitably comes up with. Even if it's fine-tuned to approximate your way of thinking, its sampled responses are configured to be different every time, meaning that it's virtually impossible for it to get stuck in a rut. It's similar enough to be relatable, yet different enough to be useful.[^9]
+
+---
 
 ## Further Steps
 ### Hosted inference
@@ -194,7 +204,6 @@ By supporting our efforts, you're investing in transparent research and developm
 [Become a Sponsor](https://opencollective.com/psionica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ---
-
 
 ## References
 
