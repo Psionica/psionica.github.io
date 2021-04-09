@@ -3,14 +3,14 @@ layout: default
 title: Dual
 nav_order: 1
 parent: Workshop
-description: "Your open source second brain implant."
+description: "Your second brain implant."
 published: True
 ---
 
 # Dual
 {: .no_toc }
 
-Your open source second brain implant.
+Your second brain implant.
 {: .fs-6 .fw-300 .text-left }
 
 [View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -52,7 +52,7 @@ The ideas, concepts, and insights which you include in your second brain make up
 ### Your Dual is a virtual assistant for thinking
 {: .no_toc }
 
-Your Dual can't make changes to your notes directly, it can only read from them when interacting with you. And that's not a bug, it's a feature. Your Dual is designed to *assist* you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level.[^10] [^11] It would otherwise be extremely tempting to succumb to overreliance on this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you. It provides a metacognitive helping hand.
+Your Dual can't make changes to your notes directly, it can only read from them when interacting with you. And that's not a bug, it's a feature. Your Dual is designed to *assist* you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level.[^10][^11] It would otherwise be extremely tempting to succumb to overreliance on this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you. It provides a metacognitive helping hand.
 
 {: .quote }
 "The best interface to my brain is a relationship. That's how merging feels like. That's how I envision it." -- George Hotz[^6]
@@ -77,6 +77,8 @@ The skeleton consists of a collection of several smaller language models which p
 ### Interface
 
 The interface resembles an instant messaging chat, complete with a message history which you can scroll through, and even with a status indicator which signals whether your Dual is typing. This component (currently) consists of an Obsidian plugin which defines a new view in a side panel. Use the chat as you normally would, except that at the other end is your emulated self, rather than a peer. The interface is your main point of contact with your Dual.
+
+![Dual Screenshot](/assets/images/dual.png)
 
 ## Features
 
