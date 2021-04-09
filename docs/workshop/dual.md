@@ -3,14 +3,14 @@ layout: default
 title: Dual
 nav_order: 1
 parent: Workshop
-description: "Your second brain implant."
-published: False
+description: "Your open source second brain implant."
+published: True
 ---
 
 # Dual
 {: .no_toc }
 
-Your second brain implant.
+Your open source second brain implant.
 {: .fs-6 .fw-300 .text-left }
 
 [View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -25,12 +25,12 @@ Your second brain implant.
 
 ## Introduction
 
-In his visionary short story titled *Learning to Be Me*, Greg Egan describes the Ndoli Dual, a fictional brain implant which constantly monitors the host's neural activity in an attempt to learn how it unfolds.[^1] After several years of collecting data, the Ndoli Dual becomes powerful enough to accurately forecast the neural activity of its host, prompting many to *switch* to it completely, outsourcing their entire thought process and achieving immortality. Besides describing a thought experiment which puts the Chinese room to shame in terms of vividness, Egan hints at an intriguing possibility -- using a proxy for human thought as an optimization target for creating human-like artificial intelligence. An elegant formalism for *thinking humanly*, as per Russell and Norvig's taxonomy.[^2]
+In his visionary short story titled "Learning to Be Me," Greg Egan describes the Ndoli Dual, a fictional brain implant which constantly monitors the host's neural activity in an attempt to learn how it unfolds.[^1] After several years of collecting data, the Ndoli Dual becomes powerful enough to accurately forecast the neural activity of its host, prompting many to *switch* to it completely, outsourcing their entire thought process and achieving immortality. Besides describing a thought experiment which puts the Chinese room to shame in terms of vividness, Egan hints at an intriguing possibility -- using a proxy for human thought as an optimization target for creating human-like artificial intelligence. An elegant formalism for *thinking humanly*, as per Russell and Norvig's taxonomy.[^2]
 
 {: .quote }
 "If the human race *was* replacing itself with clockwork automata, I was better off dead; I lacked the blind conviction to join the psychotic underground -- who, in any case, were tolerated by the authorities only so long as they remained ineffectual. On the other hand, if all my fears were unfounded -- if my sense of identity could survive the switch as easily as it had already survived such traumas as sleeping and waking, the constant death of brain cells, growth, experience, learning and forgetting -- then I would gain not only eternal life, but an end to my doubts and my alienation." -- Greg Egan[^1]
 
-However, even if neural activity seems to be the most accurate proxy for thought, high-resolution brain-computer interfaces are a long way from being commercially viable. In order to implement Egan's envisioned device, we need a proxy for thought which is cheap and abundant, so that our models have plenty of data to learn from. What we need is written language, the next best thing after neural activity in terms of capturing human thought processes. Infinitely expressive and highly economic, written language has been the preferred medium for capturing thoughts for centuries. Today, internet archives contain billions of them, from the most brilliant to the darkest.
+However, even if neural activity seems to be the most accurate proxy for thought, accessible high-resolution neuroimaging techniques are a long way from being commercially viable. In order to implement Egan's envisioned device, we need a proxy for thought which is cheap and abundant, so that our models have plenty of data to learn from. What we need is written language, the next best thing after neural activity in terms of capturing human thought processes. Infinitely expressive and highly economic, written language has been the preferred medium for capturing thoughts for centuries. Today, internet archives contain billions of them, from the most brilliant to the darkest.
 
 {: .quote }
 "You, I hope, are one of those explorers. You, I hope, found these sheets of copper and deciphered the words engraved on their surfaces. And whether or not your brain is impelled by the air that once impelled mine, through the act of reading my words, the patterns that form your thoughts become an imitation of the patterns that once formed mine. And in that way I live again, through you." -- Ted Chiang[^3]
@@ -52,7 +52,7 @@ The ideas, concepts, and insights which you include in your second brain make up
 ### Your Dual is a virtual assistant for thinking
 {: .no_toc }
 
-Your Dual can't make changes to your notes directly, it can only read from them when interacting with you. And that's not a bug, it's a feature. Your Dual is designed to *assist* you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level. It would otherwise be extremely tempting to succumb to overreliance on the advanced capabilities of this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you.
+Your Dual can't make changes to your notes directly, it can only read from them when interacting with you. And that's not a bug, it's a feature. Your Dual is designed to *assist* you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level.[^10] [^11] It would otherwise be extremely tempting to succumb to overreliance on this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you. It provides a metacognitive helping hand.
 
 {: .quote }
 "The best interface to my brain is a relationship. That's how merging feels like. That's how I envision it." -- George Hotz[^6]
@@ -60,7 +60,7 @@ Your Dual can't make changes to your notes directly, it can only read from them 
 ### Your Dual is the librarian of your thoughts
 {: .no_toc }
 
-Your Dual is very apt at searching for items in your knowledge base, just like a librarian knows their way around bookshelves. Ask it for notes which describe metaphors of the mind, and you'll get a list of candidates in seconds, even if part of the search results were written years ago. Ask it for entries which provide arguments supporting the feasibility of mind upload, and it will readily point you towards the (numerous) relevant items.
+Your Dual is very apt at searching for items in your knowledge base, just like a librarian knows their way around the bookshelves. Ask it for notes which describe metaphors of the mind, and you'll get a list of candidates in seconds, even if part of the search results were written years ago. Ask it for entries which provide arguments supporting the feasibility of mind upload, and it will readily point you towards the (numerous) relevant items.
 
 ## Architecture
 
@@ -76,13 +76,13 @@ The skeleton consists of a collection of several smaller language models which p
 
 ### Interface
 
-The interface resembles an instant messaging chat, complete with a message history which you can scroll through, and is even equipped with a status indicator. This component (currently) consists of an Obsidian plugin which defines a new view in a side panel. Use the chat as you normally would, except that at the other end is your emulated self, rather than a peer. The interface is your main point of contact with your Dual.
+The interface resembles an instant messaging chat, complete with a message history which you can scroll through, and even with a status indicator which signals whether your Dual is typing. This component (currently) consists of an Obsidian plugin which defines a new view in a side panel. Use the chat as you normally would, except that at the other end is your emulated self, rather than a peer. The interface is your main point of contact with your Dual.
 
 ## Features
 
-Your Dual's architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthetize highly original content whose connection to previous notes is non-linear and non-trivial. Naturally, this is the main attraction.
+Your Dual's architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthetize original content from scratch whose connection to previous notes is abstract and non-trivial. Naturally, this is the main attraction.
 
-Samples from the author's own Dual are provided for illustration purposes.[^7] However, due to the underlying second brain being only several weeks old at the time of writing, a personal diary spanning several months has also been used for obtaining the essence.
+Samples from the author's own Dual are provided for illustration purposes.[^7] However, due to the underlying second brain being only several weeks old at the time of writing, a personal diary spanning several months has also been used for deriving the essence.
 
 ### Fluid Search
 
@@ -142,15 +142,28 @@ In a sense, yes. However, in an arguably conflicting way. By using ambiguity as 
 If one's purpose is to develop a large body of knowledge, then one should actively seek out, learn from, and publish work. This would presumably lead to a positive feedback loop of more knowledge being gained, helping the individual maximize their contribution. However, the incentive for creation and creation of knowledge is also plagued by censorship, limiting the flow of knowledge. A good alternative is open access, enabling anyone to search through one's work for useful insights. The creation of commonsense through machine learning...
 
 ## Workflows
+Your Dual can naturally enable a wide variety of workflows as part of your knowledge work. An early selection is included below.
+
+### Computer-Aided Incremental Reading
+{: .no_toc}
+When learning about a new concept, an effective way to internalize it is to densely associate it with previous concepts. When creating a note, you can ask your Dual to look for previous related entries, aiding you in your weaving process. What's more, the fuzzy nature of fluid search makes it so that even if you had absolutely no previous notes about the new topic, you can still find losely related notes which might be useful. Your Dual helps you optimally build on previous knowledge by minimizing semantic distances.
+
+### Computer-Aided Incremental Writing
+{: .no_toc}
+When revisiting previous notes, you might seek to integrate new perspectives, arguments, and applications in your entries. You can ask your Dual to look for examples, parallels, and evidence, and it will sift through thousands of your notes in several seconds, offering you the most relevant candidates. Using the search results, you can then thoughtfully integrate the notes you find suitable through dense linking.
+
+### Computer-Aided Brainstorming
+{: .no_toc}
+When tackling big questions or tough problems, throw your Dual into the mix as a brainstorming partner and wait for the surprising nuggets it inevitably comes up with. Even if it's fine-tuned to approximate your way of thinking, its sampled responses are configured to be different every time, meaning that it's virtually impossible for it to get stuck in a rut. It's similar enough to be relatable, yet different enough to be useful.[^9]
 
 ## Further Steps
 ### Hosted inference
 {: .no_toc}
-What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes. We're working on making this a reality through an option to host the essence in the cloud.
+What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes. We're working on making this a reality through an option to host your Dual in the cloud.
 
 ### More features
 {: .no_toc}
-There are plenty of other language models out there waiting to make themselves useful in your second brain. The three features described above merely scratch the surface of how natural language processing can reshape knowledge work.
+There are plenty of other language models out there waiting to make themselves useful in your second brain. The three features described above merely scratch the surface of how natural language processing can reshape knowledge work in such a propositional context.
 
 ### Better support
 {: .no_toc}
@@ -158,8 +171,7 @@ At the moment, your Dual can only run on Linux using Obsidian, due to the way th
 
 ### Higher performance
 {: .no_toc}
-All those language models take up a lot of memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing GPU support. Upcoming developments in machine learning will enable even more performance bang for the computational buck.
-
+All those language models take up a lot of memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. Those improvements will enable the use of even more human-like language models.
 
 ---
 
@@ -192,3 +204,6 @@ By supporting our efforts, you're investing in transparent research and developm
 [^6]: George Hotz & Lex Fridman,<br/>[Lex Podcast #31](https://youtu.be/iwcYp-XT7UI?t=6812)
 [^7]: Paul Bricman,<br/>[Second Brain](https://paulbricman.com/secondbrain/)
 [^8]: Andy Matuschak & Michael Nielsen,<br/>[How can we develop transformative tools for thought?](https://numinous.productions/ttft/)
+[^9]: Greg Egan,<br/>[Closer](https://www.gregegan.net/MISC/CLOSER/Closer.html)
+[^10]: Andy Matuschak,<br/>[Prefer explicit associations to inferred associations](https://notes.andymatuschak.org/Prefer_explicit_associations_to_inferred_associations)
+[^11]: Andy Matuschak,<br/>[Writing forces sharper understanding](https://notes.andymatuschak.org/Writing_forces_sharper_understanding)
