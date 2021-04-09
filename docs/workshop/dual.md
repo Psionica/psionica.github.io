@@ -13,7 +13,7 @@ published: True
 Your second brain implant.
 {: .fs-6 .fw-300 .text-left }
 
-[View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/8){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Table of contents
 {: .no_toc .text-delta }
