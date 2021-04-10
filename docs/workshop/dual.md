@@ -88,7 +88,7 @@ The interface resembles an instant messaging chat, complete with a message histo
 
 ## Features
 
-Your Dual's architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthetize original content from scratch whose connection to previous notes is abstract and non-trivial. Naturally, this is the main attraction.
+Your Dual's architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthesize original content from scratch whose connection to previous notes is abstract and non-trivial. Naturally, this is the main attraction.
 
 Samples from the author's own Dual are provided for illustration purposes.[^7] However, due to the underlying second brain being only several weeks old at the time of writing, a personal diary spanning several months has also been used for deriving the essence.
 
@@ -156,7 +156,7 @@ Your Dual can naturally enable a wide variety of workflows as part of your knowl
 
 ### Computer-Aided Incremental Reading
 {: .no_toc}
-When learning about a new concept, an effective way to internalize it is to densely associate it with previous concepts. When creating a note, you can ask your Dual to look for previous related entries, aiding you in your weaving process. What's more, the fuzzy nature of fluid search makes it so that even if you had absolutely no previous notes about the new topic, you can still find losely related notes which might be useful. Your Dual helps you optimally build on previous knowledge by minimizing semantic distances.
+When learning about a new concept, an effective way to internalize it is to densely associate it with previous concepts. When creating a note, you can ask your Dual to look for previous related entries, aiding you in your weaving process. What's more, the fuzzy nature of fluid search makes it so that even if you had absolutely no previous notes about the new topic, you can still find loosely related notes which might be useful. Your Dual helps you optimally build on previous knowledge by minimizing semantic distances.
 
 ### Computer-Aided Incremental Writing
 {: .no_toc}
