@@ -180,6 +180,24 @@ Additionally, the range of possible inputs which could be fed into Autocards mig
 
 ---
 
+## Join Us
+
+We're passionate about exploring what lies beyond the human mind, but we're still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat.
+
+[Become a Member](https://discord.gg/NXYZUbhMNf){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+
+---
+
+## Support Us
+
+Our only stakeholder is humanity. Help us keep it that way.
+
+By supporting our efforts, you're investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you're also setting in motion a broader movement around cognitive augmentation as a second-order consequence. 
+
+[Become a Sponsor](https://opencollective.com/psionica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+
+---
+
 ## References
 
 [^1]: John Voight,<br>[Quaternion Algebras](https://math.dartmouth.edu/~jvoight/quat-book.pdf)

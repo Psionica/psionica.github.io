@@ -179,7 +179,7 @@ There are plenty of other language models out there waiting to make themselves u
 
 ### Better support
 {: .no_toc}
-At the moment, your Dual can only run on Linux using Obsidian, due to the way the skeleton is currently packaged. In light of that, Windows and macOS support are top priorities. Extending the interface to work with Foam in VS Code is also a planned feature.
+At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained binary will greatly simplify the configuration. Extending the interface to work with Foam in VS Code is also a planned feature.
 
 ### Higher performance
 {: .no_toc}
