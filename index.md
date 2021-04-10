@@ -32,6 +32,15 @@ Ready for takeoff.
 
 ## Our Work
 
+## [Dual](/docs/workshop/dual)
+{: .d-inline-block .mt-4 }
+
+WORKSHOP
+{: .label }
+
+Your second brain implant.
+{: .fs-4 .fw-300 .text-left .mt-0 }
+
 ## [Autocards](/docs/lab/autocards)
 {: .d-inline-block .mt-4 }
 
