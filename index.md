@@ -42,7 +42,7 @@ Your second brain implant.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
 ## [Autocards](/docs/lab/autocards)
-{: .d-inline-block .mt-4 }
+{: .d-inline-block .mt-0 }
 
 LAB
 {: .label }
