@@ -13,4 +13,11 @@ Software tools reshaping knowledge work.
 
 ---
 
-*Coming soon*
+## [Dual](/docs/workshop/dual)
+{: .d-inline-block .mt-0 }
+
+NEW
+{: .label }
+
+Your second brain implant.
+{: .fs-4 .fw-300 .text-left .mt-0 }
