@@ -94,7 +94,7 @@ Samples from the author's own Dual are provided for illustration purposes.[^7] H
 
 ### Fluid Search
 
-This search feature is all about what your notes are *about*. It goes beyond traditional search and can locate relevant notes regardless of whether they explicity contain the words used in the query, provided they're about the same topic. In this, it's fluid, it's frictionless.
+This search feature is all about what your notes are *about*. It goes beyond traditional search and can locate relevant notes regardless of whether they explicitly contain the words used in the query, provided they're about the same topic. In this, it's fluid, it's frictionless.
 
 - ***Find notes about seamlessly navigating one's notes.***
 
