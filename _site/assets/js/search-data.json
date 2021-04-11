@@ -37,7 +37,7 @@
   },"6": {
     "doc": "Autocards",
     "title": "Table of contents",
-    "content": ". | Empowering Creators | Empowering Audiences | Design | Samples | Workflows . | The Scholar | The Bookworm | The Student | . | Future Steps | References | . ",
+    "content": ". | Empowering Creators | Empowering Audiences | Design | Samples | Workflows . | The Scholar | The Bookworm | The Student | . | Future Steps | Join Us | Support Us | References | . ",
     "url": "http://localhost:4000/docs/lab/autocards/#table-of-contents",
     "relUrl": "/docs/lab/autocards/#table-of-contents"
   },"7": {
@@ -78,357 +78,417 @@
     "relUrl": "/docs/lab/autocards/#future-steps"
   },"13": {
     "doc": "Autocards",
+    "title": "Join Us",
+    "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
+    "url": "http://localhost:4000/docs/lab/autocards/#join-us",
+    "relUrl": "/docs/lab/autocards/#join-us"
+  },"14": {
+    "doc": "Autocards",
+    "title": "Support Us",
+    "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a Sponsor . ",
+    "url": "http://localhost:4000/docs/lab/autocards/#support-us",
+    "relUrl": "/docs/lab/autocards/#support-us"
+  },"15": {
+    "doc": "Autocards",
     "title": "References",
     "content": ". | John Voight,Quaternion Algebras &#8617; . | Grant Sanderson &amp; Ben Eater,Visualizing Quaternions &#8617; . | Andy Matuschak,Orbit &#8617; . | Grant Sanderson,Manim &#8617; . | Mike Bostock,Data-Driven Documents &#8617; . | Nicky Case,Explorable Explanations &#8617; . | Patil Suraj,Question Generation Using Transformers &#8617; . | Merv Griffin,Jeopardy! &#8617; . | Douglas Engelbart,Augmenting Human Intellect &#8617; . | arXiv,Past Week Machine Learning Submissions &#8617; . | Corporation for Digital Scholarship,Zotero &#8617; . | ZotFile,Advanced PDF Management for Zotero &#8617; . | Anki,Homepage &#8617; . | Michael Nielsen,Augmenting Long-Term Memory &#8617; . | Fast Company,Why You Should Read 50 Books This Year &#8617; . | reMarkable,reMarkable Tablet &#8617; . | soulisalmed,Biff &#8617; . | Heather Bloomer,How To View Kindle Highlights Online &#8617; . | Matt Cone,Markdown Guide &#8617; . | Microsoft,Visual Studio Code &#8617; . | Papers with Code,Language Modelling Performance over Time &#8617; . | . ",
     "url": "http://localhost:4000/docs/lab/autocards/#references",
     "relUrl": "/docs/lab/autocards/#references"
-  },"14": {
+  },"16": {
     "doc": "Dual",
     "title": "Dual",
-    "content": "Your second brain implant. View Code . ",
+    "content": "Your second brain implant. View Code View Spec . ",
     "url": "http://localhost:4000/docs/workshop/dual/",
     "relUrl": "/docs/workshop/dual/"
-  },"15": {
+  },"17": {
     "doc": "Dual",
     "title": "Table of contents",
     "content": ". | Introduction | Paradigms | Architecture . | Essence | Skeleton | Interface | . | Features . | Fluid Search | Descriptive Search | Open Dialogue | . | Workflows | Further Steps | Join Us | Support Us | References | . ",
     "url": "http://localhost:4000/docs/workshop/dual/#table-of-contents",
     "relUrl": "/docs/workshop/dual/#table-of-contents"
-  },"16": {
+  },"18": {
     "doc": "Dual",
     "title": "Introduction",
     "content": "In his visionary short story titled “Learning to Be Me,” Greg Egan describes the Ndoli Dual, a fictional brain implant which constantly monitors the host’s neural activity in an attempt to learn how it unfolds.1 After several years of collecting data, the Ndoli Dual becomes powerful enough to accurately forecast the neural activity of its host, prompting many to switch to it completely, outsourcing their entire thought process and achieving immortality. Besides describing a thought experiment which puts the Chinese room to shame in terms of vividness, Egan hints at an intriguing possibility – using a proxy for human thought as an optimization target for creating human-like artificial intelligence. An elegant formalism for thinking humanly, as per Russell and Norvig’s taxonomy.2 . “If the human race was replacing itself with clockwork automata, I was better off dead; I lacked the blind conviction to join the psychotic underground – who, in any case, were tolerated by the authorities only so long as they remained ineffectual. On the other hand, if all my fears were unfounded – if my sense of identity could survive the switch as easily as it had already survived such traumas as sleeping and waking, the constant death of brain cells, growth, experience, learning and forgetting – then I would gain not only eternal life, but an end to my doubts and my alienation.” – Greg Egan1 . However, even if neural activity seems to be the most accurate proxy for thought, accessible high-resolution neuroimaging techniques are a long way from being commercially viable. In order to implement Egan’s envisioned device, we need a proxy for thought which is cheap and abundant, so that our models have plenty of data to learn from. What we need is written language, the next best thing after neural activity in terms of capturing human thought processes. Infinitely expressive and highly economic, written language has been the preferred medium for capturing thoughts for centuries. Today, internet archives contain billions of them, from the most brilliant to the darkest. “You, I hope, are one of those explorers. You, I hope, found these sheets of copper and deciphered the words engraved on their surfaces. And whether or not your brain is impelled by the air that once impelled mine, through the act of reading my words, the patterns that form your thoughts become an imitation of the patterns that once formed mine. And in that way I live again, through you.” – Ted Chiang3 . This abundance, naturally, powered recent advances in natural language processing. That said, current language models typically reflect the aggregate thought patterns of millions of people who have contributed data to the training set, whether willingly or not. However, disciplined note-taking practices such as the Zettelkasten and digital gardening enable the fine-tuning of generic language models to one’s specific way of thinking. By using hundreds of written notes as training data, we can configure a model to learn to be the note-taker, to internalize their thought patterns, to adopt their writing style and interests, to approximate their mannerisms and responses. After several months of disciplined note-taking, the aligned model becomes powerful enough to accurately extrapolate the written thoughts of its user, enabling transformative new ways of conducting knowledge work and an early glimpse into immortality. We’ll now explore the inner workings of Dual, the piece of software which learns to be its user, named so as a tribute to Egan. However, before doing that, we’ll consider some useful framings for better understanding what your Dual is and what it isn’t. ",
     "url": "http://localhost:4000/docs/workshop/dual/#introduction",
     "relUrl": "/docs/workshop/dual/#introduction"
-  },"17": {
+  },"19": {
     "doc": "Dual",
     "title": "Paradigms",
     "content": "Your Dual is your second brain come to life . The ideas, concepts, and insights which you include in your second brain make up your Dual’s long-term memory in a manner reminiscent of the spreading activation model.4 Relevant pieces of knowledge are strategically remembered behind the scenes when your Dual is conversing with you, populating its working memory in a context-dependent manner. When finally engaging in a reply to your messages, the items stored in working memory are used in tandem with the previously fine-tuned language model to generate a response. The result is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge into its replies. “And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication.” – Niklas Luhmann5 . Your Dual is a virtual assistant for thinking . Your Dual can’t make changes to your notes directly, it can only read from them when interacting with you. And that’s not a bug, it’s a feature. Your Dual is designed to assist you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level.67 It would otherwise be extremely tempting to succumb to overreliance on this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you. It provides a metacognitive helping hand. “The best interface to my brain is a relationship. That’s how merging feels like. That’s how I envision it.” – George Hotz8 . Your Dual is the librarian of your thoughts . Your Dual is very apt at searching for items in your knowledge base, just like a librarian knows their way around the bookshelves. Ask it for notes which describe metaphors of the mind, and you’ll get a list of candidates in seconds, even if part of the search results were written years ago. Ask it for entries which provide arguments supporting the feasibility of mind upload, and it will readily point you towards the (numerous) relevant items. ",
     "url": "http://localhost:4000/docs/workshop/dual/#paradigms",
     "relUrl": "/docs/workshop/dual/#paradigms"
-  },"18": {
+  },"20": {
     "doc": "Dual",
     "title": "Architecture",
     "content": "Your Dual consists of three broad components: the essence, the skeleton, and the interface. Together, these components enable a conversational medium between you and your emulated self. Essence . The essence is an instance of GPT-2, a language model which has learned to generate human-like text based on giant internet archives. Crucially, this language model is fine-tuned on your personal notes before use in order to accurately capture your way of thinking. The essence is the central component of your Dual and the only one of the three which differs from user to user. It’s here that your thought patterns are extracted and extrapolated. Skeleton . The skeleton consists of a collection of several smaller language models which play auxiliary roles in your Dual’s operation. Two text encoders are used sequentially to derive semantic embeddings from your notes which are then used when spontaneously remembering relevant knowledge. Yet another language model is tasked with determining which notes match a given natural language description when necessary. A local server exposes a minimal API for the interface to consume. Interface . The interface resembles an instant messaging chat, complete with a message history which you can scroll through, and even with a status indicator which signals whether your Dual is typing. This component (currently) consists of an Obsidian plugin which defines a new view in a side panel. Use the chat as you normally would, except that at the other end is your emulated self, rather than a peer. The interface is your main point of contact with your Dual. ",
     "url": "http://localhost:4000/docs/workshop/dual/#architecture",
     "relUrl": "/docs/workshop/dual/#architecture"
-  },"19": {
-    "doc": "Dual",
-    "title": "Features",
-    "content": "Your Dual’s architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthetize original content from scratch whose connection to previous notes is abstract and non-trivial. Naturally, this is the main attraction. Samples from the author’s own Dual are provided for illustration purposes.9 However, due to the underlying second brain being only several weeks old at the time of writing, a personal diary spanning several months has also been used for deriving the essence. Fluid Search . This search feature is all about what your notes are about. It goes beyond traditional search and can locate relevant notes regardless of whether they explicity contain the words used in the query, provided they’re about the same topic. In this, it’s fluid, it’s frictionless. | Find notes about seamlessly navigating one’s notes. | . By using fluid search through a collection of previous notes, one can elevate into their awareness the most semantically related items in their second brain. This way, they are then easily able to optimally weave together new information with old information, in the spirit of constructivism. Descriptive Search . This search feature builds on the previous one, but takes things a step further. You can now more flexibly describe the entries you are looking for, not only in terms of topic, but in terms of content. Find examples, arguments, parallels, and others. The possibilities are endless. | Look for a note which describes an analogy between machine learning and sociology. | . Contrastive learning is machine learning based on strategically sampling counterexamples for a given concept. Similarly, some sociologists argue that criminality and deviant behavior are essential for a well-functioning society as they provide “counterexamples” to the norm. Essentially, deviants successfully inform the social norm space, perhaps better than actual explicit norms. Their expressiveness is essential, as without them society would lose its sense of identity. There would be a collapse, just as in machine learning. | Search for a note which argues that measuring neural activity with EEG is tricky. | . In the brain-stadium metaphor, neural activity is associated with the vivid activity which happens inside a stadium during a sport event. Each individual supporter from the audience represents a neuron firing. According to this mapping, EEG corresponds to recording sound from outside the stadium, trying to reconstruct individual supporter activity. Additionally, single unit recording corresponds to having microphones down the throats of individual supporters. | Find a note which contains an application of VR. | . In virtual and augmented reality, abstract concepts can be grounded in concrete objects. For instance, in programming, a code library can become an actual physical library, a game tree can be an actual tree, calling a function can involve a phone. What’s more, virtual reality provides the necessary context for attempting to make any abstract concept tangible, in an effort to infuse them with embodied knowledge, forcing a host of cognitive functions to be applied to the same concept. Open Dialogue . As mentioned previously, open dialogue is the main dish. When you’re posing a question to your Dual, it automatically retrieves relevant notes and starts formulating a response based on them. The value of open dialogue lies not in retrieving cold facts from your knowledge base, but rather in tackling ambiguous open-ended questions. | How can we develop transformative tools for thought? 10 | . The second brain framework for cognitive augmentation provides a clear path to transhuman singularity through exponential self-improvement of the human individual and collective, in collaboration with AI. It’s also a pragmatic approach to cognitive enhancement, as it provides a pragmatic framework for dialogue between the two. The second brain framework for cognitive augmentation is very well-suited for the context of neuroplasticity, as it helps the user relax constraints and embrace radical new perspectives. This is in contrast to the more… . | What are some important questions in the neuroscience of attention? | . How does the brain create “tuning” in response to different stimuli? What are some features which distinguish attention? Are there “attention modalities”, or “attention channels”, or “attention frequencies”? How can the brain “see” different types of information from different perspectives? How can it compute a graph of information contents based on such topologies? Attention is often associated with sensations, movement, and attention alone. However, attention can also occur at the level of thought… . | How could one seamlessly edit their belief system on command? | . If one subscribes to the belief that truth is relative, then one can trivially “edit” their belief system as a document. They simply need to attach a semantic link to a statement which they believe is false, and then edit their text accordingly, with regards to the stated truth. This way, one’s belief system is merely an artifact which one has to reconcile with other beliefs in order to work effectively. Another way to reconcile conflicting beliefs is for the… . | Can ambiguity be used as a tool? | . In a sense, yes. However, in an arguably conflicting way. By using ambiguity as a means of promoting insight, one is also using it as a means of limiting creative output. The very act of intentionally distorting one’s perception of the world is often seen as an act of creation. This is a perspective often dismissed in the context of consciousness augmentation, but perhaps it’s not. Creativity can be seen as an intentional process of engineering the world in such a way as to support… . | Why should one learn in public? | . If one’s purpose is to develop a large body of knowledge, then one should actively seek out, learn from, and publish work. This would presumably lead to a positive feedback loop of more knowledge being gained, helping the individual maximize their contribution. However, the incentive for creation and creation of knowledge is also plagued by censorship, limiting the flow of knowledge. A good alternative is open access, enabling anyone to search through one’s work for useful insights. The creation of commonsense through machine learning… . ",
-    "url": "http://localhost:4000/docs/workshop/dual/#features",
-    "relUrl": "/docs/workshop/dual/#features"
-  },"20": {
-    "doc": "Dual",
-    "title": "Workflows",
-    "content": "Your Dual can naturally enable a wide variety of workflows as part of your knowledge work. An early selection is included below. Computer-Aided Incremental Reading . When learning about a new concept, an effective way to internalize it is to densely associate it with previous concepts. When creating a note, you can ask your Dual to look for previous related entries, aiding you in your weaving process. What’s more, the fuzzy nature of fluid search makes it so that even if you had absolutely no previous notes about the new topic, you can still find losely related notes which might be useful. Your Dual helps you optimally build on previous knowledge by minimizing semantic distances. Computer-Aided Incremental Writing . When revisiting previous notes, you might seek to integrate new perspectives, arguments, and applications in your entries. You can ask your Dual to look for examples, parallels, and evidence, and it will sift through thousands of your notes in several seconds, offering you the most relevant candidates. Using the search results, you can then thoughtfully integrate the notes you find suitable through dense linking. Computer-Aided Brainstorming . When tackling big questions or tough problems, throw your Dual into the mix as a brainstorming partner and wait for the surprising nuggets it inevitably comes up with. Even if it’s fine-tuned to approximate your way of thinking, its sampled responses are configured to be different every time, meaning that it’s virtually impossible for it to get stuck in a rut. It’s similar enough to be relatable, yet different enough to be useful.11 . ",
-    "url": "http://localhost:4000/docs/workshop/dual/#workflows",
-    "relUrl": "/docs/workshop/dual/#workflows"
   },"21": {
     "doc": "Dual",
-    "title": "Further Steps",
-    "content": "Hosted inference . What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes. We’re working on making this a reality through an option to host your Dual in the cloud. More features . There are plenty of other language models out there waiting to make themselves useful in your second brain. The three features described above merely scratch the surface of how natural language processing can reshape knowledge work in such a propositional context. Better support . At the moment, your Dual can only run on Linux using Obsidian, due to the way the skeleton is currently packaged. In light of that, Windows and macOS support are top priorities. Extending the interface to work with Foam in VS Code is also a planned feature. Higher performance . All those language models take up a lot of memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. Those improvements will enable the use of even more human-like language models. ",
-    "url": "http://localhost:4000/docs/workshop/dual/#further-steps",
-    "relUrl": "/docs/workshop/dual/#further-steps"
+    "title": "Features",
+    "content": "Your Dual’s architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthesize original content from scratch whose connection to previous notes is abstract and non-trivial. Naturally, this is the main attraction. Samples from the author’s own Dual are provided for illustration purposes.9 However, due to the underlying second brain being only several weeks old at the time of writing, a personal diary spanning several months has also been used for deriving the essence. Fluid Search . This search feature is all about what your notes are about. It goes beyond traditional search and can locate relevant notes regardless of whether they explicitly contain the words used in the query, provided they’re about the same topic. In this, it’s fluid, it’s frictionless. | Find notes about seamlessly navigating one’s notes. | . By using fluid search through a collection of previous notes, one can elevate into their awareness the most semantically related items in their second brain. This way, they are then easily able to optimally weave together new information with old information, in the spirit of constructivism. Descriptive Search . This search feature builds on the previous one, but takes things a step further. You can now more flexibly describe the entries you are looking for, not only in terms of topic, but in terms of content. Find examples, arguments, parallels, and others. The possibilities are endless. | Look for a note which describes an analogy between machine learning and sociology. | . Contrastive learning is machine learning based on strategically sampling counterexamples for a given concept. Similarly, some sociologists argue that criminality and deviant behavior are essential for a well-functioning society as they provide “counterexamples” to the norm. Essentially, deviants successfully inform the social norm space, perhaps better than actual explicit norms. Their expressiveness is essential, as without them society would lose its sense of identity. There would be a collapse, just as in machine learning. | Search for a note which argues that measuring neural activity with EEG is tricky. | . In the brain-stadium metaphor, neural activity is associated with the vivid activity which happens inside a stadium during a sport event. Each individual supporter from the audience represents a neuron firing. According to this mapping, EEG corresponds to recording sound from outside the stadium, trying to reconstruct individual supporter activity. Additionally, single unit recording corresponds to having microphones down the throats of individual supporters. | Find a note which contains an application of VR. | . In virtual and augmented reality, abstract concepts can be grounded in concrete objects. For instance, in programming, a code library can become an actual physical library, a game tree can be an actual tree, calling a function can involve a phone. What’s more, virtual reality provides the necessary context for attempting to make any abstract concept tangible, in an effort to infuse them with embodied knowledge, forcing a host of cognitive functions to be applied to the same concept. Open Dialogue . As mentioned previously, open dialogue is the main dish. When you’re posing a question to your Dual, it automatically retrieves relevant notes and starts formulating a response based on them. The value of open dialogue lies not in retrieving cold facts from your knowledge base, but rather in tackling ambiguous open-ended questions. | How can we develop transformative tools for thought? 10 | . The second brain framework for cognitive augmentation provides a clear path to transhuman singularity through exponential self-improvement of the human individual and collective, in collaboration with AI. It’s also a pragmatic approach to cognitive enhancement, as it provides a pragmatic framework for dialogue between the two. The second brain framework for cognitive augmentation is very well-suited for the context of neuroplasticity, as it helps the user relax constraints and embrace radical new perspectives. This is in contrast to the more… . | What are some important questions in the neuroscience of attention? | . How does the brain create “tuning” in response to different stimuli? What are some features which distinguish attention? Are there “attention modalities”, or “attention channels”, or “attention frequencies”? How can the brain “see” different types of information from different perspectives? How can it compute a graph of information contents based on such topologies? Attention is often associated with sensations, movement, and attention alone. However, attention can also occur at the level of thought… . | How could one seamlessly edit their belief system on command? | . If one subscribes to the belief that truth is relative, then one can trivially “edit” their belief system as a document. They simply need to attach a semantic link to a statement which they believe is false, and then edit their text accordingly, with regards to the stated truth. This way, one’s belief system is merely an artifact which one has to reconcile with other beliefs in order to work effectively. Another way to reconcile conflicting beliefs is for the… . | Can ambiguity be used as a tool? | . In a sense, yes. However, in an arguably conflicting way. By using ambiguity as a means of promoting insight, one is also using it as a means of limiting creative output. The very act of intentionally distorting one’s perception of the world is often seen as an act of creation. This is a perspective often dismissed in the context of consciousness augmentation, but perhaps it’s not. Creativity can be seen as an intentional process of engineering the world in such a way as to support… . | Why should one learn in public? | . If one’s purpose is to develop a large body of knowledge, then one should actively seek out, learn from, and publish work. This would presumably lead to a positive feedback loop of more knowledge being gained, helping the individual maximize their contribution. However, the incentive for creation and creation of knowledge is also plagued by censorship, limiting the flow of knowledge. A good alternative is open access, enabling anyone to search through one’s work for useful insights. The creation of commonsense through machine learning… . ",
+    "url": "http://localhost:4000/docs/workshop/dual/#features",
+    "relUrl": "/docs/workshop/dual/#features"
   },"22": {
     "doc": "Dual",
+    "title": "Workflows",
+    "content": "Your Dual can naturally enable a wide variety of workflows as part of your knowledge work. An early selection is included below. Computer-Aided Incremental Reading . When learning about a new concept, an effective way to internalize it is to densely associate it with previous concepts. When creating a note, you can ask your Dual to look for previous related entries, aiding you in your weaving process. What’s more, the fuzzy nature of fluid search makes it so that even if you had absolutely no previous notes about the new topic, you can still find loosely related notes which might be useful. Your Dual helps you optimally build on previous knowledge by minimizing semantic distances. Computer-Aided Incremental Writing . When revisiting previous notes, you might seek to integrate new perspectives, arguments, and applications in your entries. You can ask your Dual to look for examples, parallels, and evidence, and it will sift through thousands of your notes in several seconds, offering you the most relevant candidates. Using the search results, you can then thoughtfully integrate the notes you find suitable through dense linking. Computer-Aided Brainstorming . When tackling big questions or tough problems, throw your Dual into the mix as a brainstorming partner and wait for the surprising nuggets it inevitably comes up with. Even if it’s fine-tuned to approximate your way of thinking, its sampled responses are configured to be different every time, meaning that it’s virtually impossible for it to get stuck in a rut. It’s similar enough to be relatable, yet different enough to be useful.11 . ",
+    "url": "http://localhost:4000/docs/workshop/dual/#workflows",
+    "relUrl": "/docs/workshop/dual/#workflows"
+  },"23": {
+    "doc": "Dual",
+    "title": "Further Steps",
+    "content": "Hosted inference . What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes. We’re working on making this a reality through an option to host your Dual in the cloud. More features . There are plenty of other language models out there waiting to make themselves useful in your second brain. The three features described above merely scratch the surface of how natural language processing can reshape knowledge work in such a propositional context. Better support . At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained binary will greatly simplify the configuration. Extending the interface to work with Foam in VS Code is also a planned feature. Higher performance . All those language models take up a lot of memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. Those improvements will enable the use of even more human-like language models. ",
+    "url": "http://localhost:4000/docs/workshop/dual/#further-steps",
+    "relUrl": "/docs/workshop/dual/#further-steps"
+  },"24": {
+    "doc": "Dual",
     "title": "Join Us",
-    "content": "Do you want to contribute to the development of Dual yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
+    "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
     "url": "http://localhost:4000/docs/workshop/dual/#join-us",
     "relUrl": "/docs/workshop/dual/#join-us"
-  },"23": {
+  },"25": {
     "doc": "Dual",
     "title": "Support Us",
     "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a Sponsor . ",
     "url": "http://localhost:4000/docs/workshop/dual/#support-us",
     "relUrl": "/docs/workshop/dual/#support-us"
-  },"24": {
+  },"26": {
     "doc": "Dual",
     "title": "References",
     "content": ". | Greg Egan,Learning to Be Me &#8617; &#8617;2 . | Stuart Russell &amp; Peter Norvig,AI: A Modern Approach &#8617; . | Ted Chiang,Exhalation &#8617; . | John Anderson,A spreading activation theory of memory &#8617; . | Niklas Luhmann,Communicating with Slip Boxes &#8617; . | Andy Matuschak,Prefer explicit associations to inferred associations &#8617; . | Andy Matuschak,Writing forces sharper understanding &#8617; . | George Hotz &amp; Lex Fridman,Lex Podcast #31 &#8617; . | Paul Bricman,Second Brain &#8617; . | Andy Matuschak &amp; Michael Nielsen,How can we develop transformative tools for thought? &#8617; . | Greg Egan,Closer &#8617; . | . ",
     "url": "http://localhost:4000/docs/workshop/dual/#references",
     "relUrl": "/docs/workshop/dual/#references"
-  },"25": {
+  },"27": {
     "doc": "Home",
     "title": "Psionica",
     "content": "An open collective on a mission to augment thought for all. Learn More Join Us . ",
     "url": "http://localhost:4000/#psionica",
     "relUrl": "/#psionica"
-  },"26": {
+  },"28": {
     "doc": "Home",
     "title": "Mission",
     "content": "Just like there are sound frequencies we cannot hear and wavelengths of light we cannot see, there might very well be thoughts we cannot think.1 Being confined to a limited domain of thought is unsettling for many, especially considering our ideal of freedom of thought and the increasingly complex challenges we’re facing as a species. However, just like there are advanced sensors that can help us detect sound and light beyond our bodily senses, there are transformative tools that can help us think beyond what was previously thinkable.2 We can engineer “spacecraft” for venturing into the depths of conceptual space, exploring what lies beyond the pale blue dot of native human cognition.3 Artificial intelligence is especially well-positioned to fuel the expansion of our cognitive horizons through its remarkable skill of manipulating abstract representations.4 . What if you had a virtual assistant when navigating your thoughts? What if there was a Photoshop for editing concepts? What if you could radically edit your belief system on command? What if you could digest a textbook an order of magnitude faster? What if you could manipulate abstract representations with your body? Those are precisely the muddy, challenging, and daring questions we’re interested in. Our mission is to provide a “launchpad” for ambitious projects aiming to augment thought in transformative ways. Ready for takeoff. ",
     "url": "http://localhost:4000/#mission",
     "relUrl": "/#mission"
-  },"27": {
+  },"29": {
     "doc": "Home",
     "title": "Our Work",
     "content": " ",
     "url": "http://localhost:4000/#our-work",
     "relUrl": "/#our-work"
-  },"28": {
+  },"30": {
+    "doc": "Home",
+    "title": "Dual",
+    "content": "WORKSHOP . Your second brain implant. ",
+    "url": "http://localhost:4000/#dual",
+    "relUrl": "/#dual"
+  },"31": {
     "doc": "Home",
     "title": "Autocards",
     "content": "LAB . Accelerating learning through machine-generated flashcards. ",
     "url": "http://localhost:4000/#autocards",
     "relUrl": "/#autocards"
-  },"29": {
+  },"32": {
     "doc": "Home",
     "title": "Semantica",
     "content": "LAB . Extending conceptual thinking through semantic embeddings. ",
     "url": "http://localhost:4000/#semantica",
     "relUrl": "/#semantica"
-  },"30": {
+  },"33": {
     "doc": "Home",
     "title": "Memory Navigator",
     "content": "LAB . Expanding propositional memory through text mining. ",
     "url": "http://localhost:4000/#memory-navigator",
     "relUrl": "/#memory-navigator"
-  },"31": {
+  },"34": {
     "doc": "Home",
     "title": "Knowledge Probes",
     "content": "LAB . Promoting critical thinking through machine-generated prompts. ",
     "url": "http://localhost:4000/#knowledge-probes",
     "relUrl": "/#knowledge-probes"
-  },"32": {
+  },"35": {
     "doc": "Home",
     "title": "Join Us",
     "content": "We’re passionate about exploring what lies beyond the human mind, but we’re still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
     "url": "http://localhost:4000/#join-us",
     "relUrl": "/#join-us"
-  },"33": {
+  },"36": {
     "doc": "Home",
     "title": "Support Us",
     "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a Sponsor . ",
     "url": "http://localhost:4000/#support-us",
     "relUrl": "/#support-us"
-  },"34": {
+  },"37": {
     "doc": "Home",
     "title": "References",
     "content": ". | Richard Hamming,The Unreasonable Effectiveness of Mathematics. &#8617; . | Bret Victor,Media for Thinking the Unthinkable. &#8617; . | Carl Sagan,Pale Blue Dot &#8617; . | Shan Carter &amp; Michael Nielsen,Using Artificial Intelligence to Augment Human Intelligence &#8617; . | . ",
     "url": "http://localhost:4000/#references",
     "relUrl": "/#references"
-  },"35": {
+  },"38": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"36": {
+  },"39": {
     "doc": "K-Probes",
     "title": "Knowledge Probes",
     "content": "Promoting critical thinking through machine-generated prompts. View Code View Spec . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#knowledge-probes",
     "relUrl": "/docs/lab/k-probes/#knowledge-probes"
-  },"37": {
+  },"40": {
     "doc": "K-Probes",
     "title": "Table of contents",
-    "content": ". | The Curious Child | The Curious Machine | Design | Dialogue Sample | Random Sample | Final Thoughts | References | . ",
+    "content": ". | The Curious Child | The Curious Machine | Design | Dialogue Sample | Random Sample | Final Thoughts | Join Us | Support Us | References | . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#table-of-contents",
     "relUrl": "/docs/lab/k-probes/#table-of-contents"
-  },"38": {
+  },"41": {
     "doc": "K-Probes",
     "title": "The Curious Child",
     "content": "Take a moment to picture the following prototypical narrative. “Why is the sky blue?” the curious child asks. “Well, sunlight passes through the atmosphere before it gets here, which makes the sky appear blue,” answers the parent. At this point, both parties seem content with the exchange. Several moments later, the inevitable happens. “But why?” the child asks. Somewhat frustrated, the parent conveniently wraps up the conversation: “Because I said so.” . There are a couple of remarkable things to note about this narrative. First, the child manages to challenge the knowledge of the adult without possessing that knowledge herself. This is quite different from the situation in which a teacher is challenging the knowledge of a student. In this more formal setting, the teacher is very much aware of the established body of knowledge. In contrast, the very premise of the opening story is based on the ignorance of the curious child. It appears that we have a deeply-rooted drive to answer questions, which often requires us to draw on our own knowledge. This innate tendency is called instinctive elaboration, and it enables questions to force your brain into a relentless search for answers.1 . The second remarkable thing to note about this narrative is the simple nature of the questions. They are far from being elaborate descriptions of the requested information. Even a simple “Why?” would suffice in challenging the adult. Despite their minimal contents, the replies are effortlessly understood. The reason for that is that they are genuinely soaked in context, following the unwritten rules of pragmatics.2 The ongoing dialogue infuses each reply with meaning, enabling speakers to cut down on words without sacrificing the contents. This state of affairs makes it surprisingly easy to play the challenger, as many parents may be particularly aware of. ",
     "url": "http://localhost:4000/docs/lab/k-probes/#the-curious-child",
     "relUrl": "/docs/lab/k-probes/#the-curious-child"
-  },"39": {
+  },"42": {
     "doc": "K-Probes",
     "title": "The Curious Machine",
     "content": "Given how effective the child is in challenging the parent’s knowledge, could we promote critical thinking by embedding her behavior into a tool for thought? Could we incentivize people to actively reflect on their own beliefs by allowing them to converse with a “curious” machine? Even if the user wouldn’t actually receive new information in the exchange, the very act of highlighting gaps in their knowledge might be valuable. Such a tool could be used to challenge faulty beliefs, incentivize deeper understanding, and make assumptions salient. Those objectives are key to changing our relationship with hard questions into a healthier one. Annoying inquiries turn into opportunities for growth. This paradigm shift is fittingly captured by the concept of aporia. “Aporia is the feeling of realizing that what you thought was a path to truth actually doesn’t lead there at all. A shortcut to certainty has revealed itself to be an illusion. The first reaction to aporia might be frustration and even anger, but if you consider that it’s providing new information and could be saving you from wasting additional effort maintaining false certainty about an existing belief, it can flip into an Aha! moment that is even enjoyable.” – Buster Benson3 . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#the-curious-machine",
     "relUrl": "/docs/lab/k-probes/#the-curious-machine"
-  },"40": {
+  },"43": {
     "doc": "K-Probes",
     "title": "Design",
     "content": "After changing our perspective on hard questions, we can finally start building. Being inspired by the unreasonable effectiveness of the curious child, this tool will consist of nothing more than a set of questions and a basic method for sampling them. Difficult questions. Vague, muddy, demanding questions. Questions which genuinely get the person thinking. Revising, reframing, reviewing what they hold to be true. Questions which probe the otherwise obstructed depths of knowledge. Given their current purpose, we’ll also refer to these questions as knowledge probes, or k-probes for short. To integrate a minimal level of structure into the question set, we’ll use Bloom’s revised taxonomy as a starting point.4 This taxonomy is a widely used system for organizing learning outcomes across all levels of formal education, from kindergarten to university. These outcomes essentially capture the abilities which students are expected to possess by the end of a lesson, course, or programme. Formal education can be seen in part as a process of internalizing these abilities. The taxonomy consists of six broad categories, exemplified below with intended learning outcomes from the degree I’m currently pursuing. | Remember – Retrieve relevant knowledge. | Recall the high-level anatomy of the brain. | Recognize questionable research practices. | Know how to create reproducible workflows. | . | Understand – Construct meaning. | Explain the principles behind the general linear model. | Describe algorithms used for adversarial search. | Summarize the main approaches to speech synthesis. | . | Apply – Use knowledge in new situations. | Carry out a multivariate statistical analysis. | Implement a genetic algorithm. | Solve homogeneous differential equations. | . | Analyze – Determine how parts relate to a structure. | Investigate the relationship between syntax and semantics. | Analyze the interaction between various forms of memory. | Determine the relationship between subfields of cognitive science. | . | Evaluate – Make informed judgements. | Interpret the results of brain data analyses. | Determine the complexity of simple algorithms. | Evaluate set-theoretic statements. | . | Create – Reorganize elements into a structure. | Construct formal proofs for first-order logic. | Design a user interface based on cognitive ergonomics. | Develop models in a cognitive architecture. | . | . Due to the popularity of Bloom’s revised taxonomy, there are a lot of online resources containing examples of learning outcomes, complete with suggestions for classroom activities. After compiling examples from several such resources and rephrasing them as questions, I used a text generation service to extend the question set even further.5 Following several hours of co-creating questions with the machine, the total number of knowledge probes surpassed two hundred, a sample of which can be found below. | Remember – Retrieve relevant knowledge. | What are the basic facts of this? | What puzzle is this part of? | How would you characterize this? | . | Understand – Construct meaning. | How would you explain this to a peer? | What would be an analogy for this? | How would you represent this visually? | . | Apply – Use knowledge in new situations. | How can this be helpful? | Who can benefit from this? | How could this be applied to other domains? | . | Analyze – Determine how parts relate to a structure. | What’s the structure of this? | How do the components of this relate to each other? | How can this be viewed as a system? | . | Evaluate – Make informed judgements. | What assumptions underlie this? | What evidence supports this? | How would different people view this? | . | Create – Reorganize elements into a structure. | How can this be expanded? | How does this fit into a narrative? | How would you design something based on this? | . | . As in the case of the curious child, the value lies in the dialogue itself, rather than in the questions. Therefore, we need a method of stitching together questions with user replies, fostering an ongoing discussion. Fortunately, this method can be as simple as a chat-like textual interface which alternates between printing output questions and reading input replies. The unwritten rules of pragmatics will do the rest, helping the user instinctively turn the sequence of questions and replies into a meaningful dialogue by filling in the gaps. As a final layer of complexity, we’ll also use Bloom’s revised taxonomy as a basis for a more customizable experience. By specifying a numeric weight for each of the six categories, the user can adjust the probabilities of certain questions being asked. Larger weights will result in more questions being sampled from that category, relative to others. This way, the user can better tailor the tool to their current needs. Or, perhaps, to their intended “learning outcomes.” . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#design",
     "relUrl": "/docs/lab/k-probes/#design"
-  },"41": {
+  },"44": {
     "doc": "K-Probes",
     "title": "Dialogue Sample",
     "content": "The following is a short excerpt discussing the technology behind Semantica: . Let’s talk about semantic embeddings. | What field is this part of? | . Computational semantics or natural language processing, depending on who you ask. | What is this a consequence of? | . They’re the result of exploiting word co-occurence information derived from large corpora. | How would you explain this to a teenager? | . Imagine you’re planning on traveling to a foreign country. The catch is, there’s no map available! You see, it’s quite an obscure country, perfect for a curious teen. The only thing available is a list of past itineraries – lists of cities which other travelers have visited before, in order. The interesting thing is that you can use those itineraries to sketch a map! Cities visited one after another should be near each other, right? You could try to come up with a map which matches the distance relations derived from the itineraries, and you’ll get a pretty accurate map you can use on your journey. In essence, language is like a set of itineraries, called sentences. However, instead of cities, it’s got words! I just took you along a journey through the country of language, traveling from one word to the next. It turns out that if you try to use the same reasoning here, you can actually pinpoint words on a map, based solely on a lot of text. Not a map of cities, mountains, and rivers, but a map of meaning. Semantic embeddings are the “geographical” coordinates of words in this country of language. | What issues can this help with? | . They can help machines extract meaning from otherwise plain text. | What other concepts are related to this? | . Text mining, natural language processing, vector semantics, lexical semantics. | How can this be a source for inspiration? | . If words can be represented as points in a space, what else could be represented this way? The effectiveness of semantic embeddings gets you thinking about what other things can be expressed like this. | Why is this relevant? | . It’s the most popular approach to extracting meaning from text. It drives most, if not all, of modern natural language processing efforts. | How do the components of this relate to each other? | . Each word is associated with a vector. All vectors inhabit the same space. There’s a relation between any two words, represented through the difference between their vectors. | What has to be in place before this can be applied? | . A lot of text for obtaining the embeddings, and a broader understanding of semantic embeddings in academia and industry. | What can this lead to? | . Machines which can reason about relatable concepts. Tools for thought as well. ",
     "url": "http://localhost:4000/docs/lab/k-probes/#dialogue-sample",
     "relUrl": "/docs/lab/k-probes/#dialogue-sample"
-  },"42": {
+  },"45": {
     "doc": "K-Probes",
     "title": "Random Sample",
     "content": "Use the following button to randomly sample one probe from the collection. New Probe . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#random-sample",
     "relUrl": "/docs/lab/k-probes/#random-sample"
-  },"43": {
+  },"46": {
     "doc": "K-Probes",
     "title": "Final Thoughts",
     "content": "The simple nature of this tool might be deceiving. Its beauty lies not in its codebase, but in the way it builds on quirks of the human mind. Pragmatics helps with coherence. Instinctive elaboration triggers an automatic drive for engaging with the knowledge probes. The conversational medium even makes the experience feel social. Despite the potential benefits of this approach, it’s also worth considering its downsides. The main disadvantage is the lack of rich feedback, which has otherwise been shown to be very effective in learning.6 However, one could argue that the increased ease of adapting the tool to new fields outweighs this shortcoming. Moreover, the self-supervised nature of this approach might still provide a feedback signal which is strong enough to be useful. We have a unique relationship with questions, so why not leverage that to our advantage? Knowledge probes are an early attempt of explicitly doing just that. I’ll predictably end with an open-ended question: “How can knowledge probes be helpful for you?” . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#final-thoughts",
     "relUrl": "/docs/lab/k-probes/#final-thoughts"
-  },"44": {
+  },"47": {
+    "doc": "K-Probes",
+    "title": "Join Us",
+    "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
+    "url": "http://localhost:4000/docs/lab/k-probes/#join-us",
+    "relUrl": "/docs/lab/k-probes/#join-us"
+  },"48": {
+    "doc": "K-Probes",
+    "title": "Support Us",
+    "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a Sponsor . ",
+    "url": "http://localhost:4000/docs/lab/k-probes/#support-us",
+    "relUrl": "/docs/lab/k-probes/#support-us"
+  },"49": {
     "doc": "K-Probes",
     "title": "References",
     "content": ". | David Hoffeld,Want To Know What Your Brain Does When It Hears A Question? &#8617; . | Richard Nordquist,The Cooperative Principle in Conversation &#8617; . | Buster Benson,Why Are We Yelling? &#8617; . | CELT,Revised Bloom’s Taxonomy &#8617; . | Hugging Face,Write With Transformer &#8617; . | John Hattie &amp; Helen Timperley,The Power of Feedback &#8617; . | . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#references",
     "relUrl": "/docs/lab/k-probes/#references"
-  },"45": {
+  },"50": {
     "doc": "K-Probes",
     "title": "K-Probes",
     "content": " ",
     "url": "http://localhost:4000/docs/lab/k-probes/",
     "relUrl": "/docs/lab/k-probes/"
-  },"46": {
+  },"51": {
     "doc": "Lab",
     "title": "Lab",
     "content": "Experimental prototypes expanding thought. ",
     "url": "http://localhost:4000/docs/lab/lab/",
     "relUrl": "/docs/lab/lab/"
-  },"47": {
+  },"52": {
     "doc": "Lab",
     "title": "Autocards",
     "content": "NEW . Accelerating learning through machine-generated flashcards. ",
     "url": "http://localhost:4000/docs/lab/lab/#autocards",
     "relUrl": "/docs/lab/lab/#autocards"
-  },"48": {
+  },"53": {
     "doc": "Lab",
     "title": "Semantica",
     "content": "Extending conceptual thinking through semantic embeddings. ",
     "url": "http://localhost:4000/docs/lab/lab/#semantica",
     "relUrl": "/docs/lab/lab/#semantica"
-  },"49": {
+  },"54": {
     "doc": "Lab",
     "title": "Memory Navigator",
     "content": "Expanding propositional memory through text mining. ",
     "url": "http://localhost:4000/docs/lab/lab/#memory-navigator",
     "relUrl": "/docs/lab/lab/#memory-navigator"
-  },"50": {
+  },"55": {
     "doc": "Lab",
     "title": "Knowledge Probes",
     "content": "Promoting critical thinking through machine-generated prompts. ",
     "url": "http://localhost:4000/docs/lab/lab/#knowledge-probes",
     "relUrl": "/docs/lab/lab/#knowledge-probes"
-  },"51": {
+  },"56": {
     "doc": "MemNav",
     "title": "Memory Navigator",
     "content": "Expanding propositional memory through text mining. View Code View Spec . ",
     "url": "http://localhost:4000/docs/lab/memnav/#memory-navigator",
     "relUrl": "/docs/lab/memnav/#memory-navigator"
-  },"52": {
+  },"57": {
     "doc": "MemNav",
     "title": "Table of contents",
-    "content": ". | Text Mining | Machine-Readable Memories | Design . | Semantic Search | Question Answering | Summarization | . | Paradigms . | Search Engines | Expert Systems | Exosomatic Memory | The Mind’s API | . | Further Steps | References | . ",
+    "content": ". | Text Mining | Machine-Readable Memories | Design . | Semantic Search | Question Answering | Summarization | . | Paradigms . | Search Engines | Expert Systems | Exosomatic Memory | The Mind’s API | . | Further Steps | Join Us | Support Us | References | . ",
     "url": "http://localhost:4000/docs/lab/memnav/#table-of-contents",
     "relUrl": "/docs/lab/memnav/#table-of-contents"
-  },"53": {
+  },"58": {
     "doc": "MemNav",
     "title": "Text Mining",
     "content": "Many of us routinely use search engines to navigate the internet. They help us find information so quickly and accurately that it’s hard to imagine browsing the internet without them. Their convenience even makes us perceive searchable information as less worthy of committing to memory.1 . Text mining is one of the core technologies behind search engines. By extracting meaning from text, search engines can easily match queries to appropriate pages. To get a sense of why language understanding is so important, imagine trying to find the details of preparing a meal in a cookbook written in a foreign language. Without text mining, search engines would similarly be limited to exact string matches, with no other means of navigating the rich body of knowledge they have at their disposal. Due in large part to its extensive business value, text mining is a relatively mature technology. From question answering to summarization, state-of-the-art solutions are proposed every few months.2 What if we could leverage this traction, and repurpose text mining in order to support powerful tools for thought? In the following sections, we’ll specifically explore the potential of this technology in navigating, and ultimately augmenting, human memory. ",
     "url": "http://localhost:4000/docs/lab/memnav/#text-mining",
     "relUrl": "/docs/lab/memnav/#text-mining"
-  },"54": {
+  },"59": {
     "doc": "MemNav",
     "title": "Machine-Readable Memories",
     "content": "In order to create tools capable of navigating memories, we first need to record them in a machine-readable format. One popular way of transcribing memories is journaling. By creating regular entries describing their daily thoughts, ambitions, and stories, people unknowingly build a genuine knowledge base of their lives. Slowly but surely, this accumulates into a comprehensive body of knowledge which spans months, years, or even decades.3 . Diaries mainly consist of text. As we’ve seen previously, machines are already fluent in text. This means that journaling is a very good candidate for supplying our future system with memories in a machine-readable format. In order to perform text mining, simply substitute web pages for diary entries, and let the algorithms do their job. “A memex is a device in which an individual stores all his books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility. It is an enlarged intimate supplement to his memory. The lawyer has at his touch the associated opinions and decisions of his whole experience […] The physician, puzzled by a patient’s reactions, strikes the trail established in studying an earlier similar case […] The historian, with a vast chronological account of a people […]” – Vannevar Bush4 . ",
     "url": "http://localhost:4000/docs/lab/memnav/#machine-readable-memories",
     "relUrl": "/docs/lab/memnav/#machine-readable-memories"
-  },"55": {
+  },"60": {
     "doc": "MemNav",
     "title": "Design",
     "content": "Now that we have a way of converting memories into a machine-readable format, we can start implementing the actual features of the memory navigator, or MemNav for short. Illustrative samples from my own MemNav instance are provided for each command. The functionality of the system is encapsulated in a Python class which requires a root directory containing entries as text files. The source code builds on several open source modules, and is heavily inspired by the examples provided by their authors.5 6 . &gt;&gt;&gt; from memnav import MemNav &gt;&gt;&gt; mn = MemNav('../MorningPages') . Semantic Search . Internet search engines aren’t constrained to the exact words in your query. If a page refers to the same thing as your query, but with a slightly different wording, then the page is still likely to show up in the search results. MemNav uses similar techniques to help users retrieve information beyond a simple Find in text look-up. &gt;&gt;&gt; mn.search('embodied tools for thought') There was this announcement about a course on embodied critical thinking, which was at an intersection of philosophy, cognitive science, AI, and seems to be quite relevant for the tools for thought direction I chose recently. Yeah, actually I think I might apply. There's also a summer school in Iceland or something. &gt;&gt;&gt; mn.search('text mining memories') However, the propositional memory miner may change that, repurposing this whole thing, making it more valuable. Really curious to see whether that will result in anything useful or whether it will be just a witty hack of repurposing SOTA NLP models. &gt;&gt;&gt; mn.search('fMRI data processing') He suggested that we perform a deconvolution on the fMRI data in order to provide a better target for the model. But, what if we include the BOLD response convolution as the final step of the model and make it so that it has no learnable parameters. That's interesting because the deconvolution operation per se doesn't have a clear solution. Notice how the output of the second command contains none of the exact words present in the query. Finding all slight variations by hand would have been tedious. The summarization and semantic search samples might look similar. In reality, semantic search returns multiple results, one of which is included here as an illustration. Question Answering . When navigating the internet, you might often want a quick answer to a question, rather than a full-blown article on the subject. By systematically identifying relevant phrases in diary entries, MemNav can reliably answer questions about one’s previous thoughts, ideas, and experiences. &gt;&gt;&gt; mn.ask('Who did I spend the last day of 2020 with?') Bea &gt;&gt;&gt; mn.ask('Why would k-probes be useful?') To reflect on things I learned that day &gt;&gt;&gt; mn.ask('What does exosomatic mean?') Outside the body . Summarization . Maybe you’re not looking for an explicit detail, but you’re trying to get the general gist of a subject. By choosing a few sentences which together convey the most information, MemNav provides users with a condensed overview of what they’re interested in. &gt;&gt;&gt; mn.summarize('attention in humans and machines') What if the query, key, value metaphor used in transformers to attend to things and places was used in a cognitive architecture, building a cognitive model for attention. The transformer is based on a couple forms of attention, but how does that relate to attention in humans and animals? &gt;&gt;&gt; mn.summarize('dust theory') Egan is simply mindblowing. This idea of Dust Theory is deep, it's powerful. And the point is that this ever expanding computer being run in a cellular automaton would run based on dust. Based on patterns spread out across time and space. But this is not all! In the book they talk about such a representation. &gt;&gt;&gt; mn.summarize('grading assignments') It's mostly the gruntwork of grading and watching and attendance and so on. Not fulfilling at all. It's still only a part time job. But the part about grading homework isn't my favorite thing ever, it is the whole idea of selling time for money again. And I'm pretty sure homework can be redesigned so that it can be more efficiently graded, even automatically. ",
     "url": "http://localhost:4000/docs/lab/memnav/#design",
     "relUrl": "/docs/lab/memnav/#design"
-  },"56": {
+  },"61": {
     "doc": "MemNav",
     "title": "Paradigms",
     "content": "It might be useful to go beyond the technicalities and reflect on the very identity of this project. By taking various perspectives on it, we can get a better sense of the interplay between tools for thought and existing technical frameworks. Search Engines . This is the view behind the opening paragraph. MemNav can intuitively be likened to a search engine. Instead of searching the internet, it searches memories. It achieves this by using diary entries as a proxy. If internet search engines already nudge us into neglecting searchable information, it might be important to investigate the psychological effects of using such mnemonic engines, bringing up debate on the line between voluntary usage and dependence. The fragility of human memory is actually useful in many ways. It supports all sorts of clever mental shortcuts. For example, the availability heuristic piggybacks on our forgetfulness and helps us quickly gauge the frequency of an event. By simply using the ease of remembering a few occurences as a proxy, it side-steps the need of actually considering all event instances. It turns out that many of our mental quirks are better described as double-edged swords, rather than down-right flaws.7 Simply making away with them might lead to unintended consequences. Additionally, if internet search engines already grant varying degrees of exposure to items based on financial contributions, then what would happen if third-party memory systems would also follow financial incentives? Which memories would be more profitable, and therefore more likely to be remembered? Such daunting prospects further support the need for humane values being embedded in technology. Expert Systems . Early AI research had a strong focus on expert systems. Take the expertise of a doctor, embed it into propositional statements and inference rules, and you get a system which can give diagnostics with decent accuracy. Do the same with the expertise of a judge, and you get a system capable of giving rudimentary verdicts in court. MemNav can also be seen as an expert system. It’s not an expert in medicine or law, but an expert in you. An expert in your thought process. You first embed your expertise in it, and then work with it. How does it feel to outsource such highly personal knowledge to a machine? How does it feel to interact with an expert in your thought process other than yourself? Would you allow it to freely interact with others on your behalf, as a matter of convenience? Granting my significant other experimental access to my MemNav already feels peculiar. Outsourcing more mental faculties to machines and integrating more third-party components into our thinking will force us to ask such questions increasingly often. Exosomatic Memory . When your computer runs low on storage, you might move a few files to an external drive or to the cloud. What happens when your memory is overloaded with tasks, events, plans, ideas, and so on? You might offload that burden onto convenient task managers, calendars, planners, notebooks, and so on. Those can be collectively refered to as exosomatic memory systems (i.e. memory systems located outside the body). MemNav can also be considered an instance of such a system. However, when you happen to expand the storage capacity of your device, say by upgrading your local storage or by purchasing cloud storage, more often than not you stop being cautious about your memory usage. A constrained memory system might force you to focus on the right things, in a way a set of storage buckets replicated across multiple server farms might not. Another thing to consider is the changing relation between memory acquisition and retrieval. The way we learn things strongly influences the way we remember them. For instance, knitting together a tight network of associations has been shown to foster subsequent retrieval.8 However, if memories are stored in a machine-readable format, then they may be subjected to a wide range of programmatic transformations. Attach definitions to terms. Break text blocks into atomic interconnected items. Form new links in the semantic network. Those possibilities might pave the way for new educational practices. The Mind’s API . When a piece of software exposes an API, it offers an interface to third-party software as a means of programmatically interacting with it. MemNav can also be seen as an API. It offers programmatic access to your memories, enabling an entire suite of tools to integrate with it. This API is currently read-only, as it only offers indirect access to your thought process through the text artifacts. Your actual memory is separated from MemNav as a result of the one-way process of creating the artifacts. However, the artifacts being processed may get closer to their authors over time, eventually leading to authors identifying with them. ",
     "url": "http://localhost:4000/docs/lab/memnav/#paradigms",
     "relUrl": "/docs/lab/memnav/#paradigms"
-  },"57": {
+  },"62": {
     "doc": "MemNav",
     "title": "Further Steps",
     "content": "Despite its promising performance, MemNav has several shortcomings which currently limit its potential in augmenting memory. First, it runs slow enough to feel unnatural as an extension of your memory. With a large corpus, it usually takes several solid seconds for results to be provided, depending on the task. However, clear trends in decreasing compute costs might solve this problem in the long run. “In order to function as exosomatic memory, information retrieval systems must be so good so that retrieving information is like remembering.” – Gregory Newby9 . Second, creating the knowledge base which underlies MemNav takes time. It requires a sustained regular commitment, and may become tedious. However, future methods will likely enable more efficient ways of recording memories. Using a speech-to-text service would easily triple the rate of transcribed words per minute. Wearable and handheld devices already bring in a multimedia dimension to the endeavor. Neural interfaces might obviate the need for words entirely. Finally, there’s a more nuanced issue. The linear structure of a diary might be a very poor representation of the non-linear structure of thought. The programmatic transformations mentioned previously may be crucial in better aligning the cognitive space with the information space.10 High-dimensional representations similar to the ones used by Semantica might be a much better fit for the task. Despite its current flaws, MemNav manages to provide an insightful vantage point on the nature and impact of future tools for thought. The reflections it supports are as valuable as the functions it enables, as it helps us paint a picture of our desired technological path. ",
     "url": "http://localhost:4000/docs/lab/memnav/#further-steps",
     "relUrl": "/docs/lab/memnav/#further-steps"
-  },"58": {
+  },"63": {
+    "doc": "MemNav",
+    "title": "Join Us",
+    "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
+    "url": "http://localhost:4000/docs/lab/memnav/#join-us",
+    "relUrl": "/docs/lab/memnav/#join-us"
+  },"64": {
+    "doc": "MemNav",
+    "title": "Support Us",
+    "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a Sponsor . ",
+    "url": "http://localhost:4000/docs/lab/memnav/#support-us",
+    "relUrl": "/docs/lab/memnav/#support-us"
+  },"65": {
     "doc": "MemNav",
     "title": "References",
     "content": ". | Sparrow et al.,Cognitive Consequences on Having Information at Our Fingertips &#8617; . | Papers with Code,Language Modelling Performance over Time &#8617; . | Buster Benson,Better Than Meditation &#8617; . | Vannevar Bush,As We May Think &#8617; . | HuggingFace,Transformers Documentation &#8617; . | Nils Reimers &amp; Iryna Gurevych,Sentence-Transformers Documentation &#8617; . | Buster Benson,Cognitive Biases &#8617; . | Daniel Reisberg,Cognition: Exploring the Science of the Mind &#8617; . | Gregory Newby,Newby on Cognitive Space &#8617; . | Gregory Newby,Cognitive space and information space &#8617; . | . ",
     "url": "http://localhost:4000/docs/lab/memnav/#references",
     "relUrl": "/docs/lab/memnav/#references"
-  },"59": {
+  },"66": {
     "doc": "MemNav",
     "title": "MemNav",
     "content": " ",
     "url": "http://localhost:4000/docs/lab/memnav/",
     "relUrl": "/docs/lab/memnav/"
-  },"60": {
+  },"67": {
     "doc": "Semantica",
     "title": "Semantica",
     "content": "Extending conceptual thinking through semantic embeddings. View Code Open Demo View Spec . ",
     "url": "http://localhost:4000/docs/lab/semantica/",
     "relUrl": "/docs/lab/semantica/"
-  },"61": {
+  },"68": {
     "doc": "Semantica",
     "title": "Table of contents",
-    "content": ". | Mental Models | Conceptual Thinking | Semantic Embeddings | Tools . | Field | Mix | Span | Shift | Match | . | Case Studies | Further Steps | Contributions | References | . ",
+    "content": ". | Mental Models | Conceptual Thinking | Semantic Embeddings | Tools . | Field | Mix | Span | Shift | Match | . | Case Studies | Further Steps | Contributions | Join Us | Support Us | References | . ",
     "url": "http://localhost:4000/docs/lab/semantica/#table-of-contents",
     "relUrl": "/docs/lab/semantica/#table-of-contents"
-  },"62": {
+  },"69": {
     "doc": "Semantica",
     "title": "Mental Models",
     "content": "Mental models are simplified descriptions of the world around us. For instance, one of them might describe networks. A forest is a network of trees. A society is a network of people. A brain is a network of neurons. Mental models help us make sense of the world by allowing us to apply previous knowledge to new situations. They are widely seen as powerful tools for thought, especially when they come in large numbers. If one’s repository of mental models is vast, then they’ll be able to approach new situations from many different perspectives. This is the motivation behind many recent efforts of compiling extensive lists of them.1 . “Our systematic cross-realm translations are the roots of fruitful metaphors; they enable us to understand things we’ve never seen before. When something seems entirely new in one of our description-worlds, it may turn out that when translated to some other world it resembles something we already know.” – Marvin Minsky2 . “Metaphors allow us to understand one domain of experience in terms of another. This suggests that understanding takes place in terms of entire domains of experience and not in terms of isolated concepts.” – George Lakoff &amp; Mark Johnson3 . ",
     "url": "http://localhost:4000/docs/lab/semantica/#mental-models",
     "relUrl": "/docs/lab/semantica/#mental-models"
-  },"63": {
+  },"70": {
     "doc": "Semantica",
     "title": "Conceptual Thinking",
     "content": "However, mental models are only one side of what can be more broadly described as conceptual thinking. In this view, mental models are just sets of systematic relations between concepts. The previous network model merely captures the relation between a forest and a tree, between a society and a person, and between a brain and a neuron. Having said that, there is so much more to concepts than mental models. You can connect them to similar ones. You can mix them together into new ones. You can transform them in meaningful ways. You can explore the nuances between them. What if we could build tools which enabled us to work with concepts in a similar way Photoshop enables us to work with images? What if we could build tools which extend our conceptual thinking beyond what is humanly possible? Instead of blending colors, we would combine concepts. Instead of creating gradients, we would explore continua of meaning. Instead of defining intricate visual patterns, we would define systematic patterns of meaning. “In this it resembles a program such as Photoshop or a spreadsheet or 3D graphics programs. Each provides a novel set of interface primitives, primitives which can be internalized by the user as fundamental new elements in their thinking.” – Shan Carter &amp; Michael Nielsen4 . “Human intellectual effectiveness can be affected by the particular means used by individuals for their external symbol manipulation. It seems reasonable to consider the development of automated external symbol manipulation means as a next stage in the evolution of our intellectual power.” – Douglas Engelbart5 . ",
     "url": "http://localhost:4000/docs/lab/semantica/#conceptual-thinking",
     "relUrl": "/docs/lab/semantica/#conceptual-thinking"
-  },"64": {
+  },"71": {
     "doc": "Semantica",
     "title": "Semantic Embeddings",
     "content": "However, tools like Photoshop don’t directly work with colors, gradients, or patterns. At the lowest level, editing photos boils down to manipulating matrices of numbers. In order to build powerful tools for conceptual thinking, we might need an analogous way to fix concepts into firm numerical foundations which we could then easily manipulate. Fortunately, there already are ways of doing that. The field of natural language processing has long used semantic embeddings as the numerical substrate of discrete concepts.6 Among others, they’re used in search engines to understand queries, in chatbots to understand conversations, and in translation systems to understand foreign languages. Think of semantic embeddings as numeric coordinates. They don’t describe locations in a physical space, like geographic coordinates, but locations in a space of meanings, a semantic space.7 . An intuitive understanding of how semantic embeddings are obtained is beyond the scope of this article, but what is relevant for our current purposes can be captured in a few neat properties exhibited by the semantic space: . | Conceptual differences correspond to geometric distances. | Conceptual parallelism corresponds to geometric parallelism. | . But analytic geometry is no reason for despair, because as graphic designers don’t need to be knowledgeable about convolutions and tensors when using Photoshop, the tools for thought which we set out to build will be usable regardless of the user’s proficiency in maths. We’ll use semantic embeddings only as a low-level foundation for higher-level tools which enable anyone to work with concepts in exciting ways. That’s where we’ll go next. In the following sections, we’ll define and use new tools for thought built on top of semantic embeddings, and in doing so incrementally grow Semantica, a veritable computational toolkit for conceptual thinking. “But let the human specify to the instrument his particular conceptual need of the moment, relative to this internal image. Without disrupting its own internal reference structure in the slightest, the computer will effectively stretch, bend, fold, extract, and cut as it may need in order to assemble an internal substructure […] it portrays to the human via its display a symbol structure designed for his quick and accurate perception and comprehension of the conceptual matter […]” – Douglas Engelbart5 . ",
     "url": "http://localhost:4000/docs/lab/semantica/#semantic-embeddings",
     "relUrl": "/docs/lab/semantica/#semantic-embeddings"
-  },"65": {
+  },"72": {
     "doc": "Semantica",
     "title": "Tools",
     "content": "Field . Functional Description . Finds concepts which are closely related to a given concept. Spatial Intuition . Finds concepts which are close to a given concept. Numerical Implementation . Finds concepts whose embeddings are the most similar to the embedding of a given concept. &gt;&gt;&gt; field('car') ['vehicle', 'cars', 'suv', 'minivan', 'truck', 'ford_focus', 'honda_civic', 'jeep'] &gt;&gt;&gt; field('galaxy') ['galaxies', 'milky_way', 'planets', 'supernova', 'galactic', 'universe', 'comet', 'planet', 'cosmos'] &gt;&gt;&gt; field('bed') ['beds', 'couch', 'sofa', 'sleep', 'duvet', 'sleeping', 'bunk', 'pillow', 'mattress'] . A semantic field is a set of words related in meaning. This tool can be used to expand concepts into their semantic fields. Mix . Functional Description . Blends given concepts into new ones. Spatial Intuition . Finds concepts which are close to the center of the given concepts. Numerical Implementation . Finds concepts whose embeddings are the most similar to the average embedding of the given concepts. &gt;&gt;&gt; mix('people', 'chaos') ['anarchy', 'mayhem', 'chaotic', 'civil_strife', 'bedlam', 'strife', 'bloodshed', 'upheaval'] &gt;&gt;&gt; mix('computer', 'virus') ['viruses', 'computers', 'antivirus_software', 'malware', 'spyware', 'worm', 'antivirus'] &gt;&gt;&gt; mix('brain', 'science') ['neuroscience', 'brains', 'biology', 'physiology', 'cognition', 'mathematics', 'neural', 'cognitive'] . Conceptual blending has been described as the process of partially projecting multiple concepts onto a blended mental space.8 If this explanation seems largely circular, that’s because it is. Still, this tool can be used to perform this ill-defined but intuitive task. Span . Functional Description . Finds a sequence of concepts which spans the continuum between two given concepts. Spatial Intuition . Finds concepts located along the line between two given concepts. Numerical Implementation . Finds concepts whose embeddings are the most similar to the interpolated embeddings of two given concepts. &gt;&gt;&gt; span('pond', 'ocean') ['pond', 'ponds', 'retention_pond', 'drainage_ditch', 'creek', 'creek_bed', 'lake', 'river', 'lagoon', 'marsh', 'sea', 'ocean'] &gt;&gt;&gt; span('city', 'house') ['city', 'mayor', 'municipality', 'municipal', 'district', 'downtown', 'town', 'neighborhoods', 'neighborhood', 'houses', 'house'] &gt;&gt;&gt; span('kindergarten', 'university') ['kindergarten', 'kindergartners', 'preschool', 'sixth_graders', 'eighth_grade', 'elementary', 'school', 'students', 'university'] . The selected samples are massively cherry-picked. However, in the envisioned use cases of this toolkit, there’s always a human-in-the-loop who is able to sift through some moderate amounts of noise. Shift . Functional Description . Captures the relation between two given concepts. Spatial Intuition . Determines the directed difference in location between two given concepts. Numerical Implementation . Computes the arithmetic difference between the embeddings of two given concepts. &gt;&gt;&gt; mix('cell', shift('biology', 'physics')) ['atoms', 'electron', 'electrons', 'photons', 'neutrons', 'particle', 'photon', 'physics'] &gt;&gt;&gt; mix('saxophone', shift('jazz', 'rock')) ['rock', 'guitar', 'bass_guitar', 'guitars', 'electric_guitar', 'rocks', 'guitar_riffs', 'trombone', 'guitarist'] &gt;&gt;&gt; mix('burrito', shift('Spain', 'Italy')) ['pizza', 'burger', 'sandwich', 'pasta', 'pizzas', 'cheeseburger', 'pizzeria', 'hamburger', 'sushi'] . Metaphor comes from the Latin metaphora, meaning to carry over. This tool can be used to carry over concepts from one domain to another. Match . Functional Description . Finds sets of concepts whose elements match the relations found in a given set of concepts. Spatial Intuition . Finds constellations of concepts which match the shape of a given constellation of concepts. Numerical Implementation . Finds sets of concepts whose internal differences in embeddings are the most similar to the ones found in a given set of concepts. &gt;&gt;&gt; match('people', 'society') ['members', 'membership'] ['players', 'team'] ['students', 'classroom'] ['women', 'womanhood'] ['customers', 'clientele'] ['workers', 'workforce'] ['fans', 'fandom'] ... &gt;&gt;&gt; match('physics', 'Einstein', target='science') ['biology', 'charles_darwin'] ['psychology', 'freud'] ['linguistics', 'chomsky'] ['philosophy', 'nietzsche'] ['astrophysics', 'stephen_hawking'] ... &gt;&gt;&gt; match('king', 'queen', target='acting') ['actor', 'actress'] ['al_pacino', 'meryl_streep'] ['cocky', 'bitchy'] ['best_actor', 'best_actress'] ['showman', 'diva'] ... Inspiration for this tool comes from a science fiction novel in which the main character needs to broadcast the location of a celestial body to an unknown civilization.9 However, given the lack of absolute reference frames available, he broadcasts the position of the celestial body relative to several neighboring ones. Here, because the dimensions of the semantic space aren’t inherently meaningful, a mental model is expressed as a set of distances from the first concept to each subsequent concept, forming a constellation of concepts. The Golden Records use a similar scheme to pinpoint the Earth.10 After finishing this write-up, I also came across this eerily related passage: . “The night sky is a partial representation of Prime Intellect’s mind. It’s called the Global Association Table. The points or stars represent concepts, and the lines are the links between them.” – Roger Williams11 . ",
     "url": "http://localhost:4000/docs/lab/semantica/#tools",
     "relUrl": "/docs/lab/semantica/#tools"
-  },"66": {
+  },"73": {
     "doc": "Semantica",
     "title": "Case Studies",
     "content": "Physicist &amp; Biologist . “My research group and I have been exploring potential applications of graphene for several years now. It’s a really fascinating material,” says the physicist. “You know, graphene is like… . &gt;&gt;&gt; mix('graphene', shift('physics', 'biology')) [... 'tissue' ...] . …tissue. Graphene is like a tissue of carbon atoms, in a similar way in which biological tissue is composed of a latticework of interconnected cells. It turns out to be quite resistant, yet flexible.” . Artist &amp; Scientist . “We see ourselves as living in two radically different worlds, but there’s a seamless transition between them,” says the artist. “Consider interdisciplinary fields such as… . &gt;&gt;&gt; span('art', 'science') [... 'humanities', 'museology' ...] . humanities or museology. We can meet each other halfway through.” . Sociologist &amp; Students . “Think of a society as a… . &gt;&gt;&gt; match('people', 'society', target='student') ['students', 'clasroom'] ... …classroom, composed of many independent students who all have their own individual beliefs, desires, and intentions.” . ",
     "url": "http://localhost:4000/docs/lab/semantica/#case-studies",
     "relUrl": "/docs/lab/semantica/#case-studies"
-  },"67": {
+  },"74": {
     "doc": "Semantica",
     "title": "Further Steps",
     "content": "Friendlier interfaces . From Photoshop-like stand-alones to Wolfram-like web apps, there are exciting ways of wrapping interfaces around these conceptual tools. Better tools . This early selection of tools merely scratches surface of how semantic embeddings can be used in building tools for thought. A largely unexplored space of possibilities is waiting for curious thinkers. Deeper integration . This toolkit only operates with knowledge on a conceptual level. In the future, it might be able to interface with definitions (e.g. from WordNet), multimedia content (e.g. from ImageNet), external resources (e.g. via Zotero), or more established tools for thought (e.g. Zettelkasten). Higher performance . The current software implementation has been developed for experimental purposes, rather than efficiency. Much needed code optimizations will significantly improve the speed of the algorithms involved. Better embeddings . Not all semantic embeddings are created equal. The ones used in this prototype have been obtained through a relatively rudimentary approach. Newer techniques capture meaning more effectively and with less bias.7 . ",
     "url": "http://localhost:4000/docs/lab/semantica/#further-steps",
     "relUrl": "/docs/lab/semantica/#further-steps"
-  },"68": {
+  },"75": {
     "doc": "Semantica",
     "title": "Contributions",
     "content": ". | The idea that semantic embeddings – specifically word embeddings – can be directly used to build tools for thought, rather than only as raw ingredients in downstream machine learning tasks. Earlier work explored the potential of interacting with abstract representations more generally.4 . | The idea that mental models can be formalized as constellations of semantic embeddings in semantic space. | The formalization and implementation of Span and Match. The other conceptual tools (i.e. Field, Mix, Shift) were already formalized and implemented in earlier work, one way or another. For example, Mix is based on additive composition of semantic embeddings.12 However, these operations were largely used to measure the quality of semantic embeddings for downstream tasks, rather than as first-hand tools. | The strengthened link between Photoshop and more radical tools for thought, through Photoshop-like names and descriptions. Photoshop has been extensively used as a prime example of tools for thought before, but the current work explores new ways of reinforcing this connection. | The name Semantica for a tool for conceptual thinking has been inspired by the name Mathematica, used to describe a tool for computational thinking.13 . | . ",
     "url": "http://localhost:4000/docs/lab/semantica/#contributions",
     "relUrl": "/docs/lab/semantica/#contributions"
-  },"69": {
+  },"76": {
+    "doc": "Semantica",
+    "title": "Join Us",
+    "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a Member . ",
+    "url": "http://localhost:4000/docs/lab/semantica/#join-us",
+    "relUrl": "/docs/lab/semantica/#join-us"
+  },"77": {
+    "doc": "Semantica",
+    "title": "Support Us",
+    "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a Sponsor . ",
+    "url": "http://localhost:4000/docs/lab/semantica/#support-us",
+    "relUrl": "/docs/lab/semantica/#support-us"
+  },"78": {
     "doc": "Semantica",
     "title": "References",
     "content": ". | Farnam Street,Mental Models &#8617; . | Marvin Minsky,The Society of Mind &#8617; . | George Lakoff &amp; Mark Johnson,Metaphors We Live By &#8617; . | Shan Carter &amp; Michael Nielsen,Using Artificial Intelligence to Augment Human Intelligence &#8617; &#8617;2 . | Douglas Engelbart,Augmenting Human Intellect &#8617; &#8617;2 . | Christopher Olah,Deep Learning, NLP, and Representations &#8617; . | Daniel Jurafsky &amp; James Martin,Speech and Language Processing &#8617; &#8617;2 . | Gilles Fauconnier,The Encyclopedia of the Social and Behavioral Sciences &#8617; . | Cixin Liu,The Three-Body Problem Trilogy &#8617; . | NASA,The Golden Record Cover &#8617; . | Roger Williams,The Metamorphosis of Prime Intellect &#8617; . | Mikolov et al.,Distributed Representations of Words and Phrases and their Compositionality &#8617; . | Stephen Wolfram,Computational Universe &#8617; . | . ",
     "url": "http://localhost:4000/docs/lab/semantica/#references",
     "relUrl": "/docs/lab/semantica/#references"
-  },"70": {
+  },"79": {
     "doc": "Studio",
     "title": "Studio",
     "content": "Design fictions suspending disbelief about change. Coming soon . ",
     "url": "http://localhost:4000/docs/studio/studio/",
     "relUrl": "/docs/studio/studio/"
-  },"71": {
+  },"80": {
     "doc": "Workshop",
     "title": "Workshop",
-    "content": "Software tools reshaping knowledge work. Coming soon . ",
+    "content": "Software tools reshaping knowledge work. ",
     "url": "http://localhost:4000/docs/workshop/workshop/",
     "relUrl": "/docs/workshop/workshop/"
+  },"81": {
+    "doc": "Workshop",
+    "title": "Dual",
+    "content": "NEW . Your second brain implant. ",
+    "url": "http://localhost:4000/docs/workshop/workshop/#dual",
+    "relUrl": "/docs/workshop/workshop/#dual"
   }
 }
