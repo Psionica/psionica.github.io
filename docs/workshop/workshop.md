@@ -19,5 +19,5 @@ Software tools reshaping knowledge work.
 NEW
 {: .label }
 
-Your second brain implant.
+Your second brain come to life.
 {: .fs-4 .fw-300 .text-left .mt-0 }
