@@ -5,6 +5,7 @@ nav_order: 1
 parent: Workshop
 description: "Your second brain implant."
 published: True
+image: /assets/images/dual-thumbnail.png
 ---
 
 # Dual
@@ -218,5 +219,3 @@ By supporting our efforts, you're investing in transparent research and developm
 [^9]: Greg Egan,<br/>[Closer](https://www.gregegan.net/MISC/CLOSER/Closer.html)
 [^10]: Andy Matuschak,<br/>[Prefer explicit associations to inferred associations](https://notes.andymatuschak.org/Prefer_explicit_associations_to_inferred_associations)
 [^11]: Andy Matuschak,<br/>[Writing forces sharper understanding](https://notes.andymatuschak.org/Writing_forces_sharper_understanding)
-
-<meta property="og:image" content="/assets/images/dual-thumbnail.png">

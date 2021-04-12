@@ -4,6 +4,12 @@ layout: table_wrappers
 
 <!DOCTYPE html>
 
+<head>
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  {% endif %}
+</head>
+
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
 <body>
