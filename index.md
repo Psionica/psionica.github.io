@@ -38,7 +38,7 @@ Ready for takeoff.
 WORKSHOP
 {: .label }
 
-Your second brain implant.
+Your second brain come to life.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
 ## [Autocards](/docs/lab/autocards)
