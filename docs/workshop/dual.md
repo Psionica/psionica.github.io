@@ -172,7 +172,7 @@ When tackling big questions or tough problems, throw your Dual into the mix as a
 ## Further Steps
 ### Hosted inference
 {: .no_toc}
-What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes. We're working on making this a reality through an option to host your Dual in the cloud.
+What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.[^12] We're working on making this a reality through an option to host your Dual in the cloud.
 
 ### More features
 {: .no_toc}
@@ -219,3 +219,4 @@ By supporting our efforts, you're investing in transparent research and developm
 [^9]: Greg Egan,<br/>[Closer](https://www.gregegan.net/MISC/CLOSER/Closer.html)
 [^10]: Andy Matuschak,<br/>[Prefer explicit associations to inferred associations](https://notes.andymatuschak.org/Prefer_explicit_associations_to_inferred_associations)
 [^11]: Andy Matuschak,<br/>[Writing forces sharper understanding](https://notes.andymatuschak.org/Writing_forces_sharper_understanding)
+[^12]: Ben Balter,<br/>[Why everything should have a URL](https://ben.balter.com/2015/11/12/why-urls/)
