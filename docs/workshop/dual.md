@@ -52,7 +52,7 @@ The ideas, concepts, and insights which you include in your second brain make up
 {: .quote }
 "And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication." -- Niklas Luhmann[^5]
 
-### Your Dual is a virtual assistant for thinking
+### Your Dual is a virtual assistant for knowledge work
 {: .no_toc }
 
 Your Dual can't make changes to your notes directly, it can only read from them when interacting with you. And that's not a bug, it's a feature. Your Dual is designed to *assist* you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level.[^10][^11] It would otherwise be extremely tempting to succumb to overreliance on this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you. It provides a metacognitive helping hand.
