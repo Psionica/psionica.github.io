@@ -24,6 +24,30 @@ Ready for takeoff.
 
 ---
 
+## Platform
+
+Psionica offers you a number of tools to help you bring powerful tools for thought to life.
+
+### Support structure
+
+Find collaborators for working on exciting projects through [our friendly Discord server](https://discord.gg/NXYZUbhMNf). Get to know like-minded people with diverse backgrounds who share your interests in augmenting thought.
+
+### Hardware/software resources
+
+As part of [our transparent budget](https://opencollective.com/psionica), you can request hardware (e.g. a temporary GPU cluster in the cloud) or software resources (e.g. third-party API access) to support you in building your projects. That said, resources are granted on a case by case basis when free and open source alternatives are inaccessible.
+
+### Exposure
+
+Our website and online presence can help you gain the initial traction necessary to get open source projects off the ground. Put your ideas out there through our growing collection of transformative tools for thought and increase the visibility of your projects.
+
+### Opportunities
+
+Grow your network and learn about the latest opportunities in cognitive augmentation (e.g. job openings, hackathons, conferences), offered both by Psionica and other organizations.
+
+[Start Project](https://github.com/Psionica/psionica.github.io/issues/new/choose){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](https://discord.gg/NXYZUbhMNf){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
 ## Structure
 
 Psionica's structure is a project in itself. We're suggesting a triple approach to cognitive augmentation in an attempt to surpass some of the challenges identified the field.[^4] By incorporating three nested constraints in our process, we're trying to strike a balance between open-ended exploration through experimental prototypes and results-oriented development of software tools. Those layers are embedded in the Studio, the Lab, and the Workshop.
