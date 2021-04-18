@@ -26,7 +26,7 @@ Ready for takeoff.
 
 ## Platform
 
-Psionica offers you a number of tools to help you bring powerful tools for thought to life.
+Psionica offers you a number of perks to help you bring powerful tools for thought to life.
 
 ### Support structure
 
@@ -34,7 +34,7 @@ Find collaborators for working on exciting projects through [our friendly Discor
 
 ### Hardware/software resources
 
-As part of [our transparent budget](https://opencollective.com/psionica), you can request hardware (e.g. a temporary GPU cluster in the cloud) or software resources (e.g. third-party API access) to support you in building your projects. That said, resources are granted on a case by case basis when free and open source alternatives are inaccessible.
+As part of [our transparent budget](https://opencollective.com/psionica), you can request hardware (e.g. a temporary GPU cluster in the cloud) or software resources (e.g. third-party API access) to support you in building your projects. Resources are granted on a case by case basis when free and open source alternatives are inaccessible.
 
 ### Exposure
 
