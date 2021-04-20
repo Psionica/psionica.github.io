@@ -7,7 +7,7 @@ description: "An open collective on a mission to augment thought for all."
 ---
 
 # Psionica
-{: .fs-9 }
+{: .fs-9 .mt-0 }
 
 An open collective on a mission to augment thought for all.
 {: .fs-6 .fw-300 .text-left }
