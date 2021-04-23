@@ -100,7 +100,7 @@ By supporting our efforts, you're investing in transparent research and developm
 ## References
 
 {: .text-right }
-[^1]: Richard Hamming,<br/>[The Unreasonable Effectiveness of Mathematics](https://www.dartmouth.edu/~matc/MathDrama/reading/Hamming.html).
+[^1]: Richard Hamming,<br/>[The Unreasonable Effectiveness of Mathematics](https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(RW%20Hamming).pdf).
 [^2]: Bret Victor,<br/>[Media for Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/).
 [^3]: Carl Sagan,<br/>[Pale Blue Dot](https://www.youtube.com/watch?v=GO5FwsblpT8)
 [^4]: Andy Matuschak & Michael Nielsen,<br/>[How can we develop transformative tools for thought?](https://numinous.productions/ttft/#why-not-more-work)
