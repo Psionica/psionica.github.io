@@ -151,7 +151,9 @@ Despite its current flaws, MemNav manages to provide an insightful vantage point
 
 ## Acknowledgments
 
-Our work is supported by awesome sponsors: [Andreas Stuhlmüller](https://stuhlmueller.org/), [Yang Wao](https://twitter.com/yangwao).
+Our work is supported by awesome sponsors:
+- [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us
 

@@ -179,7 +179,9 @@ We have a unique relationship with questions, so why not leverage that to our ad
 
 ## Acknowledgments
 
-Our work is supported by awesome sponsors: [Andreas Stuhlmüller](https://stuhlmueller.org/), [Yang Wao](https://twitter.com/yangwao).
+Our work is supported by awesome sponsors:
+- [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us
 

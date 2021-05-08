@@ -79,9 +79,11 @@ Promoting critical thinking through machine-generated prompts.
 
 ---
 
-## Acknowledgments
+## Acknowledgements
 
-Our work is supported by awesome sponsors: [Andreas Stuhlmüller](https://stuhlmueller.org/), [Yang Wao](https://twitter.com/yangwao).
+Our work is supported by awesome sponsors:
+- [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us
 

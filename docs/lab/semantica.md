@@ -314,7 +314,9 @@ Not all semantic embeddings are created equal. The ones used in this prototype h
 
 ## Acknowledgments
 
-Our work is supported by awesome sponsors: [Andreas Stuhlmüller](https://stuhlmueller.org/), [Yang Wao](https://twitter.com/yangwao).
+Our work is supported by awesome sponsors:
+- [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us
 
