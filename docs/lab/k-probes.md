@@ -181,6 +181,7 @@ We have a unique relationship with questions, so why not leverage that to our ad
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [David Dohan](https://twitter.com/dmdohan)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us

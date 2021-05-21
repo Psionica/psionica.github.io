@@ -192,6 +192,7 @@ All those language models take up a lot of memory and are somewhat sluggish. Mem
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [David Dohan](https://twitter.com/dmdohan)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us

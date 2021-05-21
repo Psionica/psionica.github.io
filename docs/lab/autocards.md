@@ -184,6 +184,7 @@ Additionally, the range of possible inputs which could be fed into Autocards mig
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [David Dohan](https://twitter.com/dmdohan)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us

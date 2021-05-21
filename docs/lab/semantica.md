@@ -316,6 +316,7 @@ Not all semantic embeddings are created equal. The ones used in this prototype h
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [David Dohan](https://twitter.com/dmdohan)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us

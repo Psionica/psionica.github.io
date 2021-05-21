@@ -153,6 +153,7 @@ Despite its current flaws, MemNav manages to provide an insightful vantage point
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
+- [David Dohan](https://twitter.com/dmdohan)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us
