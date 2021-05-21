@@ -47,7 +47,7 @@ We'll now explore the inner workings of Dual, the piece of software which learns
 ### Your Dual is a skilled virtual assistant for knowledge work
 {: .no_toc }
 
-While conversing with your Dual, you can ask it to do things. You might want to find notes related to a certain topic, brainstorm research questions, or get your hands on the summary of an article. What your Dual can do for you is entirely determined by its set of skills, also refered to as its skillset. Skills are simply Markdown files which specify the desired behavior of your virtual assistant in natural language. Generally, you can teach it new skills by merely describing them in plain English (or in other languages, for that matter). Following this learning phase, your Dual can then use its skills to best follow your commands. It then simply produces responses as chat messages. More details about its innate skills and how to teach it new ones follow in the upcoming sections.
+While conversing with your Dual, you can ask it to help you with things. You might want to find notes related to a certain topic, brainstorm research questions, or get your hands on a summary of an article. What your Dual can do for you is entirely determined by its set of skills, also refered to as its skillset. Skills are simply Markdown files which specify the desired behavior of your virtual assistant *in natural language*. Generally, you can teach it new skills by merely describing them in plain English (or in other languages, for that matter). Following this learning phase, your Dual can use its skills to best follow your commands before producing responses as chat messages.
 
 {: .quote }
 "The best interface to my brain is a relationship. That's how merging feels like. That's how I envision it." -- George Hotz[^6]
@@ -55,7 +55,7 @@ While conversing with your Dual, you can ask it to do things. You might want to 
 ### Your Dual is your second brain come to life
 {: .no_toc }
 
-The ideas, concepts, and insights which you include in your second brain make up your Dual's long-term memory in a manner reminiscent of the spreading activation model.[^4] When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide context for the previously fine-tuned language model when producing an original response. The result of this [cognitive architecture](https://paulbricman.com/secondbrain/second-brain-architecture-closely-resembles-human-cognitive-architecture) is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge into its replies as needed.
+The ideas, concepts, and insights which you include in your second brain make up your Dual's long-term memory. When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide context for the previously fine-tuned language model when producing an original response. The end result of using this [cognitive architecture](https://paulbricman.com/secondbrain/second-brain-architecture-closely-resembles-human-cognitive-architecture) is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge into its replies as needed.
 
 {: .quote }
 "And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication." -- Niklas Luhmann[^5]
@@ -64,13 +64,24 @@ The ideas, concepts, and insights which you include in your second brain make up
 
 ## Structure
 
-As mentioned before, your Dual has at its core a fine-tuned language model. Currently, it's using [GPT-2](https://huggingface.co/gpt2-medium), a language model which has been open sourced in late 2019 and can run on average consumer hardware. However, in the upcoming months, Dual will advance to [GPT-Neo](https://huggingface.co/EleutherAI/gpt-neo-1.3B), an open source replica of GPT-3 created by [EleutherAI](https://www.eleuther.ai/) which outperforms it on many benchmarks. We're very pleased that different open collectives can build on each other's work so easily thanks to the open source ecosystem. For users who want to opt-out of running the language model on their machine for free, we'll provide a wrapper around OpenAI's hosted [offering](https://beta.openai.com).
+As mentioned before, your Dual has at its core a fine-tuned language model. Currently, it's using [GPT-2](https://huggingface.co/gpt2-medium), a language model which has been open sourced in late 2019 and can run on average consumer hardware. However, in the upcoming months, Dual will advance to [GPT-Neo](https://huggingface.co/EleutherAI/gpt-neo-1.3B), an open source replica of GPT-3 created by [EleutherAI](https://www.eleuther.ai/) which outperforms GPT-3 on many benchmarks. We're very pleased that different open collectives can build on each other's work so easily thanks to the open source ecosystem. For users who want to opt-out of running the language model on their machine for free, we'll provide a wrapper around OpenAI's hosted [offering](https://beta.openai.com/pricing).
 
 Another essential component of Dual is the skill interpreter. It orchestrates the use of skills at a high-level, and is responsible for the following: determining when to use what skill, keeping track of skills which use other skills, understanding your commands, and so on. It's conceptually similar to a traditional interpreter of programming languages, such as the Python or Javascript ones, but it's designed to interpret natural language expressed in plain text and then act on it. In this, Dual is also an important step in developing a new programming paradigm, one based on [humane representations](https://vimeo.com/115154289) such as natural language or [3D scapes](https://youtu.be/FLENZ_si7N8?t=1947), as opposed to clunky symbolic syntax.
 
-Interacting with Dual is done through a familiar chat interface. Your Dual is reading your messages and then typing out responses while using its skills. The chat has full support for Markdown formatting, meaning that if your Dual eventually sends you a list, a table, or even an image, they all get rendered in the chat as responses. While the current implementation is packaged as an [Obsidian](https://obsidian.md/) plugin, Dual will integrate with other tools in the future (e.g. [Roam Research](https://roamresearch.com/)). Mobile [speech interfaces](https://www.media.mit.edu/projects/alterego/overview/) around Dual are also on the table.
+Interacting with Dual is done through a familiar chat interface. Dual is reading your messages and then typing out responses using its skills. The chat has full support for Markdown formatting, meaning that if your Dual eventually sends you a list, a table, or even an image, they all get rendered in the chat as responses. While the current implementation is packaged as an [Obsidian](https://obsidian.md/) plugin, Dual will integrate with other tools in the future (e.g. [Roam Research](https://roamresearch.com/)). Mobile [speech interfaces](https://www.media.mit.edu/projects/alterego/overview/) around Dual are also on the table.
 
-As teaching Dual to recreate itself from scratch is somewhat beyond the capabilities of current language models, Dual itself is implemented using several programming languages. Managing the language model was initially done using Python, but we're transitioning to Rust for more robust cross-platform builds (possibly with a WebAssembly target). The skill interpreter and the interface are both written in Typescript, playing nicely with an Electron app such as Obsidian.
+As teaching Dual to recreate itself from scratch is somewhat beyond the capabilities of current language models, Dual itself is implemented using several programming languages. Managing the language model was initially done using Python, but we're transitioning to [Rust](https://github.com/guillaume-be/rust-bert) for more robust cross-platform builds (possibly with a WebAssembly target). The skill interpreter and the interface are both written in Typescript, playing nicely with an Electron app like Obsidian.
+
+---
+
+## Skills
+
+{: .code-block }
+```
+- A
+- A
+Complete the paragraph starting with "#0"
+```
 
 ---
 
