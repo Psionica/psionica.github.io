@@ -6381,3 +6381,5 @@ figure.highlight {
   .main {
     max-width: none;
     margin-left: 0; } }
+.border {
+  border: 1px solid #2c84fa; }

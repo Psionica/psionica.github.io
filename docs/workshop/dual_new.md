@@ -76,12 +76,32 @@ As teaching Dual to recreate itself from scratch is somewhat beyond the capabili
 
 ## Skills
 
-{: .code-block }
-```
-- A
-- A
-Complete the paragraph starting with "#0"
-```
+This section provides a brief tour of the types of skills your Dual can currently acquire. It's not an in-depth tutorial, just a quick glance at the skills you can teach it by only using Markdown. 
+
+For starters, let's say you're a researcher in academia and want to teach your (virtual) assistant how to come up with research questions on different subjects. To best explain this task, you might choose to provide a few examples of what you consider to be good research questions. This is what happens in the first few lines of the file listed below. However, remember that you want to teach it how to come up with suggestions on *new* subjects. To describe this task, you might use the placeholder `*subject*` and ask it to complete the pattern with a new sentence. Placeholders are automatically filled in when the skill is used for following related commands.
+
+{: .border }
+![](/assets/images/dual_formulate_research_questions.png)
+
+After teaching your Dual this skill (by creating the skill file), it will automatically figure out when and how to use it, as can be seen in the chat. Actually, the `Write a paragraph...` part is just another command you can ask Dual yourself in the chat. It's skills building on each other all the way down.
+
+The next example is similar. Provide some examples, a placeholders or two, ask it to complete the pattern, and you just taught it a new skill. You can use any placeholders you wish  (e.g. `*person*`, `*language*`, `*property*`) and provide as many of them as you like. Dual knows how to fill them in automatically, provided you actually specify them in your commands.
+
+{: .border }
+![](/assets/images/dual_find_related_concepts.png)
+
+Now, skills can also build on any number of other skills. For instance, let's say you'd like your Dual to know how to answer open-ended questions using knowledge from your notes. In only a few lines of text, you can specify that exact behavior. Placeholders get filled in as usual, notes related to the topic are being retrieved, and the pattern gets completed.  
+
+{: .border }
+![](/assets/images/dual_answer_open_questions.png)
+
+{: .border }
+![](/assets/images/dual_formulate_questions.png)
+
+{: .border }
+![](/assets/images/dual_ask_wikipedia.png)
+
+
 
 ---
 
