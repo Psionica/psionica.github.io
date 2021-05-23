@@ -34,5 +34,5 @@ Expanding propositional memory through text mining.
 
 ## [Knowledge Probes](/docs/lab/k-probes)
 
-Promoting critical thinking through machine-generated prompts.
+Promoting critical thinking through prompt generation.
 {: .fs-4 .fw-300 .text-left }

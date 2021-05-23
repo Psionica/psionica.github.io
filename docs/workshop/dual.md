@@ -12,7 +12,10 @@ image: /assets/images/dual-thumbnail.png
 {: .no_toc }
 
 Amplifying knowledge work through user-defined assistants.
-{: .fs-6 .fw-300 .text-left }
+{: .fs-6 .fw-300 .text-left .mb-0 }
+
+By Paul Bricman and Benjamin Leveritt
+{: .mt-1 }
 
 [View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/8){: .btn .fs-5 .mb-4 .mb-md-0 }
 

@@ -11,7 +11,10 @@ published: True
 {: .no_toc }
 
 Expanding propositional memory through text mining.
-{: .fs-6 .fw-300 .text-left }
+{: .fs-6 .fw-300 .text-left .mb-0 }
+
+By Paul Bricman
+{: .mt-1 }
 
 [View Code](https://github.com/Psionica/MemNav){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/4){: .btn .fs-5 .mb-4 .mb-md-0 }
 

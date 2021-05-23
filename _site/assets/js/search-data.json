@@ -37,7 +37,7 @@
   },"6": {
     "doc": "Autocards",
     "title": "Autocards",
-    "content": "Accelerating learning through machine-generated flashcards. View Code Open Demo View Spec . ",
+    "content": "Accelerating learning through machine-generated flashcards. By Paul Bricman . View Code Open Demo View Spec . ",
     "url": "http://localhost:4000/docs/lab/autocards/",
     "relUrl": "/docs/lab/autocards/"
   },"7": {
@@ -109,7 +109,7 @@
   },"18": {
     "doc": "Dual",
     "title": "Dual",
-    "content": "Amplifying knowledge work through user-defined assistants. View Code View Spec . ",
+    "content": "Amplifying knowledge work through user-defined assistants. By Paul Bricman and Benjamin Leveritt . View Code View Spec . ",
     "url": "http://localhost:4000/docs/workshop/dual/",
     "relUrl": "/docs/workshop/dual/"
   },"19": {
@@ -217,7 +217,7 @@
   },"36": {
     "doc": "Home",
     "title": "Knowledge Probes",
-    "content": "LAB . Promoting critical thinking through machine-generated prompts. ",
+    "content": "LAB . Promoting critical thinking through prompt generation. ",
     "url": "http://localhost:4000/#knowledge-probes",
     "relUrl": "/#knowledge-probes"
   },"37": {
@@ -253,7 +253,7 @@
   },"42": {
     "doc": "K-Probes",
     "title": "Knowledge Probes",
-    "content": "Promoting critical thinking through machine-generated prompts. View Code View Spec . ",
+    "content": "Promoting critical thinking through prompt generation. By Paul Bricman . View Code View Spec . ",
     "url": "http://localhost:4000/docs/lab/k-probes/#knowledge-probes",
     "relUrl": "/docs/lab/k-probes/#knowledge-probes"
   },"43": {
@@ -355,13 +355,13 @@
   },"59": {
     "doc": "Lab",
     "title": "Knowledge Probes",
-    "content": "Promoting critical thinking through machine-generated prompts. ",
+    "content": "Promoting critical thinking through prompt generation. ",
     "url": "http://localhost:4000/docs/lab/lab/#knowledge-probes",
     "relUrl": "/docs/lab/lab/#knowledge-probes"
   },"60": {
     "doc": "MemNav",
     "title": "Memory Navigator",
-    "content": "Expanding propositional memory through text mining. View Code View Spec . ",
+    "content": "Expanding propositional memory through text mining. By Paul Bricman . View Code View Spec . ",
     "url": "http://localhost:4000/docs/lab/memnav/#memory-navigator",
     "relUrl": "/docs/lab/memnav/#memory-navigator"
   },"61": {
@@ -433,7 +433,7 @@
   },"72": {
     "doc": "Semantica",
     "title": "Semantica",
-    "content": "Extending conceptual thinking through semantic embeddings. View Code Open Demo View Spec . ",
+    "content": "Extending conceptual thinking through semantic embeddings. By Paul Bricman . View Code Open Demo View Spec . ",
     "url": "http://localhost:4000/docs/lab/semantica/",
     "relUrl": "/docs/lab/semantica/"
   },"73": {
