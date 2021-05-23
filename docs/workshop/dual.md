@@ -79,7 +79,7 @@ As teaching Dual to recreate itself from scratch is somewhat beyond the capabili
 
 ## Skills
 
-This section provides a brief tour of the types of skills your Dual can currently acquire. This isn't designed to serve as an in-depth tutorial, just as a quick glance at the skills you can teach Dual using Markdown. Skills and examples of their usage are provided together in the actual screenshots below, with the skill files on the left and the chat conversations on the right. Keep in mind that only *rendered* Markdown is shown, for simplicity. 
+This section provides a brief tour of the types of skills your Dual can currently acquire. This isn't designed to serve as an in-depth tutorial, just as a quick glance at the skills you can teach Dual using Markdown. Skills and examples of using them are provided together in the actual screenshots below, with the skill files on the left and the chat conversations on the right. Keep in mind that only *rendered* Markdown is shown, for simplicity. 
 
 For starters, let's say you're a researcher in academia and want to teach your (virtual) assistant how to come up with research questions on different subjects. To best explain this task, you might choose to provide a few examples of what you consider to be good research questions. This is what happens in the first few lines of the file listed below (have a look!). However, remember that you want to teach it how to come up with suggestions on *new* subjects. To describe this task, you might use the placeholder `*subject*` and ask it to complete the pattern with a new sentence. Placeholders are automatically filled in when the skill is used for following commands.
 
