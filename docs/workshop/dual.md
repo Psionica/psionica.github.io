@@ -85,7 +85,7 @@ For starters, let's say you're a researcher in academia and want to teach your (
 
 After teaching your Dual this skill (by simply creating the skill file), it will automatically figure out when and how to use it, as can be seen in the chat. Actually, the `Write a paragraph...` part is just another command you can issue to your Dual yourself in the chat! It's skills building on each other all the way down.
 
-The next example is similar. Provide some examples, a placeholders or two, ask it to complete the pattern, and you just taught it a new skill. You can use any placeholders you wish  (e.g. `*person*`, `*language*`, `*property*`) and provide as many of them as you like. Dual knows how to fill them in automatically, provided you actually specify them in your commands.
+The next example is similar. Provide some examples, a placeholder or two, ask it to complete the pattern, and you just taught it a new skill. You can use any placeholders you wish  (e.g. `*person*`, `*language*`, `*property*`) and provide as many of them as you like. Dual knows how to fill them in automatically, provided you actually specify them in your commands.
 
 {: .border }
 ![](/assets/images/dual_find_related_concepts.png)
@@ -109,7 +109,7 @@ Back to the skill below. This one relies on some Javascript to get information a
 {: .border }
 ![](/assets/images/dual_ask_wikipedia.png)
 
-This section merely provides an overview of how your Dual acquires skills. You could teach it to come up with metaphors, summarize short documents, suggest writing prompts, and what not. All in a local-first, user-defined, and open source way. You can find plenty of tasks which have been framed as text generation in this [awesome list](https://www.buildgpt3.com/). More resources on teaching Dual such skills will follow once it will graduate from an alpha version. 
+This section merely provides an overview of how your Dual acquires skills. You could teach it to come up with metaphors, summarize short documents, suggest writing prompts, and what not. All in a local-first, user-defined, and open source way. You can have a look at [this awesome list](https://www.buildgpt3.com/) for inspiration on framing all sorts of tasks as text generation, from writing code based on a natural language description to formulating arguments and counter-arguments. More resources on teaching Dual such skills will follow once it will graduate from an alpha version. 
 
 ---
 
@@ -120,7 +120,7 @@ What if you wanted others to interact with your Dual? Perhaps your research coll
 
 ### Better support
 {: .no_toc }
-At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained binary will greatly simplify the configuration.
+At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained system will greatly simplify the configuration.
 
 ### Extended skills
 {: .no_toc }
@@ -128,7 +128,7 @@ The light-weight "language" used to teach your Dual new skills will likely evolv
 
 ### Higher performance
 {: .no_toc }
-All those language models take up a lot of memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. Those improvements will enable the use of even more human-like language models.
+All those language models take up quite some memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU.
 
 ---
 
@@ -173,7 +173,7 @@ Do you want to contribute to the development of this project yourself? Join Psio
 [^12]: Ben Balter,<br/>[Why everything should have a URL](https://ben.balter.com/2015/11/12/why-urls/)
 [^13]: OpenAI,<br/>[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
 [^14]: Ought,<br/>[A taxonomy of approaches to capability amplification](https://ought.org/research/factored-cognition/taxonomy#pointers)
-[^15]: David Clear,<br/>[Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+[^15]: David Clear,<br/>[Zettelkasten](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
 [^16]: Matt Cone,<br/>[The Markdown Guide](https://www.markdownguide.org/getting-started/)
 [^17]: OpenAI,<br/>[Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 [^18]: EleutherAI,<br/>[GPT-Neo](https://github.com/EleutherAI/gpt-neo)
