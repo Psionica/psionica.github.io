@@ -38,7 +38,7 @@ Ready for takeoff.
 WORKSHOP
 {: .label }
 
-Amplifying knowledge work with fine-tuned language models.
+Amplifying knowledge work through user-defined assistants.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
 ## [Autocards](/docs/lab/autocards)

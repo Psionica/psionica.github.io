@@ -3,7 +3,7 @@ layout: default
 title: Dual
 nav_order: 1
 parent: Workshop
-description: "Amplifying knowledge work with fine-tuned language models."
+description: "Amplifying knowledge work through user-defined assistants."
 published: True
 image: /assets/images/dual-thumbnail.png
 ---
@@ -11,7 +11,7 @@ image: /assets/images/dual-thumbnail.png
 # Dual
 {: .no_toc }
 
-Amplifying knowledge work with fine-tuned language models.
+Amplifying knowledge work through user-defined assistants.
 {: .fs-6 .fw-300 .text-left }
 
 [View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/8){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -36,7 +36,7 @@ However, even if neural activity seems to be the most accurate proxy for thought
 {: .quote }
 "You, I hope, are one of those explorers. You, I hope, found these sheets of copper and deciphered the words engraved on their surfaces. And whether or not your brain is impelled by the air that once impelled mine, through the act of reading my words, the patterns that form your thoughts become an imitation of the patterns that once formed mine. And in that way I live again, through you." -- Ted Chiang[^3]
 
-This abundance, naturally, powered recent advances in natural language processing. That said, current language models typically reflect the aggregate thought patterns of millions of people who have contributed data to the training set, whether willingly or not. However, disciplined note-taking practices such as the Zettelkasten and digital gardening enable the fine-tuning of generic language models to one's specific way of thinking. By using hundreds of written notes as training data, we can configure a model to *learn to be the note-taker*, to internalize their thought patterns, to adopt their writing style and interests, to approximate their mannerisms and responses. After several months of disciplined note-taking, the aligned model becomes powerful enough to accurately extrapolate the written thoughts of its user, enabling transformative new ways of conducting knowledge work and an early glimpse into immortality.
+This abundance, naturally, powered recent advances in natural language processing. That said, current language models typically reflect the aggregate thought patterns of millions of people who have contributed data to the training set, whether willingly or not. However, disciplined note-taking practices such as the Zettelkasten and digital gardening enable the fine-tuning of generic language models to one's specific way of thinking.[^15] By using hundreds of written notes as training data, we can configure a model to *learn to be the note-taker*, to internalize their thought patterns, to adopt their writing style and interests, to approximate their mannerisms and responses. After several months of disciplined note-taking, the aligned model becomes powerful enough to accurately extrapolate the written thoughts of its user, enabling transformative new ways of conducting knowledge work and an early glimpse into immortality.
 
 We'll now explore the inner workings of Dual, the piece of software which learns to be its user, named so as a tribute to Egan. However, before doing that, we'll consider some useful framings for better understanding what your Dual is and what it isn't.
 
@@ -44,146 +44,90 @@ We'll now explore the inner workings of Dual, the piece of software which learns
 
 ## Paradigms
 
-### Your Dual is your second brain come to life
+### Your Dual is a skilled virtual assistant for knowledge work
 {: .no_toc }
 
-The ideas, concepts, and insights which you include in your second brain make up your Dual's long-term memory in a manner reminiscent of the spreading activation model.[^4] Relevant pieces of knowledge are strategically remembered behind the scenes when your Dual is conversing with you, populating its working memory in a context-dependent manner. When finally engaging in a reply to your messages, the items stored in working memory are used in tandem with the previously fine-tuned language model to generate a response. The result is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge into its replies.
-
-{: .quote }
-"And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication." -- Niklas Luhmann[^5]
-
-### Your Dual is a virtual assistant for knowledge work
-{: .no_toc }
-
-Your Dual can't make changes to your notes directly, it can only read from them when interacting with you. And that's not a bug, it's a feature. Your Dual is designed to *assist* you in knowledge work, rather than to do it for you. You still have to do the hard work of creating, linking, and updating notes. Why? Not because of technical obstacles, but rather because putting in the effort is helpful in the long-term: it fosters understanding and retention on a much deeper level.[^10][^11] It would otherwise be extremely tempting to succumb to overreliance on this and future systems. Your Dual is there to amplify your impact through collaboration, not to replace you. It provides a metacognitive helping hand.
+While conversing with your Dual, you can ask it to help you with things. You might want to find notes related to a certain topic, brainstorm research questions, or get your hands on a summary of an article. What your Dual can do for you is entirely determined by its set of skills, also refered to as its skillset. Skills are simply Markdown files which specify the desired behavior of your virtual assistant *in natural language*.[^16] Generally, you can teach it new skills by merely describing them in plain English (or in other languages, for that matter). Following this learning phase, your Dual not only adopts your way of thinking, but can also use its skills to best follow your commands before producing responses as chat messages.
 
 {: .quote }
 "The best interface to my brain is a relationship. That's how merging feels like. That's how I envision it." -- George Hotz[^6]
 
-### Your Dual is the librarian of your thoughts
+### Your Dual is your second brain come to life
 {: .no_toc }
 
-Your Dual is very apt at searching for items in your knowledge base, just like a librarian knows their way around the bookshelves. Ask it for notes which describe metaphors of the mind, and you'll get a list of candidates in seconds, even if part of the search results were written years ago. Ask it for entries which provide arguments supporting the feasibility of mind upload, and it will readily point you towards the (numerous) relevant items.
+The ideas, concepts, and insights which you include in your second brain make up your Dual's long-term memory. When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide an explicit context for the previously fine-tuned language model when producing an original response. The end result of using this cognitive architecture is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge with your style of writing.[^22]
+
+{: .quote }
+"And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication." -- Niklas Luhmann[^5]
 
 ---
 
-## Architecture
+## Structure
 
-Your Dual consists of three broad components: the essence, the skeleton, and the interface. Together, these components enable a conversational medium between you and your emulated self.
+As mentioned before, your Dual has at its core a fine-tuned language model. Currently, it's using GPT-2, a language model which has been open sourced in late 2019 and can run on average consumer hardware.[^17] However, in the upcoming months, Dual will advance to GPT-Neo, an open source replica of GPT-3 created by [EleutherAI](https://www.eleuther.ai/) which outperforms GPT-3 on many benchmarks.[^18] We're very pleased that different open collectives can build on each other's work so easily thanks to the open source ecosystem. For users who want to opt-out of running the language model on their machine for free, we'll provide a wrapper around OpenAI's hosted [offering](https://beta.openai.com/pricing).
 
-### Essence
+Another essential component of Dual is the skill interpreter. It orchestrates the use of skills at a high-level, and is responsible for the following: determining when to use what skill, keeping track of skills which use other skills, understanding your commands, and so on. It's conceptually similar to a traditional interpreter of programming languages, such as the Python or Javascript ones, but it's designed to interpret natural language expressed in plain text and then act on it. In this, Dual is also an important step in developing a new programming paradigm, one based on humane representations such as natural language or 3D scapes, as opposed to clunky symbolic syntax.[^19] [^20]
 
-The essence is an instance of GPT-2, a language model which has learned to generate human-like text based on giant internet archives. Crucially, this language model is fine-tuned on your personal notes before use in order to accurately capture your way of thinking. The essence is the central component of your Dual and the only one of the three which differs from user to user. It's here that your thought patterns are extracted and extrapolated.
+Interacting with Dual is done through a familiar chat interface. Dual is reading your messages and then typing out responses using its skills. The chat has full support for Markdown formatting, meaning that if your Dual eventually sends you a list, a table, or even an image, they all get rendered in the chat as responses. While the current implementation is packaged as an [Obsidian](https://obsidian.md/) plugin, Dual will integrate with other tools in the future (e.g. [Roam Research](https://roamresearch.com/)). Mobile speech interfaces around Dual are also on the table.[^21]
 
-### Skeleton
-
-The skeleton consists of a collection of several smaller language models which play auxiliary roles in your Dual's operation. Two text encoders are used sequentially to derive semantic embeddings from your notes which are then used when spontaneously remembering relevant knowledge. Yet another language model is tasked with determining which notes match a given natural language description when necessary. A local server exposes a minimal API for the interface to consume.
-
-### Interface
-
-The interface resembles an instant messaging chat, complete with a message history which you can scroll through, and even with a status indicator which signals whether your Dual is typing. This component (currently) consists of an Obsidian plugin which defines a new view in a side panel. Use the chat as you normally would, except that at the other end is your emulated self, rather than a peer. The interface is your main point of contact with your Dual.
-
-![Dual Screenshot](/assets/images/dual.png)
+As teaching Dual to recreate itself from scratch is somewhat beyond the capabilities of current language models, Dual itself is implemented using several programming languages. Managing the language model was initially done using [Python](https://huggingface.co/transformers/), but we're experimenting with [Rust](https://github.com/guillaume-be/rust-bert) and [Javascript](https://www.tensorflow.org/js) for better cross-platform support. The skill interpreter and the interface are both written in Typescript, playing nicely with an Electron app like Obsidian.
 
 ---
 
-## Features
+## Skills
 
-Your Dual's architecture enables three progressively more powerful features: fluid search, descriptive search, and open dialogue. Fluid and descriptive search are extractive features, meaning that they merely guide you to existing notes which are currently relevant. In contrast, open dialogue is a generative feature. It can be used to synthesize original content from scratch whose connection to previous notes is abstract and non-trivial. Naturally, this is the main attraction.
+This section provides a brief tour of the types of skills your Dual can currently acquire. This isn't designed to serve as an in-depth tutorial, just as a quick glance at the skills you can teach Dual using Markdown. Skills and examples of their usage are provided together in the actual screenshots below, with the skill files on the left and the chat conversations on the right. Keep in mind that only *rendered* Markdown is shown, for simplicity. 
 
-Samples from the author's own Dual are provided for illustration purposes.[^7] However, due to the underlying second brain being only several weeks old at the time of writing, a personal diary spanning several months has also been used for deriving the essence.
+For starters, let's say you're a researcher in academia and want to teach your (virtual) assistant how to come up with research questions on different subjects. To best explain this task, you might choose to provide a few examples of what you consider to be good research questions. This is what happens in the first few lines of the file listed below (have a look!). However, remember that you want to teach it how to come up with suggestions on *new* subjects. To describe this task, you might use the placeholder `*subject*` and ask it to complete the pattern with a new sentence. Placeholders are automatically filled in when the skill is used for following commands.
 
-### Fluid Search
+{: .border }
+![](/assets/images/dual_formulate_research_questions.png)
 
-This search feature is all about what your notes are *about*. It goes beyond traditional search and can locate relevant notes regardless of whether they explicitly contain the words used in the query, provided they're about the same topic. In this, it's fluid, it's frictionless.
+After teaching your Dual this skill (by simply creating the skill file), it will automatically figure out when and how to use it, as can be seen in the chat. Actually, the `Write a paragraph...` part is just another command you can issue to your Dual yourself in the chat! It's skills building on each other all the way down.
 
-- ***Find notes about seamlessly navigating one's notes.***
+The next example is similar. Provide some examples, a placeholders or two, ask it to complete the pattern, and you just taught it a new skill. You can use any placeholders you wish  (e.g. `*person*`, `*language*`, `*property*`) and provide as many of them as you like. Dual knows how to fill them in automatically, provided you actually specify them in your commands.
 
-{: .existing-note }
-By using fluid search through a collection of previous notes, one can elevate into their awareness the most semantically related items in their second brain. This way, they are then easily able to optimally weave together new information with old information, in the spirit of constructivism.
+{: .border }
+![](/assets/images/dual_find_related_concepts.png)
 
-### Descriptive Search
+However, providing examples might not always be the best way of teaching a skill. For instance, let's say you'd like your Dual to know how to answer open-ended questions using knowledge from your notes. In only a few lines of text, you can specify that exact behavior without even providing examples. Placeholders get filled in as usual, notes related to the topic are being retrieved, and the pattern gets completed. You can teach it skills which build on any number of other skills.
 
-This search feature builds on the previous one, but takes things a step further. You can now more flexibly describe the entries you are looking for, not only in terms of topic, but in terms of content. Find examples, arguments, parallels, and others. The possibilities are endless.
+{: .border }
+![](/assets/images/dual_answer_open_questions.png)
 
-- ***Look for a note which describes an analogy between machine learning and sociology.***
+The following skill is also learned in a *zero-shot* fashion, meaning that no examples are provided, as opposed to the first two skills which were acquired in a *few-shot* way. If you got what those terms refer to, you have a pretty good chance of understanding the main innovation introduced by the GPT-3 paper, which is applied here to other language models.[^13] Actually, Dual can also be seen as simply a framework for prompt engineering plus some handy features for enabling a conversational interface.
 
-{: .existing-note }
-Contrastive learning is machine learning based on strategically sampling counterexamples for a given concept. Similarly, some sociologists argue that criminality and deviant behavior are essential for a well-functioning society as they provide "counterexamples" to the norm. Essentially, deviants successfully inform the social norm space, perhaps better than actual explicit norms. Their expressiveness is essential, as without them society would lose its sense of identity. There would be a collapse, just as in machine learning.
+The skill below is all about prompting the user to reflect on certain topics described in their notes. You might have also noticed `#0` being used several times in those examples. That's indeed probably the least natural part of the otherwise pretty casual "syntax" used here. `#0` is simply shorthand for "everything before this block," while using `#1` would refer to the result of the first block, and so on. This design choice was inspired by an exploration of approaches to capability amplification created by [Ought](https://ought.org/), another non-profit operating in this space.[^14]
 
-- ***Search for a note which argues that measuring neural activity with EEG is tricky.***
+{: .border }
+![](/assets/images/dual_formulate_questions.png)
 
-{: .existing-note }
-In the brain-stadium metaphor, neural activity is associated with the vivid activity which happens inside a stadium during a sport event. Each individual supporter from the audience represents a neuron firing. According to this mapping, EEG corresponds to recording sound from outside the stadium, trying to reconstruct individual supporter activity. Additionally, single unit recording corresponds to having microphones down the throats of individual supporters.
+You can teach your Dual skills using plain natural language. However, if you want to prescribe a more programmatic task, such as computing the result of a mathematical expression or fetching data from an endpoint, you can also throw in some snippets of code by simply using existing Markdown code blocks. Because those blocks are interpreted differently, Markdown files become analogous to [Jupyter](https://jupyter.org/) or [Observable](https://observablehq.com/@freedmand/sounds) notebooks. 
 
-- ***Find a note which contains an application of VR.***
+Back to the skill below. This one relies on some Javascript to get information about a certain entity from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), a machine-friendly Wikipedia spin-off which advocates for linked open data. Even in the occasional case when you resort to writing code, you're still free to use placeholders (e.g. `*entity*` and `*property*` below), making it possible to mix highly deterministic code with fuzzy command parsing. The dawn of versatile user-defined assistants which can integrate with any number of [IFTTT](https://ifttt.com/home) services?
 
-{: .existing-note }
-In virtual and augmented reality, abstract concepts can be grounded in concrete objects. For instance, in programming, a code library can become an actual physical library, a game tree can be an actual tree, calling a function can involve a phone. What's more, virtual reality provides the necessary context for attempting to make any abstract concept tangible, in an effort to infuse them with embodied knowledge, forcing a host of cognitive functions to be applied to the same concept.
+{: .border }
+![](/assets/images/dual_ask_wikipedia.png)
 
-### Open Dialogue
-
-As mentioned previously, open dialogue is the main dish. When you're posing a question to your Dual, it automatically retrieves relevant notes and starts formulating a response based on them. The value of open dialogue lies not in retrieving cold facts from your knowledge base, but rather in tackling ambiguous open-ended questions.
-
-- ***How can we develop transformative tools for thought?*** [^8]
-
-{: .original-response }
-The second brain framework for cognitive augmentation provides a clear path to transhuman singularity through exponential self-improvement of the human individual and collective, in collaboration with AI. It's also a pragmatic approach to cognitive enhancement, as it provides a pragmatic framework for dialogue between the two. The second brain framework for cognitive augmentation is very well-suited for the context of neuroplasticity, as it helps the user relax constraints and embrace radical new perspectives. This is in contrast to the more...
-
-- ***What are some important questions in the neuroscience of attention?***
-
-{: .original-response }
-How does the brain create "tuning" in response to different stimuli? What are some features which distinguish attention? Are there "attention modalities", or "attention channels", or "attention frequencies"? How can the brain "see" different types of information from different perspectives? How can it compute a graph of information contents based on such topologies? Attention is often associated with sensations, movement, and attention alone. However, attention can also occur at the level of thought...
-
-- ***How could one seamlessly edit their belief system on command?***
-
-{: .original-response }
-If one subscribes to the belief that truth is relative, then one can trivially "edit" their belief system as a document. They simply need to attach a semantic link to a statement which they believe is false, and then edit their text accordingly, with regards to the stated truth. This way, one's belief system is merely an artifact which one has to reconcile with other beliefs in order to work effectively. Another way to reconcile conflicting beliefs is for the...
-
-- ***Can ambiguity be used as a tool?***
-
-{: .original-response }
-In a sense, yes. However, in an arguably conflicting way. By using ambiguity as a means of promoting insight, one is also using it as a means of limiting creative output. The very act of intentionally distorting one's perception of the world is often seen as an act of creation. This is a perspective often dismissed in the context of consciousness augmentation, but perhaps it's not. Creativity can be seen as an intentional process of engineering the world in such a way as to support...
-
-- ***Why should one learn in public?***
-
-{: .original-response }
-If one's purpose is to develop a large body of knowledge, then one should actively seek out, learn from, and publish work. This would presumably lead to a positive feedback loop of more knowledge being gained, helping the individual maximize their contribution. However, the incentive for creation and creation of knowledge is also plagued by censorship, limiting the flow of knowledge. A good alternative is open access, enabling anyone to search through one's work for useful insights. The creation of commonsense through machine learning...
-
----
-
-## Workflows
-Your Dual can naturally enable a wide variety of workflows as part of your knowledge work. An early selection is included below.
-
-### Computer-Aided Incremental Reading
-{: .no_toc}
-When learning about a new concept, an effective way to internalize it is to densely associate it with previous concepts. When creating a note, you can ask your Dual to look for previous related entries, aiding you in your weaving process. What's more, the fuzzy nature of fluid search makes it so that even if you had absolutely no previous notes about the new topic, you can still find loosely related notes which might be useful. Your Dual helps you optimally build on previous knowledge by minimizing semantic distances.
-
-### Computer-Aided Incremental Writing
-{: .no_toc}
-When revisiting previous notes, you might seek to integrate new perspectives, arguments, and applications in your entries. You can ask your Dual to look for examples, parallels, and evidence, and it will sift through thousands of your notes in several seconds, offering you the most relevant candidates. Using the search results, you can then thoughtfully integrate the notes you find suitable through dense linking.
-
-### Computer-Aided Brainstorming
-{: .no_toc}
-When tackling big questions or tough problems, throw your Dual into the mix as a brainstorming partner and wait for the surprising nuggets it inevitably comes up with. Even if it's fine-tuned to approximate your way of thinking, its sampled responses are configured to be different every time, meaning that it's virtually impossible for it to get stuck in a rut. It's similar enough to be relatable, yet different enough to be useful.[^9]
+This section merely provides an overview of how your Dual acquires skills. You could teach it to come up with metaphors, summarize short documents, suggest writing prompts, and what not. All in a local-first, user-defined, and open source way. You can find plenty of tasks which have been framed as text generation in this [awesome list](https://www.buildgpt3.com/). More resources on teaching Dual such skills will follow once it will graduate from an alpha version. 
 
 ---
 
 ## Further Steps
 ### Hosted inference
-{: .no_toc}
-What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.[^12] We're working on making this a reality through an option to host your Dual in the cloud.
-
-### More features
-{: .no_toc}
-There are plenty of other language models out there waiting to make themselves useful in your second brain. The three features described above merely scratch the surface of how natural language processing can reshape knowledge work in such a propositional context.
+{: .no_toc }
+What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.[^12]
 
 ### Better support
-{: .no_toc}
-At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained binary will greatly simplify the configuration. Extending the interface to work with Foam in VS Code is also a planned feature.
+{: .no_toc }
+At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained binary will greatly simplify the configuration.
+
+### Extended skills
+{: .no_toc }
+The light-weight "language" used to teach your Dual new skills will likely evolve over time, becoming ever more accessible, flexible, and powerful.  
 
 ### Higher performance
-{: .no_toc}
+{: .no_toc }
 All those language models take up a lot of memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. Those improvements will enable the use of even more human-like language models.
 
 ---
@@ -227,3 +171,13 @@ Do you want to contribute to the development of this project yourself? Join Psio
 [^10]: Andy Matuschak,<br/>[Prefer explicit associations to inferred associations](https://notes.andymatuschak.org/Prefer_explicit_associations_to_inferred_associations)
 [^11]: Andy Matuschak,<br/>[Writing forces sharper understanding](https://notes.andymatuschak.org/Writing_forces_sharper_understanding)
 [^12]: Ben Balter,<br/>[Why everything should have a URL](https://ben.balter.com/2015/11/12/why-urls/)
+[^13]: OpenAI,<br/>[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+[^14]: Ought,<br/>[A taxonomy of approaches to capability amplification](https://ought.org/research/factored-cognition/taxonomy#pointers)
+[^15]: David Clear,<br/>[Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+[^16]: Matt Cone,<br/>[The Markdown Guide](https://www.markdownguide.org/getting-started/)
+[^17]: OpenAI,<br/>[Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+[^18]: EleutherAI,<br/>[GPT-Neo](https://github.com/EleutherAI/gpt-neo)
+[^19]: Bret Victor,<br/>[The Humane Representation of Thought](https://vimeo.com/115154289)
+[^20]: Vi Hart & Evelyn Eastmond,<br/>[Explorations into Embodied Knowledge and AR/VR](https://youtu.be/FLENZ_si7N8?t=1947)
+[^21]: Michael Hansen,<br/>[voice2json](https://voice2json.org/)
+[^22]: Paul Bricman,<br/>[Second brain](https://paulbricman.com/secondbrain/second-brain-architecture-closely-resembles-human-cognitive-architecture)
