@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-nav_order: 2
+nav_order: 3
 description: "Psionica: An open collective on a mission to augment thought for all."
 ---
 
