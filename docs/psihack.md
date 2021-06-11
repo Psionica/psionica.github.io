@@ -32,7 +32,7 @@ Like any unconference, **PsiCon 2021** is participant-centric. Besides a few int
 - a brainstorming session on how tools for thought could help in a specific type of knowledge work
 - a quick chat on organizing events on the topic, hopefully with much better names
 
-Given that the participants themselves are the central part of this experimental event, make sure to fill in a description and potentially a personal website when registering using an Open Collective account. This helps prospective participants get a sense of who's attending and helps you connect with other participants before, during, and after the unconference.
+Given that participants like you form the central part of this experimental event, make sure to fill in a description and potentially a personal website when registering using an Open Collective account. This helps prospective participants get a sense of who's attending and helps you connect with other participants before, during, and after the unconference.
 
 #### When? 
 
