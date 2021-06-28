@@ -515,12 +515,18 @@
     "url": "http://localhost:4000/docs/studio/studio/",
     "relUrl": "/docs/studio/studio/"
   },"86": {
+    "doc": "Augment Minds 2021 ⭐",
+    "title": "Augment Minds 2021 ⭐",
+    "content": " ",
+    "url": "http://localhost:4000/docs/unconference/",
+    "relUrl": "/docs/unconference/"
+  },"87": {
     "doc": "Workshop",
     "title": "Workshop",
     "content": "Software tools reshaping knowledge work. ",
     "url": "http://localhost:4000/docs/workshop/workshop/",
     "relUrl": "/docs/workshop/workshop/"
-  },"87": {
+  },"88": {
     "doc": "Workshop",
     "title": "Dual",
     "content": "NEW . Amplifying knowledge work through user-defined assistants. ",

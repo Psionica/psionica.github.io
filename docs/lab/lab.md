@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lab
-nav_order: 4
+nav_order: 5
 has_children: True
 ---
 
