@@ -84,6 +84,7 @@ Promoting critical thinking through prompt generation.
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
 - [David Dohan](https://twitter.com/dmdohan)
+- [Serj Hunt](https://twitter.com/Serjhunt_ARK)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us

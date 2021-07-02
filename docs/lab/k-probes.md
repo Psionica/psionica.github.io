@@ -180,11 +180,12 @@ We have a unique relationship with questions, so why not leverage that to our ad
 
 ---
 
-## Acknowledgments
+## Acknowledgements
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
 - [David Dohan](https://twitter.com/dmdohan)
+- [Serj Hunt](https://twitter.com/Serjhunt_ARK)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us

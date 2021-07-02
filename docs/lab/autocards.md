@@ -183,11 +183,12 @@ Additionally, the range of possible inputs which could be fed into Autocards mig
 
 ---
 
-## Acknowledgments
+## Acknowledgements
 
 Our work is supported by awesome sponsors:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
 - [David Dohan](https://twitter.com/dmdohan)
+- [Serj Hunt](https://twitter.com/Serjhunt_ARK)
 - [Yang Wao](https://twitter.com/yangwao)
 
 ## Support Us
