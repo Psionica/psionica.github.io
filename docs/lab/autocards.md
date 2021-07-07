@@ -50,27 +50,36 @@ One especially popular way of making static text more cognitively ergonomic is t
 2. Based on the previously-extracted answers and the original text, try to generate related questions, as if playing Jeopardy (e.g. "What is another name for Kirchhoff’s current law?").
 3. Close the loop by checking whether the previously-generated questions actually match the previously-extracted answers using question answering.
 
-Equipped with this approach, we can start building Autocards, a flashcard generator based on existing open source tools. This time, we're forking an excellent pipeline designed specifically for question generation.[^7] By encapsulating its functionality in a Python class capable of consuming various types of text (i.e. plain text, text files, PDF's) we're laying the groundwork for a large number of possible workflows.
+Equipped with this approach, we can start building Autocards, a flashcard generator based on existing open source tools. This time, we're forking an excellent pipeline designed specifically for question generation.[^7] By encapsulating its functionality in a Python class capable of consuming various types of text (i.e. plain text, text files, PDF's, webpages) we're laying the groundwork for a large number of possible workflows. Below are several examples of ways to use Autocards to feed on content.
 
 {: .code-block }
 ```
 >>> from autocards import Autocards
 >>> a = Autocards()
->>> a.consume_text('King Philip’s ultimate goal was to conquer Persia.')
+>>> a.consume_var('King Philip’s ultimate goal was to conquer Persia.')
+>>> a.consume_wiki_summary("Philip II of Macedon", "en")
+>>> a.consume_pdf("All about Philip.pdf", per_paragraph=True)
+>>> a.consume_textfile("All about Philip but in a text file.txt", per_paragraph=True)
+>>> a.consume_web("https://www.biography.com/political-figure/philip-ii-of-macedon", mode="url", element="p")
+
 ```
 
-The resulting Python object can then be used to export flashcards derived from text as a CSV file which can later be imported in a wide range of spaced repetition apps. It provides a few handy options, such as adding a prefix to the front side of the flashcard and switching the questions up with the answers for a Jeopardy-style experience.[^22]
+The resulting Python object can then be used to export flashcards derived from text as files that can later be imported in a wide range of spaced repetition apps. It provides a few handy options, such as adding a prefix to the front side of the flashcard and switching the questions up with the answers for a Jeopardy-style experience.[^22] The code uses the Pandas library to format the output, so it can be tailored to virtually any format. Currently directly usable are CSV and JSON format. You can also print it to check if everything worked ok before exporting.
 
 {: .code-block }
 ```
->>> a.export('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
+>>> a.print(prefix='', jeopardy=False) #  or:
+>>> a.pprint(prefix='', jeopardy=False)  #  for pretty printing
+>>> df = a.pandas_output(prefix='')  # get the pandas dataframe to manually inspect results
+>>> a.csv_export('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
+>>> a.json_export('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
 ```
 
 ---
 
 ## Samples
 
-To get a sense of the pipeline's performance, several samples from various disciplines are listed below. Each excerpt is followed by a set of automatically generated flashcards, pairs of questions and answers which have suffered no human modification whatsoever.
+To get a sense of the pipeline's performance, several samples from various disciplines are listed below. Each excerpt is followed by a set of automatically generated flashcards, pairs of questions and answers which have suffered no human modification whatsoever. You can also find the complete output of [this article on Philip II](https://www.biography.com/political-figure/philip-ii-of-macedon) in [the github repository](https://github.com/Psionica/Autocards/output_example/).
 
 ### Physics
 {: .no_toc }
