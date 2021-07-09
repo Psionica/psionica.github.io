@@ -1,19 +1,22 @@
 ---
 layout: default
 title: MemNav
-nav_order: 3
-parent: Lab
+nav_order: 4
+parent: Tools
 description: "Expanding propositional memory through text mining."
 published: True
 ---
 
 # Memory Navigator
-{: .no_toc }
+{: .d-inline-block .mt-4 .no_toc }
+
+STAGE 2
+{: .label }
 
 Expanding propositional memory through text mining.
-{: .fs-6 .fw-300 .text-left .mb-0 }
+{: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By Paul Bricman
+By @paulbricman
 {: .mt-1 }
 
 [View Code](https://github.com/Psionica/MemNav){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/4){: .btn .fs-5 .mb-4 .mb-md-0 }

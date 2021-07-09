@@ -2,19 +2,22 @@
 layout: default
 title: Dual
 nav_order: 1
-parent: Workshop
+parent: Tools
 description: "Amplifying knowledge work through user-defined assistants."
 published: True
 image: /assets/images/dual-thumbnail.png
 ---
 
 # Dual
-{: .no_toc }
+{: .d-inline-block .mt-4 .no_toc }
+
+STAGE 3
+{: .label }
 
 Amplifying knowledge work through user-defined assistants.
-{: .fs-6 .fw-300 .text-left .mb-0 }
+{: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By Paul Bricman and Benjamin Leveritt
+By @paulbricman, @benjamin
 {: .mt-1 }
 
 [View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Watch Demo](https://youtu.be/58-Ue2mDy0k?t=3236){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/8){: .btn .fs-5 .mb-4 .mb-md-0 }

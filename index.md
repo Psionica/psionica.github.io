@@ -12,7 +12,7 @@ description: "An open collective on a mission to augment thought for all."
 An open collective on a mission to augment thought for all.
 {: .fs-6 .fw-300 .text-left }
 
-[Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./#join-us){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./docs/community/#people){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -22,7 +22,7 @@ Just like there are sound frequencies we cannot hear and wavelengths of light we
 
 However, just like there are advanced sensors that can help us detect sound and light beyond our bodily senses, there are transformative tools that can help us think beyond what was previously thinkable.[^2] We can engineer "spacecraft" for venturing into the depths of conceptual space, exploring what lies beyond the pale blue dot of native human cognition.[^3] Artificial intelligence is especially well-positioned to fuel the expansion of our cognitive horizons through its remarkable skill of manipulating abstract representations.[^5]
 
-What if you had a virtual assistant when navigating your thoughts? What if there was a Photoshop for editing concepts? What if you could radically edit your belief system on command? What if you could digest a textbook an order of magnitude faster? What if you could manipulate abstract representations with your body? Those are precisely the muddy, challenging, and daring questions we're interested in.
+What if you had a virtual assistant when navigating your thoughts? What if there was a Photoshop for editing concepts? What if you could radically edit your belief system on command? What if you could learn at a rate of decades per week? What if you could manipulate abstract representations with your body? Those are precisely the muddy, challenging, and daring questions we're interested in.
 
 Our mission is to provide a "launchpad" for ambitious projects aiming to augment thought in transformative ways.
 
@@ -32,46 +32,46 @@ Ready for takeoff.
 
 ## Our Work
 
-## [Dual](/docs/workshop/dual)
+## [Dual](/docs/tools/dual)
 {: .d-inline-block .mt-4 }
 
-WORKSHOP
+STAGE 3
 {: .label }
 
 Amplifying knowledge work through user-defined assistants.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Autocards](/docs/lab/autocards)
+## [Autocards](/docs/tools/autocards)
 {: .d-inline-block .mt-0 }
 
-LAB
+STAGE 2
 {: .label }
 
 Accelerating learning through machine-generated flashcards.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Semantica](/docs/lab/semantica)
+## [Semantica](/docs/tools/semantica)
 {: .d-inline-block .mt-0 }
 
-LAB
+STAGE 2
 {: .label }
 
 Extending conceptual thinking through semantic embeddings.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Memory Navigator](/docs/lab/memnav)
+## [Memory Navigator](/docs/tools/memnav)
 {: .d-inline-block .mt-0 }
 
-LAB
+STAGE 2
 {: .label }
 
 Expanding propositional memory through text mining.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Knowledge Probes](/docs/lab/k-probes)
+## [Knowledge Probes](/docs/tools/k-probes)
 {: .d-inline-block .mt-0 }
 
-LAB
+STAGE 2
 {: .label }
 
 Promoting critical thinking through prompt generation.

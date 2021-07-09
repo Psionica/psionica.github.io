@@ -1,18 +1,21 @@
 ---
 layout: default
 title: K-Probes
-nav_order: 4
-parent: Lab
+nav_order: 5
+parent: Tools
 description: "Promoting critical thinking through prompt generation."
 ---
 
 # Knowledge Probes
-{: .no_toc }
+{: .d-inline-block .mt-4 .no_toc }
+
+STAGE 2
+{: .label }
 
 Promoting critical thinking through prompt generation.
-{: .fs-6 .fw-300 .text-left .mb-0 }
+{: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By Paul Bricman
+By @paulbricman
 {: .mt-1 }
 
 [View Code](https://github.com/Psionica/K-Probes){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/5){: .btn .fs-5 .mb-4 .mb-md-0 }

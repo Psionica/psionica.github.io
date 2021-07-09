@@ -1,19 +1,22 @@
 ---
 layout: default
 title: Autocards
-nav_order: 1
-parent: Lab
+nav_order: 2
+parent: Tools
 description: "Accelerating learning through machine-generated flashcards."
 published: True
 ---
 
 # Autocards
-{: .no_toc }
+{: .d-inline-block .mt-4 .no_toc }
+
+STAGE 2
+{: .label }
 
 Accelerating learning through machine-generated flashcards.
-{: .fs-6 .fw-300 .text-left .mb-0 }
+{: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By Paul Bricman
+By @paulbricman, @QPsJhm
 {: .mt-1 }
 
 [View Code](https://github.com/Psionica/Autocards){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Open Demo](https://colab.research.google.com/drive/1Z6D8ncYiavbrc72-Hc84M3qFVgWnQnNx?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/6){: .btn .fs-5 .mb-4 .mb-md-0 }
