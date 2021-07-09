@@ -71,8 +71,8 @@ The resulting Python object can then be used to export flashcards derived from t
 >>> a.print(prefix='', jeopardy=False) #  or:
 >>> a.pprint(prefix='', jeopardy=False)  #  for pretty printing
 >>> df = a.pandas_output(prefix='')  # get the pandas dataframe to manually inspect results
->>> a.csv_export('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
->>> a.json_export('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
+>>> a.to_csv('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
+>>> a.to_json('history.csv', prefix='HELLENISTIC AGE:', jeopardy=False)
 ```
 
 ---
