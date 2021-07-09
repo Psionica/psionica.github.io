@@ -81,7 +81,7 @@ Promoting critical thinking through prompt generation.
 
 ## Acknowledgements
 
-Our work is supported by awesome sponsors:
+Our work is supported by awesome supporters:
 - [Andreas Stuhlmüller](https://stuhlmueller.org/)
 - [David Dohan](https://twitter.com/dmdohan)
 - [Serj Hunt](https://twitter.com/Serjhunt_ARK)
@@ -93,7 +93,7 @@ Our only stakeholder is humanity. Help us keep it that way.
 
 By supporting our efforts, you're investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you're also setting in motion a broader movement around cognitive augmentation as a second-order consequence.
 
-[Become a Sponsor](https://opencollective.com/psionica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[Become a supporter](https://opencollective.com/psionica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
