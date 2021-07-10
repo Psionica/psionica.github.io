@@ -13,7 +13,7 @@ Developing thoughtware from sketches to apps.
 
 ---
 
-## [Dual](/docs/tools/dual)
+## [Dual](/tools/dual)
 {: .d-inline-block .mt-0 }
 
 STAGE 3
@@ -22,7 +22,7 @@ STAGE 3
 Amplifying knowledge work through user-defined assistants.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Autocards](/docs/tools/autocards)
+## [Autocards](/tools/autocards)
 {: .d-inline-block .mt-0 }
 
 STAGE 2
@@ -31,7 +31,7 @@ STAGE 2
 Accelerating learning through machine-generated flashcards.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Semantica](/docs/tools/semantica)
+## [Semantica](/tools/semantica)
 {: .d-inline-block .mt-0 }
 
 STAGE 2
@@ -40,7 +40,7 @@ STAGE 2
 Extending conceptual thinking through semantic embeddings.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Memory Navigator](/docs/tools/memnav)
+## [Memory Navigator](/tools/memnav)
 {: .d-inline-block .mt-0 }
 
 STAGE 2
@@ -49,7 +49,7 @@ STAGE 2
 Expanding propositional memory through text mining.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Knowledge Probes](/docs/tools/k-probes)
+## [Knowledge Probes](/tools/k-probes)
 {: .d-inline-block .mt-0 }
 
 STAGE 2

@@ -149,7 +149,7 @@ Despite its promising performance, MemNav has several shortcomings which current
 
 Second, creating the knowledge base which underlies MemNav takes time. It requires a sustained regular commitment, and may become tedious. However, future methods will likely enable more efficient ways of recording memories. Using a speech-to-text service would easily triple the rate of transcribed words per minute. Wearable and handheld devices already bring in a multimedia dimension to the endeavor. Neural interfaces might obviate the need for words entirely.
 
-Finally, there's a more nuanced issue. The linear structure of a diary might be a very poor representation of the non-linear structure of thought. The programmatic transformations mentioned previously may be crucial in better aligning the cognitive space with the information space.[^4] High-dimensional representations similar to the ones used by [Semantica](/docs/tools/semantica/) might be a much better fit for the task.
+Finally, there's a more nuanced issue. The linear structure of a diary might be a very poor representation of the non-linear structure of thought. The programmatic transformations mentioned previously may be crucial in better aligning the cognitive space with the information space.[^4] High-dimensional representations similar to the ones used by [Semantica](/tools/semantica/) might be a much better fit for the task.
 
 Despite its current flaws, MemNav manages to provide an insightful vantage point on the nature and impact of future tools for thought. The reflections it supports are as valuable as the functions it enables, as it helps us paint a picture of our desired technological path.
 
