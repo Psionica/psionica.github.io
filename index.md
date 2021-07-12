@@ -14,6 +14,9 @@ An open collective on a mission to augment thought for all.
 
 [Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./docs/community/#people){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+{: .info }
+We're organizing our largest event yet! Augment Minds 2021 is an online unconference about developing transformative tools for thought where participants can host their own sessions. Join us to connect with like-minded people, exchange ideas, and find opportunities! Learn more and sign up [here](https://opencollective.com/psionica/events/augment-minds-7d13842a).
+
 ---
 
 ## Mission
