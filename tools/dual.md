@@ -20,7 +20,7 @@ Amplifying knowledge work through user-defined assistants.
 By @paulbricman, @benjamin
 {: .mt-1 }
 
-[View Code](https://github.com/Psionica/Dual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Watch Demo](https://youtu.be/58-Ue2mDy0k?t=3236){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/8){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Watch Demo](https://youtu.be/58-Ue2mDy0k?t=3236){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Code](https://github.com/Psionica/Dual){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Table of contents
 {: .no_toc .text-delta }

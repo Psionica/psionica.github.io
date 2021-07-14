@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Autocards",
     "title": "Autocards",
-    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @paulbricman, @QPsJhm . View Code Open Demo View Spec . ",
+    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @paulbricman, @QPsJhm . Open Demo View Code . ",
     "url": "http://localhost:4000/tools/autocards/",
     "relUrl": "/tools/autocards/"
   },"1": {
@@ -103,7 +103,7 @@
   },"17": {
     "doc": "Dual",
     "title": "Dual",
-    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. By @paulbricman, @benjamin . View Code Watch Demo View Spec . ",
+    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. By @paulbricman, @benjamin . Watch Demo View Code . ",
     "url": "http://localhost:4000/tools/dual/",
     "relUrl": "/tools/dual/"
   },"18": {
@@ -247,7 +247,7 @@
   },"41": {
     "doc": "K-Probes",
     "title": "Knowledge Probes",
-    "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @paulbricman . View Code View Spec . ",
+    "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @paulbricman . View Code . ",
     "url": "http://localhost:4000/tools/k-probes/#knowledge-probes",
     "relUrl": "/tools/k-probes/#knowledge-probes"
   },"42": {
@@ -325,7 +325,7 @@
   },"54": {
     "doc": "MemNav",
     "title": "Memory Navigator",
-    "content": "STAGE 2 . Expanding propositional memory through text mining. By @paulbricman . View Code View Spec . ",
+    "content": "STAGE 2 . Expanding propositional memory through text mining. By @paulbricman . View Code . ",
     "url": "http://localhost:4000/tools/memnav/#memory-navigator",
     "relUrl": "/tools/memnav/#memory-navigator"
   },"55": {
@@ -397,7 +397,7 @@
   },"66": {
     "doc": "Semantica",
     "title": "Semantica",
-    "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. By @paulbricman . View Code Open Demo View Spec . ",
+    "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. By @paulbricman . Open Demo View Code . ",
     "url": "http://localhost:4000/tools/semantica/",
     "relUrl": "/tools/semantica/"
   },"67": {

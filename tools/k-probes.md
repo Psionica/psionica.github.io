@@ -18,7 +18,7 @@ Promoting critical thinking through prompt generation.
 By @paulbricman
 {: .mt-1 }
 
-[View Code](https://github.com/Psionica/K-Probes){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Spec](https://github.com/Psionica/psionica.github.io/issues/5){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Code](https://github.com/Psionica/K-Probes){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Table of contents
 {: .no_toc .text-delta }
