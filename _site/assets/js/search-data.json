@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Autocards",
     "title": "Autocards",
-    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @paulbricman, @QPsJhm . Open Demo View Code . ",
+    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @paulbricman, @QPsJhm . View Code . ",
     "url": "http://localhost:4000/tools/autocards/",
     "relUrl": "/tools/autocards/"
   },"1": {
@@ -319,7 +319,7 @@
   },"53": {
     "doc": "K-Probes",
     "title": "K-Probes",
-    "content": " ",
+    "content": "This project is currently on standby. Reach out to its previous contributor(s) on Discord for guidance in advancing it to the next stage. ",
     "url": "http://localhost:4000/tools/k-probes/",
     "relUrl": "/tools/k-probes/"
   },"54": {
@@ -391,15 +391,15 @@
   },"65": {
     "doc": "MemNav",
     "title": "MemNav",
-    "content": " ",
+    "content": "This project is currently on standby. Reach out to its previous contributor(s) on Discord for guidance in advancing it to the next stage. ",
     "url": "http://localhost:4000/tools/memnav/",
     "relUrl": "/tools/memnav/"
   },"66": {
     "doc": "Semantica",
     "title": "Semantica",
     "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. By @paulbricman . Open Demo View Code . ",
-    "url": "http://localhost:4000/tools/semantica/",
-    "relUrl": "/tools/semantica/"
+    "url": "http://localhost:4000/tools/semantica/#semantica",
+    "relUrl": "/tools/semantica/#semantica"
   },"67": {
     "doc": "Semantica",
     "title": "Table of contents",
@@ -473,42 +473,48 @@
     "url": "http://localhost:4000/tools/semantica/#references",
     "relUrl": "/tools/semantica/#references"
   },"79": {
+    "doc": "Semantica",
+    "title": "Semantica",
+    "content": "This project is currently on standby. Reach out to its previous contributor(s) on Discord for guidance in advancing it to the next stage. ",
+    "url": "http://localhost:4000/tools/semantica/",
+    "relUrl": "/tools/semantica/"
+  },"80": {
     "doc": "Tools",
     "title": "Tools",
     "content": "Developing thoughtware from sketches to apps. ",
     "url": "http://localhost:4000/tools/tools/",
     "relUrl": "/tools/tools/"
-  },"80": {
+  },"81": {
     "doc": "Tools",
     "title": "Dual",
     "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. ",
     "url": "http://localhost:4000/tools/tools/#dual",
     "relUrl": "/tools/tools/#dual"
-  },"81": {
+  },"82": {
     "doc": "Tools",
     "title": "Autocards",
     "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. ",
     "url": "http://localhost:4000/tools/tools/#autocards",
     "relUrl": "/tools/tools/#autocards"
-  },"82": {
+  },"83": {
     "doc": "Tools",
     "title": "Semantica",
     "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. ",
     "url": "http://localhost:4000/tools/tools/#semantica",
     "relUrl": "/tools/tools/#semantica"
-  },"83": {
+  },"84": {
     "doc": "Tools",
     "title": "Memory Navigator",
     "content": "STAGE 2 . Expanding propositional memory through text mining. ",
     "url": "http://localhost:4000/tools/tools/#memory-navigator",
     "relUrl": "/tools/tools/#memory-navigator"
-  },"84": {
+  },"85": {
     "doc": "Tools",
     "title": "Knowledge Probes",
     "content": "STAGE 2 . Promoting critical thinking through prompt generation. ",
     "url": "http://localhost:4000/tools/tools/#knowledge-probes",
     "relUrl": "/tools/tools/#knowledge-probes"
-  },"85": {
+  },"86": {
     "doc": "Augment Minds 2021 ⭐",
     "title": "Augment Minds 2021 ⭐",
     "content": " ",

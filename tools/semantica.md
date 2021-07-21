@@ -6,8 +6,11 @@ parent: Tools
 description: "Extending conceptual thinking through semantic embeddings."
 ---
 
+{: .info }
+This project is currently on standby. Reach out to its previous contributor(s) on [Discord](/community/#members) for guidance in advancing it to the [next stage](/community/#process).
+
 # Semantica
-{: .d-inline-block .mt-4 .no_toc }
+{: .d-inline-block .mt-0 .no_toc }
 
 STAGE 2
 {: .label }

@@ -19,13 +19,14 @@ Accelerating learning through machine-generated flashcards.
 By @paulbricman, @QPsJhm
 {: .mt-1 }
 
-[Open Demo](https://colab.research.google.com/drive/1Z6D8ncYiavbrc72-Hc84M3qFVgWnQnNx?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Code](https://github.com/Psionica/Autocards){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Code](https://github.com/Psionica/Autocards){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
+
 
 ---
 
