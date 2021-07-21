@@ -17,13 +17,13 @@ Inner workings of our open collective.
 
 ## Process
 
-First-hand experience with the limits of human thought provides challenges for us to tackle. How can we support people in going beyond a particular limit of cognition? How can we amplify a particular strength in our thinking? For instance, [Semantica](/tools/semantica) extends conceptual thinking, while [Autocards](/tools/autocards/) accelerates learning. These goals are similar to the ones guiding the formal field of cognitive engineering, but we're tackling them with an attitude much closer to the tech industry.
+First-hand experience with the limits of human thought provides challenges for us to tackle. How can we support people in going beyond a particular limit of cognition? How can we amplify a particular strength in our thinking? For instance, [Semantica](/tools/semantica) extends conceptual thinking, while [Autocards](/tools/autocards/) accelerates learning. These goals are similar to the ones guiding the formal field of cognitive engineering, but we're tackling them with a more informal attitude that's closer to the tech industry.
 
 The development process behind Psionica is a project in itself, attempting to overcome some of the challenges identified the field. A series of incremental stages encourage contributors to go from exploring possibilities all the way to building useful tools. This way, projects in early stages implicitly benefit from a rough roadmap of future developments. More importantly, projects in later stages have a higher chance of becoming transformative once they mature, thanks to the exploratory nature of the early stages. It's all a foraging strategy for effectively navigating the space of tools for thought.
 
 |  | 📝 Stage 1 | 🛠️ Stage 2 | 🦾 Stage 3 |
 |-|-|-|-|
-| **Goal** | explore possibilities | identify opportunities | deliver value |
+| **Goal** | explore possibilities | identify opportunities | create value |
 | **Artifacts** | mock-ups, wireframes, concept renders, design fictions, future visions, vignettes | working prototypes, proof of concepts, scripts, breadboard circuits, ML models, VR scapes | web apps, standalones, plugins, libraries, usable tools, gadgets |
 | **Roles** | designers, futurists | makers, hackers | developers, engineers |
 | **Constraints** | imagination | imagination, feasibility | imagination, feasibility, utility |
