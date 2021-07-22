@@ -57,7 +57,6 @@ Equipped with this approach, we can start building Autocards, a flashcard genera
 >>> from autocards import Autocards
 >>> a = Autocards()
 >>> a.consume_var('King Philip’s ultimate goal was to conquer Persia.')
->>> a.consume_wiki_summary("Philip II of Macedon", "en")
 >>> a.consume_pdf("All about Philip.pdf", per_paragraph=True)
 >>> a.consume_textfile("All about Philip but in a text file.txt", per_paragraph=True)
 >>> a.consume_web("https://www.biography.com/political-figure/philip-ii-of-macedon", mode="url", element="p")
