@@ -17,7 +17,7 @@ STAGE 3
 Amplifying knowledge work through user-defined assistants.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By @paulbricman, @benjamin
+By @benjamin, @thoughtware.engineer
 {: .mt-1 }
 
 [Watch Demo](https://youtu.be/58-Ue2mDy0k?t=3236){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Code](https://github.com/Psionica/Dual){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -61,7 +61,7 @@ While conversing with your Dual, you can ask it to help you with things. You mig
 ### Your Dual is your second brain come to life
 {: .no_toc }
 
-The ideas, concepts, and insights which you include in your second brain make up your Dual's long-term memory. When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide an explicit context for the previously fine-tuned language model when producing an original response. The end result of using this cognitive architecture is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge with your style of writing.[^22]
+The ideas, concepts, and insights which you include in your second brain make up your Dual's long-term memory. When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide an explicit context for the previously fine-tuned language model when producing an original response. The end result of using this cognitive architecture is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge with your style of writing.
 
 {: .quote }
 "And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication." -- Niklas Luhmann[^5]
@@ -140,11 +140,7 @@ All those language models take up quite some memory and are somewhat sluggish. M
 
 ## Acknowledgements
 
-Our work is supported by awesome supporters:
-- [Andreas Stuhlmüller](https://stuhlmueller.org/)
-- [David Dohan](https://twitter.com/dmdohan)
-- [Serj Hunt](https://twitter.com/Serjhunt_ARK)
-- [Yang Wao](https://twitter.com/yangwao)
+Our work is supported by awesome people: [Adam Wiggins](https://opencollective.com/adam-wiggins), [Alex Iwaniuk](https://opencollective.com/alex-hubert-iwaniuk), [Andreas Stuhlmüller](https://stuhlmueller.org/), [Bruno Winck](https://opencollective.com/bruno-winck), [Chris Boette](https://opencollective.com/chris-boette), [David Dohan](https://opencollective.com/david-d), [Flancia](https://opencollective.com/flancia), [I Do Recall, Inc.](https://opencollective.com/i-do-recall-inc), [Nick Milo](https://opencollective.com/nickmilo), [Maggie Appleton](https://opencollective.com/maggie-appleton), [Serj Hunt](https://opencollective.com/serjhunt_ark), [Yang Wao](https://opencollective.com/yangwao).
 
 ## Support Us
 
@@ -172,7 +168,6 @@ Do you want to contribute to the development of this project yourself? Join Psio
 [^4]: John Anderson,<br/>[A spreading activation theory of memory](http://act-r.psy.cmu.edu/?post_type=publications&p=13730)
 [^5]: Niklas Luhmann,<br/>[Communicating with Slip Boxes](https://luhmann.surge.sh/communicating-with-slip-boxes)
 [^6]: George Hotz & Lex Fridman,<br/>[Lex Podcast #31](https://youtu.be/iwcYp-XT7UI?t=6812)
-[^7]: Paul Bricman,<br/>[Second Brain](https://paulbricman.com/secondbrain/)
 [^8]: Andy Matuschak & Michael Nielsen,<br/>[How can we develop transformative tools for thought?](https://numinous.productions/ttft/)
 [^9]: Greg Egan,<br/>[Closer](https://www.gregegan.net/MISC/CLOSER/Closer.html)
 [^10]: Andy Matuschak,<br/>[Prefer explicit associations to inferred associations](https://notes.andymatuschak.org/Prefer_explicit_associations_to_inferred_associations)
@@ -187,4 +182,3 @@ Do you want to contribute to the development of this project yourself? Join Psio
 [^19]: Bret Victor,<br/>[The Humane Representation of Thought](https://vimeo.com/115154289)
 [^20]: Vi Hart & Evelyn Eastmond,<br/>[Explorations into Embodied Knowledge and AR/VR](https://youtu.be/FLENZ_si7N8?t=1947)
 [^21]: Michael Hansen,<br/>[voice2json](https://voice2json.org/)
-[^22]: Paul Bricman,<br/>[Second brain](https://paulbricman.com/secondbrain/second-brain-architecture-closely-resembles-human-cognitive-architecture)

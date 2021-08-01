@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Autocards",
     "title": "Autocards",
-    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @paulbricman, @QPsJhm . View Code . ",
+    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @thoughtware.engineer, @QPsJhm . View Code . ",
     "url": "http://localhost:4000/tools/autocards/",
     "relUrl": "/tools/autocards/"
   },"1": {
@@ -49,7 +49,7 @@
   },"8": {
     "doc": "Autocards",
     "title": "Acknowledgements",
-    "content": "Our work is supported by awesome supporters: . | Andreas Stuhlmüller | David Dohan | Serj Hunt | Yang Wao | . ",
+    "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/autocards/#acknowledgements",
     "relUrl": "/tools/autocards/#acknowledgements"
   },"9": {
@@ -103,7 +103,7 @@
   },"17": {
     "doc": "Dual",
     "title": "Dual",
-    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. By @paulbricman, @benjamin . Watch Demo View Code . ",
+    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. By @benjamin, @thoughtware.engineer . Watch Demo View Code . ",
     "url": "http://localhost:4000/tools/dual/",
     "relUrl": "/tools/dual/"
   },"18": {
@@ -121,31 +121,31 @@
   },"20": {
     "doc": "Dual",
     "title": "Paradigms",
-    "content": "Your Dual is a skilled virtual assistant for knowledge work . While conversing with your Dual, you can ask it to help you with things. You might want to find notes related to a certain topic, brainstorm research questions, or get your hands on a summary of an article. What your Dual can do for you is entirely determined by its set of skills, also refered to as its skillset. Skills are simply Markdown files which specify the desired behavior of your virtual assistant in natural language.5 Generally, you can teach it new skills by merely describing them in plain English (or in other languages, for that matter). Following this learning phase, your Dual not only adopts your way of thinking, but can also use its skills to best follow your commands before producing responses as chat messages. “The best interface to my brain is a relationship. That’s how merging feels like. That’s how I envision it.” – George Hotz6 . Your Dual is your second brain come to life . The ideas, concepts, and insights which you include in your second brain make up your Dual’s long-term memory. When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide an explicit context for the previously fine-tuned language model when producing an original response. The end result of using this cognitive architecture is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge with your style of writing.7 . “And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication.” – Niklas Luhmann8 . ",
+    "content": "Your Dual is a skilled virtual assistant for knowledge work . While conversing with your Dual, you can ask it to help you with things. You might want to find notes related to a certain topic, brainstorm research questions, or get your hands on a summary of an article. What your Dual can do for you is entirely determined by its set of skills, also refered to as its skillset. Skills are simply Markdown files which specify the desired behavior of your virtual assistant in natural language.5 Generally, you can teach it new skills by merely describing them in plain English (or in other languages, for that matter). Following this learning phase, your Dual not only adopts your way of thinking, but can also use its skills to best follow your commands before producing responses as chat messages. “The best interface to my brain is a relationship. That’s how merging feels like. That’s how I envision it.” – George Hotz6 . Your Dual is your second brain come to life . The ideas, concepts, and insights which you include in your second brain make up your Dual’s long-term memory. When using skills based on this memory system, relevant pieces of knowledge are strategically remembered behind the scenes in a context-dependent manner. More often than not, those memories are used to provide an explicit context for the previously fine-tuned language model when producing an original response. The end result of using this cognitive architecture is an expressive chatbot which seamlessly integrates disparate fragments of your knowledge with your style of writing. “And if one has to write anyway, it is useful to take advantage of this activity in order to create in the system of notes a competent partner of communication.” – Niklas Luhmann7 . ",
     "url": "http://localhost:4000/tools/dual/#paradigms",
     "relUrl": "/tools/dual/#paradigms"
   },"21": {
     "doc": "Dual",
     "title": "Structure",
-    "content": "As mentioned before, your Dual has at its core a fine-tuned language model. Currently, it’s using GPT-2, a language model which has been open sourced in late 2019 and can run on average consumer hardware.9 However, in the upcoming months, Dual will advance to GPT-Neo, an open source replica of GPT-3 created by EleutherAI which outperforms GPT-3 on many benchmarks.10 We’re very pleased that different open collectives can build on each other’s work so easily thanks to the open source ecosystem. For users who want to opt-out of running the language model on their machine for free, we’ll provide a wrapper around OpenAI’s hosted offering. Another essential component of Dual is the skill interpreter. It orchestrates the use of skills at a high-level, and is responsible for the following: determining when to use what skill, keeping track of skills which use other skills, understanding your commands, and so on. It’s conceptually similar to a traditional interpreter of programming languages, such as the Python or Javascript ones, but it’s designed to interpret natural language expressed in plain text and then act on it. In this, Dual is also an important step in developing a new programming paradigm, one based on humane representations such as natural language or 3D scapes, as opposed to clunky symbolic syntax.11 12 . Interacting with Dual is done through a familiar chat interface. Dual is reading your messages and then typing out responses using its skills. The chat has full support for Markdown formatting, meaning that if your Dual eventually sends you a list, a table, or even an image, they all get rendered in the chat as responses. While the current implementation is packaged as an Obsidian plugin, Dual will integrate with other tools in the future (e.g. Roam Research). Mobile speech interfaces around Dual are also on the table.13 . As teaching Dual to recreate itself from scratch is somewhat beyond the capabilities of current language models, Dual itself is implemented using several programming languages. Managing the language model was initially done using Python, but we’re experimenting with Rust and Javascript for better cross-platform support. The skill interpreter and the interface are both written in Typescript, playing nicely with an Electron app like Obsidian. ",
+    "content": "As mentioned before, your Dual has at its core a fine-tuned language model. Currently, it’s using GPT-2, a language model which has been open sourced in late 2019 and can run on average consumer hardware.8 However, in the upcoming months, Dual will advance to GPT-Neo, an open source replica of GPT-3 created by EleutherAI which outperforms GPT-3 on many benchmarks.9 We’re very pleased that different open collectives can build on each other’s work so easily thanks to the open source ecosystem. For users who want to opt-out of running the language model on their machine for free, we’ll provide a wrapper around OpenAI’s hosted offering. Another essential component of Dual is the skill interpreter. It orchestrates the use of skills at a high-level, and is responsible for the following: determining when to use what skill, keeping track of skills which use other skills, understanding your commands, and so on. It’s conceptually similar to a traditional interpreter of programming languages, such as the Python or Javascript ones, but it’s designed to interpret natural language expressed in plain text and then act on it. In this, Dual is also an important step in developing a new programming paradigm, one based on humane representations such as natural language or 3D scapes, as opposed to clunky symbolic syntax.10 11 . Interacting with Dual is done through a familiar chat interface. Dual is reading your messages and then typing out responses using its skills. The chat has full support for Markdown formatting, meaning that if your Dual eventually sends you a list, a table, or even an image, they all get rendered in the chat as responses. While the current implementation is packaged as an Obsidian plugin, Dual will integrate with other tools in the future (e.g. Roam Research). Mobile speech interfaces around Dual are also on the table.12 . As teaching Dual to recreate itself from scratch is somewhat beyond the capabilities of current language models, Dual itself is implemented using several programming languages. Managing the language model was initially done using Python, but we’re experimenting with Rust and Javascript for better cross-platform support. The skill interpreter and the interface are both written in Typescript, playing nicely with an Electron app like Obsidian. ",
     "url": "http://localhost:4000/tools/dual/#structure",
     "relUrl": "/tools/dual/#structure"
   },"22": {
     "doc": "Dual",
     "title": "Skills",
-    "content": "This section provides a brief tour of the types of skills your Dual can currently acquire. This isn’t designed to serve as an in-depth tutorial, just as a quick glance at the skills you can teach Dual using Markdown. Skills and examples of using them are provided together in the actual screenshots below, with the skill files on the left and the chat conversations on the right. Keep in mind that only rendered Markdown is shown, for simplicity. For starters, let’s say you’re a researcher in academia and want to teach your (virtual) assistant how to come up with research questions on different subjects. To best explain this task, you might choose to provide a few examples of what you consider to be good research questions. This is what happens in the first few lines of the file listed below (have a look!). However, remember that you want to teach it how to come up with suggestions on new subjects. To describe this task, you might use the placeholder *subject* and ask it to complete the pattern with a new sentence. Placeholders are automatically filled in when the skill is used for following commands. After teaching your Dual this skill (by simply creating the skill file), it will automatically figure out when and how to use it, as can be seen in the chat. Actually, the Write a paragraph... part is just another command you can issue to your Dual yourself in the chat! It’s skills building on each other all the way down. The next example is similar. Provide some examples, a placeholder or two, ask it to complete the pattern, and you just taught it a new skill. You can use any placeholders you wish (e.g. *person*, *language*, *property*) and provide as many of them as you like. Dual knows how to fill them in automatically, provided you actually specify them in your commands. However, providing examples might not always be the best way of teaching a skill. For instance, let’s say you’d like your Dual to know how to answer open-ended questions using knowledge from your notes. In only a few lines of text, you can specify that exact behavior without even providing examples. Placeholders get filled in as usual, notes related to the topic are being retrieved, and the pattern gets completed. You can teach it skills which build on any number of other skills. The following skill is also learned in a zero-shot fashion, meaning that no examples are provided, as opposed to the first two skills which were acquired in a few-shot way. If you got what those terms refer to, you have a pretty good chance of understanding the main innovation introduced by the GPT-3 paper, which is applied here to other language models.14 Actually, Dual can also be seen as simply a framework for prompt engineering plus some handy features for enabling a conversational interface. The skill below is all about prompting the user to reflect on certain topics described in their notes. You might have also noticed #0 being used several times in those examples. That’s indeed probably the least natural part of the otherwise pretty casual “syntax” used here. #0 is simply shorthand for “everything before this block,” while using #1 would refer to the result of the first block, and so on. This design choice was inspired by an exploration of approaches to capability amplification created by Ought, another non-profit operating in this space.15 . You can teach your Dual skills using plain natural language. However, if you want to prescribe a more programmatic task, such as computing the result of a mathematical expression or fetching data from an endpoint, you can also throw in some snippets of code by simply using existing Markdown code blocks. Because those blocks are interpreted differently, Markdown files become analogous to Jupyter or Observable notebooks. Back to the skill below. This one relies on some Javascript to get information about a certain entity from Wikidata, a machine-friendly Wikipedia spin-off which advocates for linked open data. Even in the occasional case when you resort to writing code, you’re still free to use placeholders (e.g. *entity* and *property* below), making it possible to mix highly deterministic code with fuzzy command parsing. The dawn of versatile user-defined assistants which can integrate with any number of IFTTT services? . This section merely provides an overview of how your Dual acquires skills. You could teach it to come up with metaphors, summarize short documents, suggest writing prompts, and what not. All in a local-first, user-defined, and open source way. You can have a look at this awesome list for inspiration on framing all sorts of tasks as text generation, from writing code based on a natural language description to formulating arguments and counter-arguments. More resources on teaching Dual such skills will follow once it will graduate from an alpha version. ",
+    "content": "This section provides a brief tour of the types of skills your Dual can currently acquire. This isn’t designed to serve as an in-depth tutorial, just as a quick glance at the skills you can teach Dual using Markdown. Skills and examples of using them are provided together in the actual screenshots below, with the skill files on the left and the chat conversations on the right. Keep in mind that only rendered Markdown is shown, for simplicity. For starters, let’s say you’re a researcher in academia and want to teach your (virtual) assistant how to come up with research questions on different subjects. To best explain this task, you might choose to provide a few examples of what you consider to be good research questions. This is what happens in the first few lines of the file listed below (have a look!). However, remember that you want to teach it how to come up with suggestions on new subjects. To describe this task, you might use the placeholder *subject* and ask it to complete the pattern with a new sentence. Placeholders are automatically filled in when the skill is used for following commands. After teaching your Dual this skill (by simply creating the skill file), it will automatically figure out when and how to use it, as can be seen in the chat. Actually, the Write a paragraph... part is just another command you can issue to your Dual yourself in the chat! It’s skills building on each other all the way down. The next example is similar. Provide some examples, a placeholder or two, ask it to complete the pattern, and you just taught it a new skill. You can use any placeholders you wish (e.g. *person*, *language*, *property*) and provide as many of them as you like. Dual knows how to fill them in automatically, provided you actually specify them in your commands. However, providing examples might not always be the best way of teaching a skill. For instance, let’s say you’d like your Dual to know how to answer open-ended questions using knowledge from your notes. In only a few lines of text, you can specify that exact behavior without even providing examples. Placeholders get filled in as usual, notes related to the topic are being retrieved, and the pattern gets completed. You can teach it skills which build on any number of other skills. The following skill is also learned in a zero-shot fashion, meaning that no examples are provided, as opposed to the first two skills which were acquired in a few-shot way. If you got what those terms refer to, you have a pretty good chance of understanding the main innovation introduced by the GPT-3 paper, which is applied here to other language models.13 Actually, Dual can also be seen as simply a framework for prompt engineering plus some handy features for enabling a conversational interface. The skill below is all about prompting the user to reflect on certain topics described in their notes. You might have also noticed #0 being used several times in those examples. That’s indeed probably the least natural part of the otherwise pretty casual “syntax” used here. #0 is simply shorthand for “everything before this block,” while using #1 would refer to the result of the first block, and so on. This design choice was inspired by an exploration of approaches to capability amplification created by Ought, another non-profit operating in this space.14 . You can teach your Dual skills using plain natural language. However, if you want to prescribe a more programmatic task, such as computing the result of a mathematical expression or fetching data from an endpoint, you can also throw in some snippets of code by simply using existing Markdown code blocks. Because those blocks are interpreted differently, Markdown files become analogous to Jupyter or Observable notebooks. Back to the skill below. This one relies on some Javascript to get information about a certain entity from Wikidata, a machine-friendly Wikipedia spin-off which advocates for linked open data. Even in the occasional case when you resort to writing code, you’re still free to use placeholders (e.g. *entity* and *property* below), making it possible to mix highly deterministic code with fuzzy command parsing. The dawn of versatile user-defined assistants which can integrate with any number of IFTTT services? . This section merely provides an overview of how your Dual acquires skills. You could teach it to come up with metaphors, summarize short documents, suggest writing prompts, and what not. All in a local-first, user-defined, and open source way. You can have a look at this awesome list for inspiration on framing all sorts of tasks as text generation, from writing code based on a natural language description to formulating arguments and counter-arguments. More resources on teaching Dual such skills will follow once it will graduate from an alpha version. ",
     "url": "http://localhost:4000/tools/dual/#skills",
     "relUrl": "/tools/dual/#skills"
   },"23": {
     "doc": "Dual",
     "title": "Further Steps",
-    "content": "Hosted inference . What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.16 . Better support . At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained system will greatly simplify the configuration. Extended skills . The light-weight “language” used to teach your Dual new skills will likely evolve over time, becoming ever more accessible, flexible, and powerful. Higher performance . All those language models take up quite some memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. ",
+    "content": "Hosted inference . What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.15 . Better support . At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained system will greatly simplify the configuration. Extended skills . The light-weight “language” used to teach your Dual new skills will likely evolve over time, becoming ever more accessible, flexible, and powerful. Higher performance . All those language models take up quite some memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. ",
     "url": "http://localhost:4000/tools/dual/#further-steps",
     "relUrl": "/tools/dual/#further-steps"
   },"24": {
     "doc": "Dual",
     "title": "Acknowledgements",
-    "content": "Our work is supported by awesome supporters: . | Andreas Stuhlmüller | David Dohan | Serj Hunt | Yang Wao | . ",
+    "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/dual/#acknowledgements",
     "relUrl": "/tools/dual/#acknowledgements"
   },"25": {
@@ -163,13 +163,13 @@
   },"27": {
     "doc": "Dual",
     "title": "References",
-    "content": ". | Greg Egan,Learning to Be Me &#8617; &#8617;2 . | Stuart Russell &amp; Peter Norvig,AI: A Modern Approach &#8617; . | Ted Chiang,Exhalation &#8617; . | David Clear,Zettelkasten &#8617; . | Matt Cone,The Markdown Guide &#8617; . | George Hotz &amp; Lex Fridman,Lex Podcast #31 &#8617; . | Paul Bricman,Second brain &#8617; . | Niklas Luhmann,Communicating with Slip Boxes &#8617; . | OpenAI,Language Models are Unsupervised Multitask Learners &#8617; . | EleutherAI,GPT-Neo &#8617; . | Bret Victor,The Humane Representation of Thought &#8617; . | Vi Hart &amp; Evelyn Eastmond,Explorations into Embodied Knowledge and AR/VR &#8617; . | Michael Hansen,voice2json &#8617; . | OpenAI,Language Models are Few-Shot Learners &#8617; . | Ought,A taxonomy of approaches to capability amplification &#8617; . | Ben Balter,Why everything should have a URL &#8617; . | . ",
+    "content": ". | Greg Egan,Learning to Be Me &#8617; &#8617;2 . | Stuart Russell &amp; Peter Norvig,AI: A Modern Approach &#8617; . | Ted Chiang,Exhalation &#8617; . | David Clear,Zettelkasten &#8617; . | Matt Cone,The Markdown Guide &#8617; . | George Hotz &amp; Lex Fridman,Lex Podcast #31 &#8617; . | Niklas Luhmann,Communicating with Slip Boxes &#8617; . | OpenAI,Language Models are Unsupervised Multitask Learners &#8617; . | EleutherAI,GPT-Neo &#8617; . | Bret Victor,The Humane Representation of Thought &#8617; . | Vi Hart &amp; Evelyn Eastmond,Explorations into Embodied Knowledge and AR/VR &#8617; . | Michael Hansen,voice2json &#8617; . | OpenAI,Language Models are Few-Shot Learners &#8617; . | Ought,A taxonomy of approaches to capability amplification &#8617; . | Ben Balter,Why everything should have a URL &#8617; . | . ",
     "url": "http://localhost:4000/tools/dual/#references",
     "relUrl": "/tools/dual/#references"
   },"28": {
     "doc": "Home",
     "title": "Psionica",
-    "content": "An open collective on a mission to augment thought for all. Learn More Join Us . We’re organizing our largest event yet! Augment Minds 2021 is an online unconference about developing transformative tools for thought where participants can host their own sessions. Join us to connect with like-minded people, exchange ideas, and find opportunities! Learn more and sign up here. ",
+    "content": "An open collective on a mission to augment thought for all. Learn More Join Us . ",
     "url": "http://localhost:4000/#psionica",
     "relUrl": "/#psionica"
   },"29": {
@@ -217,7 +217,7 @@
   },"36": {
     "doc": "Home",
     "title": "Acknowledgements",
-    "content": "Our work is supported by awesome supporters: . | Andreas Stuhlmüller | David Dohan | Serj Hunt | Yang Wao | . ",
+    "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/#acknowledgements",
     "relUrl": "/#acknowledgements"
   },"37": {
@@ -247,7 +247,7 @@
   },"41": {
     "doc": "K-Probes",
     "title": "Knowledge Probes",
-    "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @paulbricman . View Code . ",
+    "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @@thoughtware.engineer . View Code . ",
     "url": "http://localhost:4000/tools/k-probes/#knowledge-probes",
     "relUrl": "/tools/k-probes/#knowledge-probes"
   },"42": {
@@ -295,7 +295,7 @@
   },"49": {
     "doc": "K-Probes",
     "title": "Acknowledgements",
-    "content": "Our work is supported by awesome supporters: . | Andreas Stuhlmüller | David Dohan | Serj Hunt | Yang Wao | . ",
+    "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/k-probes/#acknowledgements",
     "relUrl": "/tools/k-probes/#acknowledgements"
   },"50": {
@@ -325,7 +325,7 @@
   },"54": {
     "doc": "MemNav",
     "title": "Memory Navigator",
-    "content": "STAGE 2 . Expanding propositional memory through text mining. By @paulbricman . View Code . ",
+    "content": "STAGE 2 . Expanding propositional memory through text mining. By @thoughtware.engineer . View Code . ",
     "url": "http://localhost:4000/tools/memnav/#memory-navigator",
     "relUrl": "/tools/memnav/#memory-navigator"
   },"55": {
@@ -367,7 +367,7 @@
   },"61": {
     "doc": "MemNav",
     "title": "Acknowledgements",
-    "content": "Our work is supported by awesome supporters: . | Andreas Stuhlmüller | David Dohan | Serj Hunt | Yang Wao | . ",
+    "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/memnav/#acknowledgements",
     "relUrl": "/tools/memnav/#acknowledgements"
   },"62": {
@@ -397,7 +397,7 @@
   },"66": {
     "doc": "Semantica",
     "title": "Semantica",
-    "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. By @paulbricman . Open Demo View Code . ",
+    "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. By @thoughtware.engineer . Open Demo View Code . ",
     "url": "http://localhost:4000/tools/semantica/#semantica",
     "relUrl": "/tools/semantica/#semantica"
   },"67": {
@@ -451,7 +451,7 @@
   },"75": {
     "doc": "Semantica",
     "title": "Acknowledgements",
-    "content": "Our work is supported by awesome supporters: . | Andreas Stuhlmüller | David Dohan | Serj Hunt | Yang Wao | . ",
+    "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/semantica/#acknowledgements",
     "relUrl": "/tools/semantica/#acknowledgements"
   },"76": {

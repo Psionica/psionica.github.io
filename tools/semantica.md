@@ -18,7 +18,7 @@ STAGE 2
 Extending conceptual thinking through semantic embeddings.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By @paulbricman
+By @thoughtware.engineer
 {: .mt-1 }
 
 [Open Demo](https://colab.research.google.com/drive/1NCPktYHVYvD03DRMevbhb51_yjnO4aTa?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Code](https://github.com/Psionica/Semantica){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -323,11 +323,7 @@ Not all semantic embeddings are created equal. The ones used in this prototype h
 
 ## Acknowledgements
 
-Our work is supported by awesome supporters:
-- [Andreas Stuhlmüller](https://stuhlmueller.org/)
-- [David Dohan](https://twitter.com/dmdohan)
-- [Serj Hunt](https://twitter.com/Serjhunt_ARK)
-- [Yang Wao](https://twitter.com/yangwao)
+Our work is supported by awesome people: [Adam Wiggins](https://opencollective.com/adam-wiggins), [Alex Iwaniuk](https://opencollective.com/alex-hubert-iwaniuk), [Andreas Stuhlmüller](https://stuhlmueller.org/), [Bruno Winck](https://opencollective.com/bruno-winck), [Chris Boette](https://opencollective.com/chris-boette), [David Dohan](https://opencollective.com/david-d), [Flancia](https://opencollective.com/flancia), [I Do Recall, Inc.](https://opencollective.com/i-do-recall-inc), [Nick Milo](https://opencollective.com/nickmilo), [Maggie Appleton](https://opencollective.com/maggie-appleton), [Serj Hunt](https://opencollective.com/serjhunt_ark), [Yang Wao](https://opencollective.com/yangwao).
 
 ## Support Us
 

@@ -14,9 +14,6 @@ An open collective on a mission to augment thought for all.
 
 [Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./docs/community/#people){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-{: .info }
-We're organizing our largest event yet! Augment Minds 2021 is an online unconference about developing transformative tools for thought where participants can host their own sessions. Join us to connect with like-minded people, exchange ideas, and find opportunities! Learn more and sign up [here](https://opencollective.com/psionica/events/augment-minds-7d13842a).
-
 ---
 
 ## Mission
@@ -84,11 +81,7 @@ Promoting critical thinking through prompt generation.
 
 ## Acknowledgements
 
-Our work is supported by awesome supporters:
-- [Andreas Stuhlmüller](https://stuhlmueller.org/)
-- [David Dohan](https://twitter.com/dmdohan)
-- [Serj Hunt](https://twitter.com/Serjhunt_ARK)
-- [Yang Wao](https://twitter.com/yangwao)
+Our work is supported by awesome people: [Adam Wiggins](https://opencollective.com/adam-wiggins), [Alex Iwaniuk](https://opencollective.com/alex-hubert-iwaniuk), [Andreas Stuhlmüller](https://stuhlmueller.org/), [Bruno Winck](https://opencollective.com/bruno-winck), [Chris Boette](https://opencollective.com/chris-boette), [David Dohan](https://opencollective.com/david-d), [Flancia](https://opencollective.com/flancia), [I Do Recall, Inc.](https://opencollective.com/i-do-recall-inc), [Nick Milo](https://opencollective.com/nickmilo), [Maggie Appleton](https://opencollective.com/maggie-appleton), [Serj Hunt](https://opencollective.com/serjhunt_ark), [Yang Wao](https://opencollective.com/yangwao).
 
 ## Support Us
 
