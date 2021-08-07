@@ -120,21 +120,24 @@ This section merely provides an overview of how your Dual acquires skills. You c
 ---
 
 ## Further Steps
-### Hosted inference
-{: .no_toc }
-What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.[^12]
 
-### Better support
-{: .no_toc }
-At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained system will greatly simplify the configuration.
+What we've made is only the beginning. Here are other ideas to take the project, given further investment of time and other resources.
 
-### Extended skills
-{: .no_toc }
-The light-weight "language" used to teach your Dual new skills will likely evolve over time, becoming ever more accessible, flexible, and powerful.  
+### Streamlining installation
+Making it simple to get Dual running would help get users onboard, especially in the Obsidian environment. Ideally, a one-click install would make it accessible for non-technical users as well.
+{: .no-toc }
 
-### Higher performance
-{: .no_toc }
-All those language models take up quite some memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU.
+### Documentation
+Documenting the Markdown-like language for defining skills and the API for interacting with the server component would make it easy for users to get started and tweak it to their own needs.
+{: .no-toc }
+
+### Standalone version
+Developing Dual for Obsidian is a great first step, with many users gaining a deeper access to their notes. By creating a standalone client, with access from the commandline or other clients, Dual can be a consistent tool for thinking outside of the Obsidian ecosystem. 
+{: .no-toc }
+
+### Skills hub
+Users are able to share Dual skills among themselves by essentially transferring the relevant Markdown files. A hub or market for such files would make it easier for users to teach their Duals new skills.
+{: .no-toc }
 
 ---
 
