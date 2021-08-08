@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Autocards",
     "title": "Autocards",
-    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @thoughtware.engineer, @QPsJhm . View Code . ",
+    "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. By @QPsJhm, @thoughtware.engineer . View Code . ",
     "url": "http://localhost:4000/tools/autocards/",
     "relUrl": "/tools/autocards/"
   },"1": {
@@ -109,7 +109,7 @@
   },"18": {
     "doc": "Dual",
     "title": "Table of contents",
-    "content": ". | Introduction | Paradigms | Structure | Skills | Further Steps | Acknowledgements | Support Us | Join Us | References | . ",
+    "content": ". | Introduction | Paradigms | Structure | Skills | Further Steps . | Streamlining installation | Documentation | Standalone version | Skills hub | . | Acknowledgements | Support Us | Join Us | References | . ",
     "url": "http://localhost:4000/tools/dual/#table-of-contents",
     "relUrl": "/tools/dual/#table-of-contents"
   },"19": {
@@ -139,7 +139,7 @@
   },"23": {
     "doc": "Dual",
     "title": "Further Steps",
-    "content": "Hosted inference . What if you wanted others to interact with your Dual? Perhaps your research collaborators, team members, or just anyone browsing through your public notes.15 . Better support . At the moment, setting up your Dual is somewhat tedious, as it involves installing various third-party dependencies manually. However, packaging the system in a self-contained system will greatly simplify the configuration. Extended skills . The light-weight “language” used to teach your Dual new skills will likely evolve over time, becoming ever more accessible, flexible, and powerful. Higher performance . All those language models take up quite some memory and are somewhat sluggish. Memory optimizations and speed improvements are well underway, mostly based on model distillation, caching, and forcing models on GPU. ",
+    "content": "What we’ve made is only the beginning. Here are other ideas to take the project, given further investment of time and other resources. Streamlining installation . Making it simple to get Dual running would help get users onboard, especially in the Obsidian environment. Ideally, a one-click install would make it accessible for non-technical users as well. Documentation . Documenting the Markdown-like language for defining skills and the API for interacting with the server component would make it easy for users to get started and tweak it to their own needs. Standalone version . Developing Dual for Obsidian is a great first step, with many users gaining a deeper access to their notes. By creating a standalone client, with access from the commandline or other clients, Dual can be a consistent tool for thinking outside of the Obsidian ecosystem. Skills hub . Users are able to share Dual skills among themselves by essentially transferring the relevant Markdown files. A hub or market for such files would make it easier for users to teach their Duals new skills. ",
     "url": "http://localhost:4000/tools/dual/#further-steps",
     "relUrl": "/tools/dual/#further-steps"
   },"24": {
@@ -163,7 +163,7 @@
   },"27": {
     "doc": "Dual",
     "title": "References",
-    "content": ". | Greg Egan,Learning to Be Me &#8617; &#8617;2 . | Stuart Russell &amp; Peter Norvig,AI: A Modern Approach &#8617; . | Ted Chiang,Exhalation &#8617; . | David Clear,Zettelkasten &#8617; . | Matt Cone,The Markdown Guide &#8617; . | George Hotz &amp; Lex Fridman,Lex Podcast #31 &#8617; . | Niklas Luhmann,Communicating with Slip Boxes &#8617; . | OpenAI,Language Models are Unsupervised Multitask Learners &#8617; . | EleutherAI,GPT-Neo &#8617; . | Bret Victor,The Humane Representation of Thought &#8617; . | Vi Hart &amp; Evelyn Eastmond,Explorations into Embodied Knowledge and AR/VR &#8617; . | Michael Hansen,voice2json &#8617; . | OpenAI,Language Models are Few-Shot Learners &#8617; . | Ought,A taxonomy of approaches to capability amplification &#8617; . | Ben Balter,Why everything should have a URL &#8617; . | . ",
+    "content": ". | Greg Egan,Learning to Be Me &#8617; &#8617;2 . | Stuart Russell &amp; Peter Norvig,AI: A Modern Approach &#8617; . | Ted Chiang,Exhalation &#8617; . | David Clear,Zettelkasten &#8617; . | Matt Cone,The Markdown Guide &#8617; . | George Hotz &amp; Lex Fridman,Lex Podcast #31 &#8617; . | Niklas Luhmann,Communicating with Slip Boxes &#8617; . | OpenAI,Language Models are Unsupervised Multitask Learners &#8617; . | EleutherAI,GPT-Neo &#8617; . | Bret Victor,The Humane Representation of Thought &#8617; . | Vi Hart &amp; Evelyn Eastmond,Explorations into Embodied Knowledge and AR/VR &#8617; . | Michael Hansen,voice2json &#8617; . | OpenAI,Language Models are Few-Shot Learners &#8617; . | Ought,A taxonomy of approaches to capability amplification &#8617; . | . ",
     "url": "http://localhost:4000/tools/dual/#references",
     "relUrl": "/tools/dual/#references"
   },"28": {
@@ -259,7 +259,7 @@
   },"43": {
     "doc": "K-Probes",
     "title": "Knowledge Probes",
-    "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @@thoughtware.engineer . View Code . ",
+    "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @thoughtware.engineer . View Code . ",
     "url": "http://localhost:4000/tools/k-probes/#knowledge-probes",
     "relUrl": "/tools/k-probes/#knowledge-probes"
   },"44": {

@@ -16,7 +16,7 @@ STAGE 2
 Accelerating learning through machine-generated flashcards.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By @thoughtware.engineer, @QPsJhm
+By @QPsJhm, [@thoughtware.engineer](https://paulbricman.com/)
 {: .mt-1 }
 
 [View Code](https://github.com/Psionica/Autocards){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
