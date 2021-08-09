@@ -6382,4 +6382,7 @@ figure.highlight {
     max-width: none;
     margin-left: 0; } }
 .border {
-  border: 1px solid #2c84fa; }
+  border: 2px solid #2c84fa;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  line-height: 0%; }
