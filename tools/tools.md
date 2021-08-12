@@ -13,6 +13,15 @@ Developing thoughtware from sketches to apps.
 
 ---
 
+## [Conceptarium](/tools/conceptarium)
+{: .d-inline-block .mt-0 }
+
+STAGE 1
+{: .label }
+
+A fluid medium for storing, relating, and surfacing thoughts.
+{: .fs-4 .fw-300 .text-left .mt-0 }
+
 ## [Dual](/tools/dual)
 {: .d-inline-block .mt-0 }
 
@@ -31,15 +40,6 @@ STAGE 2
 Accelerating learning through machine-generated flashcards.
 {: .fs-4 .fw-300 .text-left .mt-0 }
 
-## [Semantica](/tools/semantica)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-Extending conceptual thinking through semantic embeddings.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
 ## [Memory Navigator](/tools/memnav)
 {: .d-inline-block .mt-0 }
 
@@ -56,4 +56,13 @@ STAGE 2
 {: .label }
 
 Promoting critical thinking through prompt generation.
+{: .fs-4 .fw-300 .text-left .mt-0 }
+
+## [Semantica](/tools/semantica)
+{: .d-inline-block .mt-0 }
+
+STAGE 2
+{: .label }
+
+Extending conceptual thinking through semantic embeddings.
 {: .fs-4 .fw-300 .text-left .mt-0 }

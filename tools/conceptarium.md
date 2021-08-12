@@ -16,7 +16,7 @@ STAGE 1
 A fluid medium for storing, relating, and surfacing thoughts.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-By [@thoughtware.engineer](https://paulbricman.com/)
+August 2021, by [@thoughtware.engineer](https://paulbricman.com/)
 {: .mt-1 }
 
 ## Table of contents
