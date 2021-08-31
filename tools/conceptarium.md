@@ -10,14 +10,16 @@ published: True
 # Conceptarium
 {: .d-inline-block .mt-4 .no_toc }
 
-STAGE 1
+STAGE 2
 {: .label }
 
 A fluid medium for storing, relating, and surfacing thoughts.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-August 2021, by [@thoughtware.engineer](https://paulbricman.com/)
+By [@thoughtware.engineer](https://paulbricman.com/)
 {: .mt-1 }
+
+[View Code](https://github.com/Psionica/conceptarium){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -29,7 +31,7 @@ August 2021, by [@thoughtware.engineer](https://paulbricman.com/)
 
 ## Introduction
 
-A conceptarium (noun. /ˈknsɛptɛriəm/, plural: conceptaria) is a fluid medium for storing, relating, and surfacing thoughts based on a new representation of knowledge. It's meant to provide a foundation for new tools for thought to build onto, a means to nurture a new tooling ecosystem for knowledge work -- a cognitive infrastructure. It embodies a philosophy of knowledge which differs in important ways from the one embodied by the knowledge graph poster children (e.g. Roam Research, Obsidian, Logseq). This document is simply a blueprint of this building block, part vignette and part wireframe, meant to give the idea a home.
+A conceptarium (noun. /ˈknsɛptɛriəm/, plural: conceptaria) is a fluid medium for storing, relating, and surfacing thoughts based on a new representation of knowledge. It's meant to provide a foundation for new tools for thought to build onto, a means to nurture a new tooling ecosystem for knowledge work -- a cognitive infrastructure. It embodies a philosophy of knowledge which differs in important ways from the one held by the knowledge graph poster children (e.g. Roam Research, Obsidian, Logseq), and can be deployed today in a self-hosted regime, even on a modest Raspberry Pi.
 
 ## Representation
 
@@ -84,14 +86,41 @@ As opposed to isolated tools, composable building blocks which have interoperabi
 
 Another way to signal the general scope of such a building block in the making, while also taking advantage of non-commercial goals, is to name it using a common noun. In contrast to a proper noun (e.g. Roam Research), a common noun (e.g. conceptarium) does not signal a branded product or service, but rather a type of *thing* which someone can make use of. Additionally, phrasing the name using common Greek and Latin morphemes enables natural adaptations to a host of European languages. For instance, in Romanian, I would call it "conceptar" (analogous to how "ierbar" means "herbarium"). In Italian, it might be called "concettario," while it Finnish, it might be called "konseptario."
 
-{: .border }
-![](/assets/images/buildingblocks.png)
-
 ## Architecture
 
-The conceptarium is a minimal server app. A lightweight standardized API only exposes a handful of endpoints, mostly for adding and retrieving documents. The storage of document metadata, the management of document activation, and the ranking of candidate documents based on custom criteria is all managed by the server app behind-the-scenes. It makes use of Python modules like FastAPI and sentence-transformers, but can be packaged in a self-contained Docker environment. It can be deployed from a one-click image on a cloud provider (e.g. DigitalOcean), but can also be deployed on a Raspberry Pi, as its system requirements are manageable. The lightweight API makes it trivial to integrate with services like IFTTT/Zapier (as a webhook), AutoHotKey-like utilities (as a request), browsers (as a search engine), and full-blown third-party tools (as a knowledge store).
+The conceptarium is a minimal server app. A lightweight standardized API only exposes a handful of endpoints, mostly for saving and finding documents. The storage of document metadata, the management of document activation, and the ranking of candidate documents based on custom criteria is all managed by the server app behind-the-scenes. It makes use of Python modules like FastAPI and sentence-transformers, and can run on hardware as modest as a Raspberry Pi. The lightweight API makes it trivial to integrate with services like IFTTT/Zapier (as a webhook), AutoHotKey-like utilities (via requests), browsers (as a search engine), and full-blown third-party tools (as a knowledge store).
 
-## Glimpses
+For saving thoughts, two endpoints are exposed by the server, one for language and one for imagery. HTTP requests to either of them will lead to the payload thought being persisted as a file with a random name (e.g. iB7JeeR_vSY.png) and with cached metadata (e.g. semantic embedding).
+
+| TYPE | ENDPOINT   | PARAMS  | DESCRIPTION                             |
+|------|------------|---------|-----------------------------------------|
+| GET  | /save/lang | content | Save thought expressed in language.     |
+| POST | /save/imag | file    | Save thought expressed through imagery. |
+
+For finding thoughts, eight endpoints are exposed by the server. For each of the two modalities, the server can respond using one of four formats: web page, plain text, image file, or JSON. Different formats are suitable for different integrations. For instance, when adding the conceptarium as a search engine in a browser, it makes most sense to opt for the web page response, which gets rendered natively. Alternatively, when creating a hotkey script, it might be easiest to fetch an image file and paste it in directly. Future tools which build on the conceptarium will most likely make use of the JSON response, which is rich in detail despite not being particularly human-readable.
+
+| TYPE | ENDPOINT        | PARAMS                                          | DESCRIPTION                                                    |
+|------|-----------------|-------------------------------------------------|----------------------------------------------------------------|
+| GET  | /find/lang/html | content, relatedness, activation, noise, silent | Find mixed thoughts by means of language via a web page response.    |
+| GET  | /find/lang/text | content, relatedness, activation, noise, silent | Find language thoughts by means of language via a plain text response.  |
+| GET  | /find/lang/file | content, relatedness, activation, noise, silent | Find an image thought by means of language via an image file response. |
+| GET  | /find/lang/json | content, relatedness, activation, noise, silent | Find mixed thoughts by means of language via a JSON response.        |
+| POST | /find/imag/html | file, relatedness, activation, noise, silent    | Find mixed thoughts by means of imagery via a web page response.     |
+| POST | /find/imag/text | file, relatedness, activation, noise, silent    | Find language thoughts by means of imagery via a plain text response.   |
+| POST | /find/imag/file | file, relatedness, activation, noise, silent    | Find an image thoughts by means of imagery via an image file response.  |
+| POST | /find/imag/json | file, relatedness, activation, noise, silent    | Find mixed thoughts by means of imagery via a JSON response.         |
+
+Requests for finding thoughts have several parameters. First, there's a payload, the only required parameter, similar to the saving endpoints. However, this now represents the *query*, and it acts as a cue when looking for thoughts, similar to how you'd search the web using DuckDuckGo. Second, `relatedness`, `activation`, and `noise` are *weights* which are used to rank the results in the response. For instance, if I was looking for thoughts related to the query which I'd be unlikely to remember myself, I might set `relatedness = 0.9` in order to encourage close ideas and `activation = -0.1` in order to discourage thoughts with high activation. If I wanted the results to be slightly different every time, I might also set `noise = 0.2` for some randomness. The three weights provide knobs and dials for tweaking the search to one's needs. Finally, the `silent` parameter can be used for debugging purposes in order *not* to cause updates in document activations as an effect of search.
+
+{: .border }
+![](/assets/images/conceptarium_html.png)
+
+{: .mt-0 }
+*Web page response obtained by using a search engine integration in Firefox.*
+
+A couple other utility endpoints are available for generating dumps as backup archives and for recomputing the semantic embeddings in the case of a future switch of model (from the current OpenAI CLIP). The complete documentation can be accessed via the `/docs` endpoint of a running conceptarium.
+
+## Future Visions
 
 The conceptarium serves as the foundation for other tools to build on and enables a host of novel primitives. Below is a short collection of vignettes depicting the usage of those downstream tools and related mechanics.
 

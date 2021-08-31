@@ -17,7 +17,7 @@ STAGE 3
 Amplifying knowledge work through user-defined assistants.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-March 2021, by @benjamin, [@thoughtware.engineer](https://paulbricman.com/)
+By @benjamin, [@thoughtware.engineer](https://paulbricman.com/)
 {: .mt-1 }
 
 [Watch Demo](https://youtu.be/58-Ue2mDy0k?t=3236){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Code](https://github.com/Psionica/Dual){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }

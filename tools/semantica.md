@@ -18,7 +18,7 @@ STAGE 2
 Extending conceptual thinking through semantic embeddings.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-October 2020, by [@thoughtware.engineer](https://paulbricman.com/)
+By [@thoughtware.engineer](https://paulbricman.com/)
 {: .mt-0 }
 
 [Open Demo](https://colab.research.google.com/drive/1NCPktYHVYvD03DRMevbhb51_yjnO4aTa?usp=sharing){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View Code](https://github.com/Psionica/Semantica){: .btn .fs-5 .mb-4 .mb-md-0 }

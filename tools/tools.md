@@ -16,7 +16,7 @@ Developing thoughtware from sketches to apps.
 ## [Conceptarium](/tools/conceptarium)
 {: .d-inline-block .mt-0 }
 
-STAGE 1
+STAGE 2
 {: .label }
 
 A fluid medium for storing, relating, and surfacing thoughts.

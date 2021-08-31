@@ -32,8 +32,17 @@ Ready for takeoff.
 
 ## Our Work
 
-## [Dual](/tools/dual)
+## [Conceptarium](/tools/conceptarium)
 {: .d-inline-block .mt-4 }
+
+STAGE 2
+{: .label }
+
+A fluid medium for storing, relating, and surfacing thoughts.
+{: .fs-4 .fw-300 .text-left .mt-0 }
+
+## [Dual](/tools/dual)
+{: .d-inline-block .mt-0 }
 
 STAGE 3
 {: .label }

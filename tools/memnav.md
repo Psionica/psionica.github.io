@@ -19,7 +19,7 @@ STAGE 2
 Expanding propositional memory through text mining.
 {: .fs-6 .fw-300 .text-left .mb-0 .mt-0 }
 
-January 2021, by [@thoughtware.engineer](https://paulbricman.com/)
+By [@thoughtware.engineer](https://paulbricman.com/)
 {: .mt-0 }
 
 [View Code](https://github.com/Psionica/MemNav){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
