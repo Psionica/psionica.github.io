@@ -12,7 +12,7 @@ description: "An open collective on a mission to augment thought for all."
 An open collective on a mission to augment thought for all.
 {: .fs-6 .fw-300 .text-left }
 
-[Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./docs/community/#people){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Learn More](./#mission){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Us](./community/#people){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
