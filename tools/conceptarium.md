@@ -101,16 +101,16 @@ For finding thoughts, eight endpoints are exposed by the server. For each of the
 
 | TYPE | ENDPOINT        | PARAMS                                          | DESCRIPTION                                                    |
 |------|-----------------|-------------------------------------------------|----------------------------------------------------------------|
-| GET  | /find/lang/html | content, relatedness, activation, noise, silent | Find mixed thoughts by means of language via a web page response.    |
-| GET  | /find/lang/text | content, relatedness, activation, noise, silent | Find language thoughts by means of language via a plain text response.  |
-| GET  | /find/lang/file | content, relatedness, activation, noise, silent | Find an image thought by means of language via an image file response. |
-| GET  | /find/lang/json | content, relatedness, activation, noise, silent | Find mixed thoughts by means of language via a JSON response.        |
-| POST | /find/imag/html | file, relatedness, activation, noise, silent    | Find mixed thoughts by means of imagery via a web page response.     |
-| POST | /find/imag/text | file, relatedness, activation, noise, silent    | Find language thoughts by means of imagery via a plain text response.   |
-| POST | /find/imag/file | file, relatedness, activation, noise, silent    | Find an image thoughts by means of imagery via an image file response.  |
-| POST | /find/imag/json | file, relatedness, activation, noise, silent    | Find mixed thoughts by means of imagery via a JSON response.         |
+| GET  | /find/lang/html | content, relatedness, serendipity, noise, silent | Find mixed thoughts by means of language via a web page response.    |
+| GET  | /find/lang/text | content, relatedness, serendipity, noise, silent | Find language thoughts by means of language via a plain text response.  |
+| GET  | /find/lang/file | content, relatedness, serendipity, noise, silent | Find an image thought by means of language via an image file response. |
+| GET  | /find/lang/json | content, relatedness, serendipity, noise, silent | Find mixed thoughts by means of language via a JSON response.        |
+| POST | /find/imag/html | file, relatedness, serendipity, noise, silent    | Find mixed thoughts by means of imagery via a web page response.     |
+| POST | /find/imag/text | file, relatedness, serendipity, noise, silent    | Find language thoughts by means of imagery via a plain text response.   |
+| POST | /find/imag/file | file, relatedness, serendipity, noise, silent    | Find an image thoughts by means of imagery via an image file response.  |
+| POST | /find/imag/json | file, relatedness, serendipity, noise, silent    | Find mixed thoughts by means of imagery via a JSON response.         |
 
-Requests for finding thoughts have several parameters. First, there's a payload, the only required parameter, similar to the saving endpoints. However, this now represents the *query*, and it acts as a cue when looking for thoughts, similar to how you'd search the web using DuckDuckGo. Second, `relatedness`, `activation`, and `noise` are *weights* which are used to rank the results in the response. For instance, if I was looking for thoughts related to the query which I'd be unlikely to remember myself, I might set `relatedness = 0.9` in order to encourage close ideas and `activation = -0.1` in order to discourage thoughts with high activation. If I wanted the results to be slightly different every time, I might also set `noise = 0.2` for some randomness. The three weights provide knobs and dials for tweaking the search to one's needs. Finally, the `silent` parameter can be used for debugging purposes in order *not* to cause updates in document activations as an effect of search.
+Requests for finding thoughts have several parameters. First, there's a payload, the only required parameter, similar to the saving endpoints. However, this now represents the *query*, and it acts as a cue when looking for thoughts, similar to how you'd search the web using DuckDuckGo. Second, `relatedness`, `serendipity`, and `noise` are *weights* which are used to rank the results in the response. For instance, if I was looking for thoughts related to the query which I'd be unlikely to remember myself, I might set `relatedness = 0.9` in order to encourage close ideas and `serendipity = 0.1` in order to discourage thoughts with high activation. If I wanted the results to be slightly different every time, I might also set `noise = 0.2` for some randomness. The three weights provide knobs and dials for tweaking the search to one's needs. Finally, the `silent` parameter can be used for debugging purposes in order *not* to cause updates in document activations as an effect of search.
 
 {: .border }
 ![](/assets/images/conceptarium_html.png)
