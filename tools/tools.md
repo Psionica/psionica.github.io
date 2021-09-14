@@ -13,6 +13,15 @@ Developing thoughtware from sketches to apps.
 
 ---
 
+## [Ideoscope](/tools/ideoscope)
+{: .d-inline-block .mt-0 }
+
+STAGE 1
+{: .label }
+
+An instrument for quantifying, understanding, and optimizing your thinking.
+{: .fs-4 .fw-300 .text-left .mt-0 }
+
 ## [Conceptarium](/tools/conceptarium)
 {: .d-inline-block .mt-0 }
 
