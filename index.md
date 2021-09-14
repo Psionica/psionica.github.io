@@ -53,7 +53,7 @@ A fluid medium for storing, relating, and surfacing thoughts.
 ## [Dual](/tools/dual)
 {: .d-inline-block .mt-0 }
 
-STAGE 3
+STAGE 2
 {: .label }
 
 Amplifying knowledge work through user-defined assistants.

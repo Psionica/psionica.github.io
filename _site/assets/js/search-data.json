@@ -175,7 +175,7 @@
   },"29": {
     "doc": "Dual",
     "title": "Dual",
-    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. By @benjamin, @thoughtware.engineer . Watch Demo View Code . ",
+    "content": "STAGE 2 . Amplifying knowledge work through user-defined assistants. By @benjamin, @thoughtware.engineer . Watch Demo View Code . ",
     "url": "http://localhost:4000/tools/dual/",
     "relUrl": "/tools/dual/"
   },"30": {
@@ -349,7 +349,7 @@
   },"58": {
     "doc": "Home",
     "title": "Dual",
-    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. ",
+    "content": "STAGE 2 . Amplifying knowledge work through user-defined assistants. ",
     "url": "http://localhost:4000/#dual",
     "relUrl": "/#dual"
   },"59": {
@@ -661,7 +661,7 @@
   },"110": {
     "doc": "Tools",
     "title": "Dual",
-    "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. ",
+    "content": "STAGE 2 . Amplifying knowledge work through user-defined assistants. ",
     "url": "http://localhost:4000/tools/tools/#dual",
     "relUrl": "/tools/tools/#dual"
   },"111": {

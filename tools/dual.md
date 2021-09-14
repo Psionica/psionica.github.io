@@ -11,7 +11,7 @@ image: /assets/images/dual-thumbnail.png
 # Dual
 {: .d-inline-block .mt-4 .no_toc }
 
-STAGE 3
+STAGE 2
 {: .label }
 
 Amplifying knowledge work through user-defined assistants.
