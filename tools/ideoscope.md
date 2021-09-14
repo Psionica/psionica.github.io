@@ -48,7 +48,7 @@ The metrics incorporated in the ideoscope are grouped into three broad categorie
 
 ### Memetics
 
-As hinted at before, the memetic perspective consists in looking at your mind as a population of memes (i.e. ideas, thoughts, concepts) which evolves over time, facing various obstacles and opportunities along the way.
+As hinted at before, the memetic perspective consists in looking at your mind as a population of memes (i.e. ideas, thoughts, concepts) which evolves over time, facing various obstacles and opportunities along the way.[^7]
 
 #### Ideogenesis
 
@@ -71,7 +71,7 @@ If the previous metrics aimed to characterize the entire population of your meme
 
 #### Memetic Load
 
-Memetic load, in an analogy to genetic load, is a measure of the presence of unfavourable memetic material in your ecology of mind.[^1] It's expressed as a function of the maximum fitness and the average fitness of the population. Concretely, if you've invested time in thinking about things you're not thinking about now at all, then the memetic load would be high. Alternatively, if all saved thoughts are relatively active, then the memetic load is quite low.
+Memetic load, in an analogy to genetic load, is a measure of the presence of unfavorable memetic material in your ecology of mind.[^1] It's expressed as a function of the maximum fitness found in the population and the average fitness of the population as a whole. Concretely, if you've invested time in thinking about things you're not thinking about now at all, then the memetic load would be high. Alternatively, if all saved thoughts are relatively active, then the memetic load is quite low.
 
 {: .border }
 ![](/assets/images/ideoscope1.png)
@@ -82,14 +82,14 @@ Just like in population genetics, the population size of your memetic ecology is
 
 #### Memetic Carrying Capacity
 
-Memetic carrying capacity, in an analogy to the notion of carrying capacity used in environmental science, is the maximum population size which can be sustained by your mind as a habitat for ideas.[^4] Cognitive resources have long been argued to be limited across various dimensions, the combination of which can only support a certain quantity of thought. This might be helpful for budgeting your available cognitive resources according to predefined objectives. The memetic carrying capacity can be gauged by looking back in time and estimating the average population size based on the largest populations recorded in the past.
+Memetic carrying capacity, in an analogy to the notion of carrying capacity used in environmental science, is the maximum population size which can be sustained by your mind as a habitat for ideas.[^4] Cognitive resources have long been argued to be limited across various dimensions, the combination of which might only be able to support a certain quantity of thought. This might be helpful for budgeting your available cognitive resources according to predefined objectives. The memetic carrying capacity can be gauged by looking back in time and estimating the maximum population size based on the largest populations recorded in the past.
 
 ### Semantics
 
 In contrast to the memetic lens which frames all of thought as evolution, the semantics perspective employed here disregards any Darwinian nuance and narrows in on the semantic embeddings alone.
 
 {: .warn }
-The semantic space accessible by embedding thoughts using a machine learning model is "shaped" so as to only account for the human thought seen in the training data, and little else. The resources of expressivity are completely devoted to representing human ideas contained in text, due to the optimization pressures involved in training. Therefore, when talking about the volume of semantic space, it's useful to keep in mind that we're only referring to the breadth of human thought, rather than the breadth of all possible thought (e.g. artificial, animal, etc.). Still, this measure might be informative, and currently, all we have at our disposal.
+The semantic space accessible by embedding thoughts using a machine learning model is "shaped" so as to only account for the human thought seen in the training data, and little else. The resources of expressivity are completely devoted to representing human ideas contained in text, due to the optimization pressures involved in training. Therefore, when talking about the volume of semantic space, it's useful to keep in mind that we're only referring to the breadth of human thought, rather than the breadth of all possible thought (e.g. artificial, animal, posthuman etc.). Still, this measure might be informative, and currently, all we have at our disposal.
 
 #### Explored Volume
 
@@ -97,11 +97,11 @@ The semantic embeddings of thoughts are expressed as points in semantic space. T
 
 #### Discovery Rate
 
-This change in perspective from points to tiny spheres popping up all around semantic space enables yet another new metric. The discovery rate is a measure of how much new semantic territory you've dicovered in a set period of time (e.g. last month), the rate of change of the explored volume. This might make for an interesting target indicator based on values of exploration and conquest.
+This change in perspective from points to tiny spheres popping up all around semantic space enables yet another new metric. The discovery rate is a measure of how much new semantic territory you've discovered in a set period of time (e.g. last month), the rate of change of the explored volume. This might make for an interesting target indicator based on values of exploration and conquest.
 
 #### Low-Dimensional Projection
 
-All previous metrics, even if quite informative, are simply stats or, at best, time series. Low-dimensional projection is a completely different way of thinking about thoughts in high-dimensional semantic spaces by reducing their dimensionality and actually *seeing* them (e.g. on a 2D plane). Even if this visualization technique doesn't focus on deriving specific insights from your thought process, looking at ideas popping up across jagged semantic trajectories (i.e. trains of thought), might ultimately prove informative, as well. Note that projecting high-dimensional points on a 2D plane inevitably means cutting down on the expressivity of the original spatial layouts.
+All previous metrics, even if quite informative, are simply stats or, at best, time series. Low-dimensional projection is a completely different way of thinking about thoughts in high-dimensional semantic spaces by reducing their dimensionality and actually *seeing* them (e.g. on a 2D plane). Even if this visualization technique doesn't focus on deriving specific insights from your thought process, looking at ideas popping up across jagged semantic trajectories (i.e. trains of thought), might ultimately prove informative as well. Note that projecting high-dimensional points on a 2D plane inevitably means cutting down on the expressivity of the original spatial layouts.
 
 ### Linguistics
 
@@ -182,3 +182,4 @@ Do you want to contribute to the development of this project yourself? Join Psio
 [^4]: National Geographic,<br/>[Carrying Capacity](https://www.nationalgeographic.org/topics/resource-library-carrying-capacity/)
 [^5]: TextBlob,<br/>[Quickstart](https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis)
 [^6]: Streamlit,<br/>[Home Page](https://streamlit.io/)
+[^7]: Paul Bricman,<br/>[Ideoponics](paulbricman.com/reflections/ideoponics)

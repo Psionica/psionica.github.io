@@ -277,7 +277,7 @@
   },"46": {
     "doc": "Ideoscope",
     "title": "Metrics",
-    "content": "The metrics incorporated in the ideoscope are grouped into three broad categories: memetics, semantics, and linguistics. Each of these provides a different angle for analyzing your thinking, similar to how a blood panel involves different families of tests (e.g. hematology, biochemistry). Memetics . As hinted at before, the memetic perspective consists in looking at your mind as a population of memes (i.e. ideas, thoughts, concepts) which evolves over time, facing various obstacles and opportunities along the way. Ideogenesis . This metric simply refers to the rate of new thoughts being saved in the conceptarium. It supports a number of different related stats and visualizations (e.g. calendar views, histograms): past month, past week, past day, per month, per week, per day, by day of the week, by hour. If you’re using the conceptarium as a storage medium for new ideas, then ideogenesis can indicate when (i.e. in what recent period, in what part of the day) you generate most new ideas. Correlating this with activities you’ve engaged in during those times (e.g. via your calendar or time tracker) might help identify the most thoughtful practices. Chatting with interesting people and enjoying solo walks in nature appear to be major such candidates for me. Memetic Variability . Each thought saved in the conceptarium has a semantic embedding which indicates what it is about by placing it at certain coordinates in semantic space. Memetic variability, in an analogy to genetic variability, is then a measure of how diverse your thoughts are, how much variation there is in the ecology of your thought during a certain period of time.4 It’s computed through the standard deviation (i.e. spread) of your thoughts across semantic space. If you’ve been constantly thinking about the same things in the same way through the past month, the memetic variability would be quite low. In contrast, if you’ve been thinking about more diverse things, the memetic variability would be higher. In population genetics, variability is argued to be a hard requirement for natural selection, which helps increase fitness over time. Similarly, a healthy dose of memetic variability might be helpful in generating powerful ideas, while a memetic monoculture might get stuck in a local optimum of fitness. Think of memetic variability as biodiversity for ideas. Memetic Drift . Memetic drift, in an analogy to genetic drift, is a measure of how fast the aggregate state of your memetic ecology (i.e. ideology) is changing over time. It’s computed through the distance between the centroid (i.e. the center point located at the average coordinates) of the semantic embeddings of your thoughts from a recent period of time (e.g. past month) and the centroid of the semantic embeddings of your thoughts from a previous period (e.g. the previous month). If you’ve been completely changing your general focus from one month to the next, your memetic drift would be high. Conversely, if you’ve been rather constant in your general focus through the whole past year, your memetic drift would be quite low. Interestingly enough, population genetics notes that the effect of genetic drift on large populations is way smaller than on small populations.4 Through a memetic lens, this might partially explain why large ecologies of thought which had a long time to mature are more resistant to change (e.g. elderly, whole cultures), even if obvious other factors are at play (e.g. neuroplasticity, social norms). Memetic Fitness . If the previous metrics aimed to characterize the entire population of your memetic ecology, memetic fitness is a characteristic of an individual – one idea. We’re identifying the fitness of an idea here with its activation in the conceptarium. The more captivating, consequential, and generally interesting ideas are the most active ones, the ones you’ve kept thinking about most. Besides getting some summary stats like min, max, mean, median, or mode, it’s possible to peek into the aggregate fitness landscape of the population through visualizations like histograms and boxplots. These metrics might be able to diagnose segregation, inbreeding, elitism, and other pitfalls faced by evolving populations. Memetic Load . Memetic load, in an analogy to genetic load, is a measure of the presence of unfavourable memetic material in your ecology of mind.4 It’s expressed as a function of the maximum fitness and the average fitness of the population. Concretely, if you’ve invested time in thinking about things you’re not thinking about now at all, then the memetic load would be high. Alternatively, if all saved thoughts are relatively active, then the memetic load is quite low. Effective Population Size . Just like in population genetics, the population size of your memetic ecology is simply the number of individuals (i.e. ideas) which inhabit it. However, some further criteria might turn it into a more useful metric than simply an indicator of how many thoughts you ever saved to the conceptarium. For instance, thoughts might be considered active members of the ecology only if their activation is above a certain threshold. Memetic Carrying Capacity . Memetic carrying capacity, in an analogy to the notion of carrying capacity used in environmental science, is the maximum population size which can be sustained by your mind as a habitat for ideas.5 Cognitive resources have long been argued to be limited across various dimensions, the combination of which can only support a certain quantity of thought. This might be helpful for budgeting your available cognitive resources according to predefined objectives. The memetic carrying capacity can be gauged by looking back in time and estimating the average population size based on the largest populations recorded in the past. Semantics . In contrast to the memetic lens which frames all of thought as evolution, the semantics perspective employed here disregards any Darwinian nuance and narrows in on the semantic embeddings alone. The semantic space accessible by embedding thoughts using a machine learning model is “shaped” so as to only account for the human thought seen in the training data, and little else. The resources of expressivity are completely devoted to representing human ideas contained in text, due to the optimization pressures involved in training. Therefore, when talking about the volume of semantic space, it’s useful to keep in mind that we’re only referring to the breadth of human thought, rather than the breadth of all possible thought (e.g. artificial, animal, etc.). Still, this measure might be informative, and currently, all we have at our disposal. Explored Volume . The semantic embeddings of thoughts are expressed as points in semantic space. Therefore, the finite set of one’s thoughts occupies exactly zero percent of the entire volume of the semantic space. However, if one promoted those zero-dimensional points to tiny three-dimensional spheres indicating rough semantic neighborhoods, then it becomes possible to talk about the total volume of the semantic space which has been “touched” by your thoughts, the size of the semantic territory which you’ve explored via your ideas. Conversely, this enables a measure of your ideological terra incognita, how much thought there is which you haven’t personally experienced. All this seems highly esoteric, but the ideoscope shows you a concrete number, an actual percentage indicating how far you’ve thought, and how much there’s left. Discovery Rate . This change in perspective from points to tiny spheres popping up all around semantic space enables yet another new metric. The discovery rate is a measure of how much new semantic territory you’ve dicovered in a set period of time (e.g. last month), the rate of change of the explored volume. This might make for an interesting target indicator based on values of exploration and conquest. Low-Dimensional Projection . All previous metrics, even if quite informative, are simply stats or, at best, time series. Low-dimensional projection is a completely different way of thinking about thoughts in high-dimensional semantic spaces by reducing their dimensionality and actually seeing them (e.g. on a 2D plane). Even if this visualization technique doesn’t focus on deriving specific insights from your thought process, looking at ideas popping up across jagged semantic trajectories (i.e. trains of thought), might ultimately prove informative, as well. Note that projecting high-dimensional points on a 2D plane inevitably means cutting down on the expressivity of the original spatial layouts. Linguistics . If all previous metrics applied to thoughts expressed both through written language and visual imagery as stored in the conceptarium, the following explore opportunities for gaining insights from langauge in particular. Conciseness . Probably the most trivial metric of those provided by the ideoscope, conciseness is simply an indicator of how long your written thoughts are, based on a word count. Capturing the essence of ideas effectively can easily be a target to aim for. Readability . Just a bit less trivial than the previous metric, readability is a measure of how clear and easy to understand your language is. See it as a proxy for success in using ELI5 or the Feynman technique. Common readability scores often express their results in terms of the rough level of education required to read a text, based on factors like the length of the individual words you’re using. Objectivity . By using rather traditional text mining techniques, objectivity can be roughly gauged based on the nature of words used.6 Words typically associated with expressing personal takes drive objectivity down, while dry impersonal phrases nudge it upwards. A rationalist might aim for achieving high objectivity, while someone interested in getting in touch with their subjective intuition might aim for achieving low objectivity. Additionally, thoughts can be tested against a set of predefined fallacies via language models, and the results reported. Sentiment . Using very similar techniques to the previous metric, the sentiment of your written thoughts can tracked on a simplistic one-dimensional scale from 0 (i.e. negative sentiment) to 1 (i.e. positive sentiment). Think of it as an estimate of how many stars an online review has based on its text contents, but normalized between 0 and 1. In explorations of the conceptarium as a therapeutic tool, a safe space for honest thoughts, the average sentiment over various periods of time might provide useful insights and even a tangible target for well-being interventions. Interests . Being the only window into your conceptarium which shows you the actual contents of your thoughts, this is a visualization of how your interests evolved based on the frequency of certain keywords over time. Thoughts are bucketed by certain time intervals (e.g. by week) on a timeline, and the most frequent noun phrases you used in each period are reported. This can be an effective way of getting a sense of how your interests (i.e. the things you’ve been thinking about) changed through the years. ",
+    "content": "The metrics incorporated in the ideoscope are grouped into three broad categories: memetics, semantics, and linguistics. Each of these provides a different angle for analyzing your thinking, similar to how a blood panel involves different families of tests (e.g. hematology, biochemistry). Memetics . As hinted at before, the memetic perspective consists in looking at your mind as a population of memes (i.e. ideas, thoughts, concepts) which evolves over time, facing various obstacles and opportunities along the way.4 . Ideogenesis . This metric simply refers to the rate of new thoughts being saved in the conceptarium. It supports a number of different related stats and visualizations (e.g. calendar views, histograms): past month, past week, past day, per month, per week, per day, by day of the week, by hour. If you’re using the conceptarium as a storage medium for new ideas, then ideogenesis can indicate when (i.e. in what recent period, in what part of the day) you generate most new ideas. Correlating this with activities you’ve engaged in during those times (e.g. via your calendar or time tracker) might help identify the most thoughtful practices. Chatting with interesting people and enjoying solo walks in nature appear to be major such candidates for me. Memetic Variability . Each thought saved in the conceptarium has a semantic embedding which indicates what it is about by placing it at certain coordinates in semantic space. Memetic variability, in an analogy to genetic variability, is then a measure of how diverse your thoughts are, how much variation there is in the ecology of your thought during a certain period of time.5 It’s computed through the standard deviation (i.e. spread) of your thoughts across semantic space. If you’ve been constantly thinking about the same things in the same way through the past month, the memetic variability would be quite low. In contrast, if you’ve been thinking about more diverse things, the memetic variability would be higher. In population genetics, variability is argued to be a hard requirement for natural selection, which helps increase fitness over time. Similarly, a healthy dose of memetic variability might be helpful in generating powerful ideas, while a memetic monoculture might get stuck in a local optimum of fitness. Think of memetic variability as biodiversity for ideas. Memetic Drift . Memetic drift, in an analogy to genetic drift, is a measure of how fast the aggregate state of your memetic ecology (i.e. ideology) is changing over time. It’s computed through the distance between the centroid (i.e. the center point located at the average coordinates) of the semantic embeddings of your thoughts from a recent period of time (e.g. past month) and the centroid of the semantic embeddings of your thoughts from a previous period (e.g. the previous month). If you’ve been completely changing your general focus from one month to the next, your memetic drift would be high. Conversely, if you’ve been rather constant in your general focus through the whole past year, your memetic drift would be quite low. Interestingly enough, population genetics notes that the effect of genetic drift on large populations is way smaller than on small populations.5 Through a memetic lens, this might partially explain why large ecologies of thought which had a long time to mature are more resistant to change (e.g. elderly, whole cultures), even if obvious other factors are at play (e.g. neuroplasticity, social norms). Memetic Fitness . If the previous metrics aimed to characterize the entire population of your memetic ecology, memetic fitness is a characteristic of an individual – one idea. We’re identifying the fitness of an idea here with its activation in the conceptarium. The more captivating, consequential, and generally interesting ideas are the most active ones, the ones you’ve kept thinking about most. Besides getting some summary stats like min, max, mean, median, or mode, it’s possible to peek into the aggregate fitness landscape of the population through visualizations like histograms and boxplots. These metrics might be able to diagnose segregation, inbreeding, elitism, and other pitfalls faced by evolving populations. Memetic Load . Memetic load, in an analogy to genetic load, is a measure of the presence of unfavorable memetic material in your ecology of mind.5 It’s expressed as a function of the maximum fitness found in the population and the average fitness of the population as a whole. Concretely, if you’ve invested time in thinking about things you’re not thinking about now at all, then the memetic load would be high. Alternatively, if all saved thoughts are relatively active, then the memetic load is quite low. Effective Population Size . Just like in population genetics, the population size of your memetic ecology is simply the number of individuals (i.e. ideas) which inhabit it. However, some further criteria might turn it into a more useful metric than simply an indicator of how many thoughts you ever saved to the conceptarium. For instance, thoughts might be considered active members of the ecology only if their activation is above a certain threshold. Memetic Carrying Capacity . Memetic carrying capacity, in an analogy to the notion of carrying capacity used in environmental science, is the maximum population size which can be sustained by your mind as a habitat for ideas.6 Cognitive resources have long been argued to be limited across various dimensions, the combination of which might only be able to support a certain quantity of thought. This might be helpful for budgeting your available cognitive resources according to predefined objectives. The memetic carrying capacity can be gauged by looking back in time and estimating the maximum population size based on the largest populations recorded in the past. Semantics . In contrast to the memetic lens which frames all of thought as evolution, the semantics perspective employed here disregards any Darwinian nuance and narrows in on the semantic embeddings alone. The semantic space accessible by embedding thoughts using a machine learning model is “shaped” so as to only account for the human thought seen in the training data, and little else. The resources of expressivity are completely devoted to representing human ideas contained in text, due to the optimization pressures involved in training. Therefore, when talking about the volume of semantic space, it’s useful to keep in mind that we’re only referring to the breadth of human thought, rather than the breadth of all possible thought (e.g. artificial, animal, posthuman etc.). Still, this measure might be informative, and currently, all we have at our disposal. Explored Volume . The semantic embeddings of thoughts are expressed as points in semantic space. Therefore, the finite set of one’s thoughts occupies exactly zero percent of the entire volume of the semantic space. However, if one promoted those zero-dimensional points to tiny three-dimensional spheres indicating rough semantic neighborhoods, then it becomes possible to talk about the total volume of the semantic space which has been “touched” by your thoughts, the size of the semantic territory which you’ve explored via your ideas. Conversely, this enables a measure of your ideological terra incognita, how much thought there is which you haven’t personally experienced. All this seems highly esoteric, but the ideoscope shows you a concrete number, an actual percentage indicating how far you’ve thought, and how much there’s left. Discovery Rate . This change in perspective from points to tiny spheres popping up all around semantic space enables yet another new metric. The discovery rate is a measure of how much new semantic territory you’ve discovered in a set period of time (e.g. last month), the rate of change of the explored volume. This might make for an interesting target indicator based on values of exploration and conquest. Low-Dimensional Projection . All previous metrics, even if quite informative, are simply stats or, at best, time series. Low-dimensional projection is a completely different way of thinking about thoughts in high-dimensional semantic spaces by reducing their dimensionality and actually seeing them (e.g. on a 2D plane). Even if this visualization technique doesn’t focus on deriving specific insights from your thought process, looking at ideas popping up across jagged semantic trajectories (i.e. trains of thought), might ultimately prove informative as well. Note that projecting high-dimensional points on a 2D plane inevitably means cutting down on the expressivity of the original spatial layouts. Linguistics . If all previous metrics applied to thoughts expressed both through written language and visual imagery as stored in the conceptarium, the following explore opportunities for gaining insights from langauge in particular. Conciseness . Probably the most trivial metric of those provided by the ideoscope, conciseness is simply an indicator of how long your written thoughts are, based on a word count. Capturing the essence of ideas effectively can easily be a target to aim for. Readability . Just a bit less trivial than the previous metric, readability is a measure of how clear and easy to understand your language is. See it as a proxy for success in using ELI5 or the Feynman technique. Common readability scores often express their results in terms of the rough level of education required to read a text, based on factors like the length of the individual words you’re using. Objectivity . By using rather traditional text mining techniques, objectivity can be roughly gauged based on the nature of words used.7 Words typically associated with expressing personal takes drive objectivity down, while dry impersonal phrases nudge it upwards. A rationalist might aim for achieving high objectivity, while someone interested in getting in touch with their subjective intuition might aim for achieving low objectivity. Additionally, thoughts can be tested against a set of predefined fallacies via language models, and the results reported. Sentiment . Using very similar techniques to the previous metric, the sentiment of your written thoughts can tracked on a simplistic one-dimensional scale from 0 (i.e. negative sentiment) to 1 (i.e. positive sentiment). Think of it as an estimate of how many stars an online review has based on its text contents, but normalized between 0 and 1. In explorations of the conceptarium as a therapeutic tool, a safe space for honest thoughts, the average sentiment over various periods of time might provide useful insights and even a tangible target for well-being interventions. Interests . Being the only window into your conceptarium which shows you the actual contents of your thoughts, this is a visualization of how your interests evolved based on the frequency of certain keywords over time. Thoughts are bucketed by certain time intervals (e.g. by week) on a timeline, and the most frequent noun phrases you used in each period are reported. This can be an effective way of getting a sense of how your interests (i.e. the things you’ve been thinking about) changed through the years. ",
     "url": "http://localhost:4000/tools/ideoscope/#metrics",
     "relUrl": "/tools/ideoscope/#metrics"
   },"47": {
@@ -313,7 +313,7 @@
   },"52": {
     "doc": "Ideoscope",
     "title": "References",
-    "content": ". | Reddit,Quantified Self &#8617; . | Quantified Mind,What We Test &#8617; . | Streamlit,Home Page &#8617; . | John Gillespie,Population Genetics: A Concise Guide &#8617; &#8617;2 &#8617;3 . | National Geographic,Carrying Capacity &#8617; . | TextBlob,Quickstart &#8617; . | . ",
+    "content": ". | Reddit,Quantified Self &#8617; . | Quantified Mind,What We Test &#8617; . | Streamlit,Home Page &#8617; . | Paul Bricman,Ideoponics &#8617; . | John Gillespie,Population Genetics: A Concise Guide &#8617; &#8617;2 &#8617;3 . | National Geographic,Carrying Capacity &#8617; . | TextBlob,Quickstart &#8617; . | . ",
     "url": "http://localhost:4000/tools/ideoscope/#references",
     "relUrl": "/tools/ideoscope/#references"
   },"53": {
@@ -336,347 +336,359 @@
     "relUrl": "/#our-work"
   },"56": {
     "doc": "Home",
+    "title": "Ideoscope",
+    "content": "STAGE 1 . An instrument for quantifying, understanding, and optimizing your thinking. ",
+    "url": "http://localhost:4000/#ideoscope",
+    "relUrl": "/#ideoscope"
+  },"57": {
+    "doc": "Home",
     "title": "Conceptarium",
     "content": "STAGE 2 . A fluid medium for storing, relating, and surfacing thoughts. ",
     "url": "http://localhost:4000/#conceptarium",
     "relUrl": "/#conceptarium"
-  },"57": {
+  },"58": {
     "doc": "Home",
     "title": "Dual",
     "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. ",
     "url": "http://localhost:4000/#dual",
     "relUrl": "/#dual"
-  },"58": {
+  },"59": {
     "doc": "Home",
     "title": "Autocards",
     "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. ",
     "url": "http://localhost:4000/#autocards",
     "relUrl": "/#autocards"
-  },"59": {
+  },"60": {
     "doc": "Home",
     "title": "Semantica",
     "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. ",
     "url": "http://localhost:4000/#semantica",
     "relUrl": "/#semantica"
-  },"60": {
+  },"61": {
     "doc": "Home",
     "title": "Memory Navigator",
     "content": "STAGE 2 . Expanding propositional memory through text mining. ",
     "url": "http://localhost:4000/#memory-navigator",
     "relUrl": "/#memory-navigator"
-  },"61": {
+  },"62": {
     "doc": "Home",
     "title": "Knowledge Probes",
     "content": "STAGE 2 . Promoting critical thinking through prompt generation. ",
     "url": "http://localhost:4000/#knowledge-probes",
     "relUrl": "/#knowledge-probes"
-  },"62": {
+  },"63": {
     "doc": "Home",
     "title": "Acknowledgements",
     "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/#acknowledgements",
     "relUrl": "/#acknowledgements"
-  },"63": {
+  },"64": {
     "doc": "Home",
     "title": "Support Us",
     "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a supporter . ",
     "url": "http://localhost:4000/#support-us",
     "relUrl": "/#support-us"
-  },"64": {
+  },"65": {
     "doc": "Home",
     "title": "Join Us",
     "content": "We’re passionate about exploring what lies beyond the human mind, but we’re still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a member . ",
     "url": "http://localhost:4000/#join-us",
     "relUrl": "/#join-us"
-  },"65": {
+  },"66": {
     "doc": "Home",
     "title": "References",
     "content": ". | Richard Hamming,The Unreasonable Effectiveness of Mathematics. &#8617; . | Bret Victor,Media for Thinking the Unthinkable. &#8617; . | Carl Sagan,Pale Blue Dot &#8617; . | Shan Carter &amp; Michael Nielsen,Using Artificial Intelligence to Augment Human Intelligence &#8617; . | . ",
     "url": "http://localhost:4000/#references",
     "relUrl": "/#references"
-  },"66": {
+  },"67": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"67": {
+  },"68": {
     "doc": "K-Probes",
     "title": "Knowledge Probes",
     "content": "STAGE 2 . Promoting critical thinking through prompt generation. By @thoughtware.engineer . View Code . ",
     "url": "http://localhost:4000/tools/k-probes/#knowledge-probes",
     "relUrl": "/tools/k-probes/#knowledge-probes"
-  },"68": {
+  },"69": {
     "doc": "K-Probes",
     "title": "Table of contents",
     "content": ". | The Curious Child | The Curious Machine | Design | Dialogue Sample | Random Sample | Final Thoughts | Acknowledgements | Support Us | Join Us | References | . ",
     "url": "http://localhost:4000/tools/k-probes/#table-of-contents",
     "relUrl": "/tools/k-probes/#table-of-contents"
-  },"69": {
+  },"70": {
     "doc": "K-Probes",
     "title": "The Curious Child",
     "content": "Take a moment to picture the following prototypical narrative. “Why is the sky blue?” the curious child asks. “Well, sunlight passes through the atmosphere before it gets here, which makes the sky appear blue,” answers the parent. At this point, both parties seem content with the exchange. Several moments later, the inevitable happens. “But why?” the child asks. Somewhat frustrated, the parent conveniently wraps up the conversation: “Because I said so.” . There are a couple of remarkable things to note about this narrative. First, the child manages to challenge the knowledge of the adult without possessing that knowledge herself. This is quite different from the situation in which a teacher is challenging the knowledge of a student. In this more formal setting, the teacher is very much aware of the established body of knowledge. In contrast, the very premise of the opening story is based on the ignorance of the curious child. It appears that we have a deeply-rooted drive to answer questions, which often requires us to draw on our own knowledge. This innate tendency is called instinctive elaboration, and it enables questions to force your brain into a relentless search for answers.1 . The second remarkable thing to note about this narrative is the simple nature of the questions. They are far from being elaborate descriptions of the requested information. Even a simple “Why?” would suffice in challenging the adult. Despite their minimal contents, the replies are effortlessly understood. The reason for that is that they are genuinely soaked in context, following the unwritten rules of pragmatics.2 The ongoing dialogue infuses each reply with meaning, enabling speakers to cut down on words without sacrificing the contents. This state of affairs makes it surprisingly easy to play the challenger, as many parents may be particularly aware of. ",
     "url": "http://localhost:4000/tools/k-probes/#the-curious-child",
     "relUrl": "/tools/k-probes/#the-curious-child"
-  },"70": {
+  },"71": {
     "doc": "K-Probes",
     "title": "The Curious Machine",
     "content": "Given how effective the child is in challenging the parent’s knowledge, could we promote critical thinking by embedding her behavior into a tool for thought? Could we incentivize people to actively reflect on their own beliefs by allowing them to converse with a “curious” machine? Even if the user wouldn’t actually receive new information in the exchange, the very act of highlighting gaps in their knowledge might be valuable. Such a tool could be used to challenge faulty beliefs, incentivize deeper understanding, and make assumptions salient. Those objectives are key to changing our relationship with hard questions into a healthier one. Annoying inquiries turn into opportunities for growth. This paradigm shift is fittingly captured by the concept of aporia. “Aporia is the feeling of realizing that what you thought was a path to truth actually doesn’t lead there at all. A shortcut to certainty has revealed itself to be an illusion. The first reaction to aporia might be frustration and even anger, but if you consider that it’s providing new information and could be saving you from wasting additional effort maintaining false certainty about an existing belief, it can flip into an Aha! moment that is even enjoyable.” – Buster Benson3 . ",
     "url": "http://localhost:4000/tools/k-probes/#the-curious-machine",
     "relUrl": "/tools/k-probes/#the-curious-machine"
-  },"71": {
+  },"72": {
     "doc": "K-Probes",
     "title": "Design",
     "content": "After changing our perspective on hard questions, we can finally start building. Being inspired by the unreasonable effectiveness of the curious child, this tool will consist of nothing more than a set of questions and a basic method for sampling them. Difficult questions. Vague, muddy, demanding questions. Questions which genuinely get the person thinking. Revising, reframing, reviewing what they hold to be true. Questions which probe the otherwise obstructed depths of knowledge. Given their current purpose, we’ll also refer to these questions as knowledge probes, or k-probes for short. To integrate a minimal level of structure into the question set, we’ll use Bloom’s revised taxonomy as a starting point.4 This taxonomy is a widely used system for organizing learning outcomes across all levels of formal education, from kindergarten to university. These outcomes essentially capture the abilities which students are expected to possess by the end of a lesson, course, or programme. Formal education can be seen in part as a process of internalizing these abilities. The taxonomy consists of six broad categories, exemplified below with intended learning outcomes from the degree I’m currently pursuing. | Remember – Retrieve relevant knowledge. | Recall the high-level anatomy of the brain. | Recognize questionable research practices. | Know how to create reproducible workflows. | . | Understand – Construct meaning. | Explain the principles behind the general linear model. | Describe algorithms used for adversarial search. | Summarize the main approaches to speech synthesis. | . | Apply – Use knowledge in new situations. | Carry out a multivariate statistical analysis. | Implement a genetic algorithm. | Solve homogeneous differential equations. | . | Analyze – Determine how parts relate to a structure. | Investigate the relationship between syntax and semantics. | Analyze the interaction between various forms of memory. | Determine the relationship between subfields of cognitive science. | . | Evaluate – Make informed judgements. | Interpret the results of brain data analyses. | Determine the complexity of simple algorithms. | Evaluate set-theoretic statements. | . | Create – Reorganize elements into a structure. | Construct formal proofs for first-order logic. | Design a user interface based on cognitive ergonomics. | Develop models in a cognitive architecture. | . | . Due to the popularity of Bloom’s revised taxonomy, there are a lot of online resources containing examples of learning outcomes, complete with suggestions for classroom activities. After compiling examples from several such resources and rephrasing them as questions, I used a text generation service to extend the question set even further.5 Following several hours of co-creating questions with the machine, the total number of knowledge probes surpassed two hundred, a sample of which can be found below. | Remember – Retrieve relevant knowledge. | What are the basic facts of this? | What puzzle is this part of? | How would you characterize this? | . | Understand – Construct meaning. | How would you explain this to a peer? | What would be an analogy for this? | How would you represent this visually? | . | Apply – Use knowledge in new situations. | How can this be helpful? | Who can benefit from this? | How could this be applied to other domains? | . | Analyze – Determine how parts relate to a structure. | What’s the structure of this? | How do the components of this relate to each other? | How can this be viewed as a system? | . | Evaluate – Make informed judgements. | What assumptions underlie this? | What evidence supports this? | How would different people view this? | . | Create – Reorganize elements into a structure. | How can this be expanded? | How does this fit into a narrative? | How would you design something based on this? | . | . As in the case of the curious child, the value lies in the dialogue itself, rather than in the questions. Therefore, we need a method of stitching together questions with user replies, fostering an ongoing discussion. Fortunately, this method can be as simple as a chat-like textual interface which alternates between printing output questions and reading input replies. The unwritten rules of pragmatics will do the rest, helping the user instinctively turn the sequence of questions and replies into a meaningful dialogue by filling in the gaps. As a final layer of complexity, we’ll also use Bloom’s revised taxonomy as a basis for a more customizable experience. By specifying a numeric weight for each of the six categories, the user can adjust the probabilities of certain questions being asked. Larger weights will result in more questions being sampled from that category, relative to others. This way, the user can better tailor the tool to their current needs. Or, perhaps, to their intended “learning outcomes.” . ",
     "url": "http://localhost:4000/tools/k-probes/#design",
     "relUrl": "/tools/k-probes/#design"
-  },"72": {
+  },"73": {
     "doc": "K-Probes",
     "title": "Dialogue Sample",
     "content": "The following is a short excerpt discussing the technology behind Semantica: . Let’s talk about semantic embeddings. | What field is this part of? | . Computational semantics or natural language processing, depending on who you ask. | What is this a consequence of? | . They’re the result of exploiting word co-occurence information derived from large corpora. | How would you explain this to a teenager? | . Imagine you’re planning on traveling to a foreign country. The catch is, there’s no map available! You see, it’s quite an obscure country, perfect for a curious teen. The only thing available is a list of past itineraries – lists of cities which other travelers have visited before, in order. The interesting thing is that you can use those itineraries to sketch a map! Cities visited one after another should be near each other, right? You could try to come up with a map which matches the distance relations derived from the itineraries, and you’ll get a pretty accurate map you can use on your journey. In essence, language is like a set of itineraries, called sentences. However, instead of cities, it’s got words! I just took you along a journey through the country of language, traveling from one word to the next. It turns out that if you try to use the same reasoning here, you can actually pinpoint words on a map, based solely on a lot of text. Not a map of cities, mountains, and rivers, but a map of meaning. Semantic embeddings are the “geographical” coordinates of words in this country of language. | What issues can this help with? | . They can help machines extract meaning from otherwise plain text. | What other concepts are related to this? | . Text mining, natural language processing, vector semantics, lexical semantics. | How can this be a source for inspiration? | . If words can be represented as points in a space, what else could be represented this way? The effectiveness of semantic embeddings gets you thinking about what other things can be expressed like this. | Why is this relevant? | . It’s the most popular approach to extracting meaning from text. It drives most, if not all, of modern natural language processing efforts. | How do the components of this relate to each other? | . Each word is associated with a vector. All vectors inhabit the same space. There’s a relation between any two words, represented through the difference between their vectors. | What has to be in place before this can be applied? | . A lot of text for obtaining the embeddings, and a broader understanding of semantic embeddings in academia and industry. | What can this lead to? | . Machines which can reason about relatable concepts. Tools for thought as well. ",
     "url": "http://localhost:4000/tools/k-probes/#dialogue-sample",
     "relUrl": "/tools/k-probes/#dialogue-sample"
-  },"73": {
+  },"74": {
     "doc": "K-Probes",
     "title": "Random Sample",
     "content": "Use the following button to randomly sample one probe from the collection. New Probe . ",
     "url": "http://localhost:4000/tools/k-probes/#random-sample",
     "relUrl": "/tools/k-probes/#random-sample"
-  },"74": {
+  },"75": {
     "doc": "K-Probes",
     "title": "Final Thoughts",
     "content": "The simple nature of this tool might be deceiving. Its beauty lies not in its codebase, but in the way it builds on quirks of the human mind. Pragmatics helps with coherence. Instinctive elaboration triggers an automatic drive for engaging with the knowledge probes. The conversational medium even makes the experience feel social. Despite the potential benefits of this approach, it’s also worth considering its downsides. The main disadvantage is the lack of rich feedback, which has otherwise been shown to be very effective in learning.6 However, one could argue that the increased ease of adapting the tool to new fields outweighs this shortcoming. Moreover, the self-supervised nature of this approach might still provide a feedback signal which is strong enough to be useful. We have a unique relationship with questions, so why not leverage that to our advantage? Knowledge probes are an early attempt of explicitly doing just that. I’ll predictably end with an open-ended question: “How can knowledge probes be helpful for you?” . ",
     "url": "http://localhost:4000/tools/k-probes/#final-thoughts",
     "relUrl": "/tools/k-probes/#final-thoughts"
-  },"75": {
+  },"76": {
     "doc": "K-Probes",
     "title": "Acknowledgements",
     "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/k-probes/#acknowledgements",
     "relUrl": "/tools/k-probes/#acknowledgements"
-  },"76": {
+  },"77": {
     "doc": "K-Probes",
     "title": "Support Us",
     "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a supporter . ",
     "url": "http://localhost:4000/tools/k-probes/#support-us",
     "relUrl": "/tools/k-probes/#support-us"
-  },"77": {
+  },"78": {
     "doc": "K-Probes",
     "title": "Join Us",
     "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a member . ",
     "url": "http://localhost:4000/tools/k-probes/#join-us",
     "relUrl": "/tools/k-probes/#join-us"
-  },"78": {
+  },"79": {
     "doc": "K-Probes",
     "title": "References",
     "content": ". | David Hoffeld,Want To Know What Your Brain Does When It Hears A Question? &#8617; . | Richard Nordquist,The Cooperative Principle in Conversation &#8617; . | Buster Benson,Why Are We Yelling? &#8617; . | CELT,Revised Bloom’s Taxonomy &#8617; . | Hugging Face,Write With Transformer &#8617; . | John Hattie &amp; Helen Timperley,The Power of Feedback &#8617; . | . ",
     "url": "http://localhost:4000/tools/k-probes/#references",
     "relUrl": "/tools/k-probes/#references"
-  },"79": {
+  },"80": {
     "doc": "K-Probes",
     "title": "K-Probes",
     "content": "This project is currently on standby. Reach out to its previous contributor(s) on Discord for guidance in advancing it to the next stage. ",
     "url": "http://localhost:4000/tools/k-probes/",
     "relUrl": "/tools/k-probes/"
-  },"80": {
+  },"81": {
     "doc": "MemNav",
     "title": "Memory Navigator",
     "content": "STAGE 2 . Expanding propositional memory through text mining. By @thoughtware.engineer . View Code . ",
     "url": "http://localhost:4000/tools/memnav/#memory-navigator",
     "relUrl": "/tools/memnav/#memory-navigator"
-  },"81": {
+  },"82": {
     "doc": "MemNav",
     "title": "Table of contents",
     "content": ". | Text Mining | Machine-Readable Memories | Design . | Semantic Search | Question Answering | Summarization | . | Paradigms . | Search Engines | Expert Systems | Exosomatic Memory | The Mind’s API | . | Further Steps | Acknowledgements | Support Us | Join Us | References | . ",
     "url": "http://localhost:4000/tools/memnav/#table-of-contents",
     "relUrl": "/tools/memnav/#table-of-contents"
-  },"82": {
+  },"83": {
     "doc": "MemNav",
     "title": "Text Mining",
     "content": "Many of us routinely use search engines to navigate the internet. They help us find information so quickly and accurately that it’s hard to imagine browsing the internet without them. Their convenience even makes us perceive searchable information as less worthy of committing to memory.1 . Text mining is one of the core technologies behind search engines. By extracting meaning from text, search engines can easily match queries to appropriate pages. To get a sense of why language understanding is so important, imagine trying to find the details of preparing a meal in a cookbook written in a foreign language. Without text mining, search engines would similarly be limited to exact string matches, with no other means of navigating the rich body of knowledge they have at their disposal. Due in large part to its extensive business value, text mining is a relatively mature technology. From question answering to summarization, state-of-the-art solutions are proposed every few months.2 What if we could leverage this traction, and repurpose text mining in order to support powerful tools for thought? In the following sections, we’ll specifically explore the potential of this technology in navigating, and ultimately augmenting, human memory. ",
     "url": "http://localhost:4000/tools/memnav/#text-mining",
     "relUrl": "/tools/memnav/#text-mining"
-  },"83": {
+  },"84": {
     "doc": "MemNav",
     "title": "Machine-Readable Memories",
     "content": "In order to create tools capable of navigating memories, we first need to record them in a machine-readable format. One popular way of transcribing memories is journaling. By creating regular entries describing their daily thoughts, ambitions, and stories, people unknowingly build a genuine knowledge base of their lives. Slowly but surely, this accumulates into a comprehensive body of knowledge which spans months, years, or even decades.3 . Diaries mainly consist of text. As we’ve seen previously, machines are already fluent in text. This means that journaling is a very good candidate for supplying our future system with memories in a machine-readable format. In order to perform text mining, simply substitute web pages for diary entries, and let the algorithms do their job. “A memex is a device in which an individual stores all his books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility. It is an enlarged intimate supplement to his memory. The lawyer has at his touch the associated opinions and decisions of his whole experience […] The physician, puzzled by a patient’s reactions, strikes the trail established in studying an earlier similar case […] The historian, with a vast chronological account of a people […]” – Vannevar Bush4 . ",
     "url": "http://localhost:4000/tools/memnav/#machine-readable-memories",
     "relUrl": "/tools/memnav/#machine-readable-memories"
-  },"84": {
+  },"85": {
     "doc": "MemNav",
     "title": "Design",
     "content": "Now that we have a way of converting memories into a machine-readable format, we can start implementing the actual features of the memory navigator, or MemNav for short. Illustrative samples from my own MemNav instance are provided for each command. The functionality of the system is encapsulated in a Python class which requires a root directory containing entries as text files. The source code builds on several open source modules, and is heavily inspired by the examples provided by their authors.5 6 . &gt;&gt;&gt; from memnav import MemNav &gt;&gt;&gt; mn = MemNav('../MorningPages') . Semantic Search . Internet search engines aren’t constrained to the exact words in your query. If a page refers to the same thing as your query, but with a slightly different wording, then the page is still likely to show up in the search results. MemNav uses similar techniques to help users retrieve information beyond a simple Find in text look-up. &gt;&gt;&gt; mn.search('embodied tools for thought') There was this announcement about a course on embodied critical thinking, which was at an intersection of philosophy, cognitive science, AI, and seems to be quite relevant for the tools for thought direction I chose recently. Yeah, actually I think I might apply. There's also a summer school in Iceland or something. &gt;&gt;&gt; mn.search('text mining memories') However, the propositional memory miner may change that, repurposing this whole thing, making it more valuable. Really curious to see whether that will result in anything useful or whether it will be just a witty hack of repurposing SOTA NLP models. &gt;&gt;&gt; mn.search('fMRI data processing') He suggested that we perform a deconvolution on the fMRI data in order to provide a better target for the model. But, what if we include the BOLD response convolution as the final step of the model and make it so that it has no learnable parameters. That's interesting because the deconvolution operation per se doesn't have a clear solution. Notice how the output of the second command contains none of the exact words present in the query. Finding all slight variations by hand would have been tedious. The summarization and semantic search samples might look similar. In reality, semantic search returns multiple results, one of which is included here as an illustration. Question Answering . When navigating the internet, you might often want a quick answer to a question, rather than a full-blown article on the subject. By systematically identifying relevant phrases in diary entries, MemNav can reliably answer questions about one’s previous thoughts, ideas, and experiences. &gt;&gt;&gt; mn.ask('Who did I spend the last day of 2020 with?') Bea &gt;&gt;&gt; mn.ask('Why would k-probes be useful?') To reflect on things I learned that day &gt;&gt;&gt; mn.ask('What does exosomatic mean?') Outside the body . Summarization . Maybe you’re not looking for an explicit detail, but you’re trying to get the general gist of a subject. By choosing a few sentences which together convey the most information, MemNav provides users with a condensed overview of what they’re interested in. &gt;&gt;&gt; mn.summarize('attention in humans and machines') What if the query, key, value metaphor used in transformers to attend to things and places was used in a cognitive architecture, building a cognitive model for attention. The transformer is based on a couple forms of attention, but how does that relate to attention in humans and animals? &gt;&gt;&gt; mn.summarize('dust theory') Egan is simply mindblowing. This idea of Dust Theory is deep, it's powerful. And the point is that this ever expanding computer being run in a cellular automaton would run based on dust. Based on patterns spread out across time and space. But this is not all! In the book they talk about such a representation. &gt;&gt;&gt; mn.summarize('grading assignments') It's mostly the gruntwork of grading and watching and attendance and so on. Not fulfilling at all. It's still only a part time job. But the part about grading homework isn't my favorite thing ever, it is the whole idea of selling time for money again. And I'm pretty sure homework can be redesigned so that it can be more efficiently graded, even automatically. ",
     "url": "http://localhost:4000/tools/memnav/#design",
     "relUrl": "/tools/memnav/#design"
-  },"85": {
+  },"86": {
     "doc": "MemNav",
     "title": "Paradigms",
     "content": "It might be useful to go beyond the technicalities and reflect on the very identity of this project. By taking various perspectives on it, we can get a better sense of the interplay between tools for thought and existing technical frameworks. Search Engines . This is the view behind the opening paragraph. MemNav can intuitively be likened to a search engine. Instead of searching the internet, it searches memories. It achieves this by using diary entries as a proxy. If internet search engines already nudge us into neglecting searchable information, it might be important to investigate the psychological effects of using such mnemonic engines, bringing up debate on the line between voluntary usage and dependence. The fragility of human memory is actually useful in many ways. It supports all sorts of clever mental shortcuts. For example, the availability heuristic piggybacks on our forgetfulness and helps us quickly gauge the frequency of an event. By simply using the ease of remembering a few occurences as a proxy, it side-steps the need of actually considering all event instances. It turns out that many of our mental quirks are better described as double-edged swords, rather than down-right flaws.7 Simply making away with them might lead to unintended consequences. Additionally, if internet search engines already grant varying degrees of exposure to items based on financial contributions, then what would happen if third-party memory systems would also follow financial incentives? Which memories would be more profitable, and therefore more likely to be remembered? Such daunting prospects further support the need for humane values being embedded in technology. Expert Systems . Early AI research had a strong focus on expert systems. Take the expertise of a doctor, embed it into propositional statements and inference rules, and you get a system which can give diagnostics with decent accuracy. Do the same with the expertise of a judge, and you get a system capable of giving rudimentary verdicts in court. MemNav can also be seen as an expert system. It’s not an expert in medicine or law, but an expert in you. An expert in your thought process. You first embed your expertise in it, and then work with it. How does it feel to outsource such highly personal knowledge to a machine? How does it feel to interact with an expert in your thought process other than yourself? Would you allow it to freely interact with others on your behalf, as a matter of convenience? Granting my significant other experimental access to my MemNav already feels peculiar. Outsourcing more mental faculties to machines and integrating more third-party components into our thinking will force us to ask such questions increasingly often. Exosomatic Memory . When your computer runs low on storage, you might move a few files to an external drive or to the cloud. What happens when your memory is overloaded with tasks, events, plans, ideas, and so on? You might offload that burden onto convenient task managers, calendars, planners, notebooks, and so on. Those can be collectively refered to as exosomatic memory systems (i.e. memory systems located outside the body). MemNav can also be considered an instance of such a system. However, when you happen to expand the storage capacity of your device, say by upgrading your local storage or by purchasing cloud storage, more often than not you stop being cautious about your memory usage. A constrained memory system might force you to focus on the right things, in a way a set of storage buckets replicated across multiple server farms might not. Another thing to consider is the changing relation between memory acquisition and retrieval. The way we learn things strongly influences the way we remember them. For instance, knitting together a tight network of associations has been shown to foster subsequent retrieval.8 However, if memories are stored in a machine-readable format, then they may be subjected to a wide range of programmatic transformations. Attach definitions to terms. Break text blocks into atomic interconnected items. Form new links in the semantic network. Those possibilities might pave the way for new educational practices. The Mind’s API . When a piece of software exposes an API, it offers an interface to third-party software as a means of programmatically interacting with it. MemNav can also be seen as an API. It offers programmatic access to your memories, enabling an entire suite of tools to integrate with it. This API is currently read-only, as it only offers indirect access to your thought process through the text artifacts. Your actual memory is separated from MemNav as a result of the one-way process of creating the artifacts. However, the artifacts being processed may get closer to their authors over time, eventually leading to authors identifying with them. ",
     "url": "http://localhost:4000/tools/memnav/#paradigms",
     "relUrl": "/tools/memnav/#paradigms"
-  },"86": {
+  },"87": {
     "doc": "MemNav",
     "title": "Further Steps",
     "content": "Despite its promising performance, MemNav has several shortcomings which currently limit its potential in augmenting memory. First, it runs slow enough to feel unnatural as an extension of your memory. With a large corpus, it usually takes several solid seconds for results to be provided, depending on the task. However, clear trends in decreasing compute costs might solve this problem in the long run. “In order to function as exosomatic memory, information retrieval systems must be so good so that retrieving information is like remembering.” – Gregory Newby9 . Second, creating the knowledge base which underlies MemNav takes time. It requires a sustained regular commitment, and may become tedious. However, future methods will likely enable more efficient ways of recording memories. Using a speech-to-text service would easily triple the rate of transcribed words per minute. Wearable and handheld devices already bring in a multimedia dimension to the endeavor. Neural interfaces might obviate the need for words entirely. Finally, there’s a more nuanced issue. The linear structure of a diary might be a very poor representation of the non-linear structure of thought. The programmatic transformations mentioned previously may be crucial in better aligning the cognitive space with the information space.10 High-dimensional representations similar to the ones used by Semantica might be a much better fit for the task. Despite its current flaws, MemNav manages to provide an insightful vantage point on the nature and impact of future tools for thought. The reflections it supports are as valuable as the functions it enables, as it helps us paint a picture of our desired technological path. ",
     "url": "http://localhost:4000/tools/memnav/#further-steps",
     "relUrl": "/tools/memnav/#further-steps"
-  },"87": {
+  },"88": {
     "doc": "MemNav",
     "title": "Acknowledgements",
     "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/memnav/#acknowledgements",
     "relUrl": "/tools/memnav/#acknowledgements"
-  },"88": {
+  },"89": {
     "doc": "MemNav",
     "title": "Support Us",
     "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a supporter . ",
     "url": "http://localhost:4000/tools/memnav/#support-us",
     "relUrl": "/tools/memnav/#support-us"
-  },"89": {
+  },"90": {
     "doc": "MemNav",
     "title": "Join Us",
     "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a member . ",
     "url": "http://localhost:4000/tools/memnav/#join-us",
     "relUrl": "/tools/memnav/#join-us"
-  },"90": {
+  },"91": {
     "doc": "MemNav",
     "title": "References",
     "content": ". | Sparrow et al.,Cognitive Consequences on Having Information at Our Fingertips &#8617; . | Papers with Code,Language Modelling Performance over Time &#8617; . | Buster Benson,Better Than Meditation &#8617; . | Vannevar Bush,As We May Think &#8617; . | HuggingFace,Transformers Documentation &#8617; . | Nils Reimers &amp; Iryna Gurevych,Sentence-Transformers Documentation &#8617; . | Buster Benson,Cognitive Biases &#8617; . | Daniel Reisberg,Cognition: Exploring the Science of the Mind &#8617; . | Gregory Newby,Newby on Cognitive Space &#8617; . | Gregory Newby,Cognitive space and information space &#8617; . | . ",
     "url": "http://localhost:4000/tools/memnav/#references",
     "relUrl": "/tools/memnav/#references"
-  },"91": {
+  },"92": {
     "doc": "MemNav",
     "title": "MemNav",
     "content": "This project is currently on standby. Reach out to its previous contributor(s) on Discord for guidance in advancing it to the next stage. ",
     "url": "http://localhost:4000/tools/memnav/",
     "relUrl": "/tools/memnav/"
-  },"92": {
+  },"93": {
     "doc": "Semantica",
     "title": "Semantica",
     "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. By @thoughtware.engineer . Open Demo View Code . ",
     "url": "http://localhost:4000/tools/semantica/#semantica",
     "relUrl": "/tools/semantica/#semantica"
-  },"93": {
+  },"94": {
     "doc": "Semantica",
     "title": "Table of contents",
     "content": ". | Mental Models | Conceptual Thinking | Semantic Embeddings | Tools . | Field | Mix | Span | Shift | Match | . | Case Studies | Further Steps | Contributions | Acknowledgements | Support Us | Join Us | References | . ",
     "url": "http://localhost:4000/tools/semantica/#table-of-contents",
     "relUrl": "/tools/semantica/#table-of-contents"
-  },"94": {
+  },"95": {
     "doc": "Semantica",
     "title": "Mental Models",
     "content": "Mental models are simplified descriptions of the world around us. For instance, one of them might describe networks. A forest is a network of trees. A society is a network of people. A brain is a network of neurons. Mental models help us make sense of the world by allowing us to apply previous knowledge to new situations. They are widely seen as powerful tools for thought, especially when they come in large numbers. If one’s repository of mental models is vast, then they’ll be able to approach new situations from many different perspectives. This is the motivation behind many recent efforts of compiling extensive lists of them.1 . “Our systematic cross-realm translations are the roots of fruitful metaphors; they enable us to understand things we’ve never seen before. When something seems entirely new in one of our description-worlds, it may turn out that when translated to some other world it resembles something we already know.” – Marvin Minsky2 . “Metaphors allow us to understand one domain of experience in terms of another. This suggests that understanding takes place in terms of entire domains of experience and not in terms of isolated concepts.” – George Lakoff &amp; Mark Johnson3 . ",
     "url": "http://localhost:4000/tools/semantica/#mental-models",
     "relUrl": "/tools/semantica/#mental-models"
-  },"95": {
+  },"96": {
     "doc": "Semantica",
     "title": "Conceptual Thinking",
     "content": "However, mental models are only one side of what can be more broadly described as conceptual thinking. In this view, mental models are just sets of systematic relations between concepts. The previous network model merely captures the relation between a forest and a tree, between a society and a person, and between a brain and a neuron. Having said that, there is so much more to concepts than mental models. You can connect them to similar ones. You can mix them together into new ones. You can transform them in meaningful ways. You can explore the nuances between them. What if we could build tools which enabled us to work with concepts in a similar way Photoshop enables us to work with images? What if we could build tools which extend our conceptual thinking beyond what is humanly possible? Instead of blending colors, we would combine concepts. Instead of creating gradients, we would explore continua of meaning. Instead of defining intricate visual patterns, we would define systematic patterns of meaning. “In this it resembles a program such as Photoshop or a spreadsheet or 3D graphics programs. Each provides a novel set of interface primitives, primitives which can be internalized by the user as fundamental new elements in their thinking.” – Shan Carter &amp; Michael Nielsen4 . “Human intellectual effectiveness can be affected by the particular means used by individuals for their external symbol manipulation. It seems reasonable to consider the development of automated external symbol manipulation means as a next stage in the evolution of our intellectual power.” – Douglas Engelbart5 . ",
     "url": "http://localhost:4000/tools/semantica/#conceptual-thinking",
     "relUrl": "/tools/semantica/#conceptual-thinking"
-  },"96": {
+  },"97": {
     "doc": "Semantica",
     "title": "Semantic Embeddings",
     "content": "However, tools like Photoshop don’t directly work with colors, gradients, or patterns. At the lowest level, editing photos boils down to manipulating matrices of numbers. In order to build powerful tools for conceptual thinking, we might need an analogous way to fix concepts into firm numerical foundations which we could then easily manipulate. Fortunately, there already are ways of doing that. The field of natural language processing has long used semantic embeddings as the numerical substrate of discrete concepts.6 Among others, they’re used in search engines to understand queries, in chatbots to understand conversations, and in translation systems to understand foreign languages. Think of semantic embeddings as numeric coordinates. They don’t describe locations in a physical space, like geographic coordinates, but locations in a space of meanings, a semantic space.7 . An intuitive understanding of how semantic embeddings are obtained is beyond the scope of this article, but what is relevant for our current purposes can be captured in a few neat properties exhibited by the semantic space: . | Conceptual differences correspond to geometric distances. | Conceptual parallelism corresponds to geometric parallelism. | . But analytic geometry is no reason for despair, because as graphic designers don’t need to be knowledgeable about convolutions and tensors when using Photoshop, the tools for thought which we set out to build will be usable regardless of the user’s proficiency in maths. We’ll use semantic embeddings only as a low-level foundation for higher-level tools which enable anyone to work with concepts in exciting ways. That’s where we’ll go next. In the following sections, we’ll define and use new tools for thought built on top of semantic embeddings, and in doing so incrementally grow Semantica, a veritable computational toolkit for conceptual thinking. “But let the human specify to the instrument his particular conceptual need of the moment, relative to this internal image. Without disrupting its own internal reference structure in the slightest, the computer will effectively stretch, bend, fold, extract, and cut as it may need in order to assemble an internal substructure […] it portrays to the human via its display a symbol structure designed for his quick and accurate perception and comprehension of the conceptual matter […]” – Douglas Engelbart5 . ",
     "url": "http://localhost:4000/tools/semantica/#semantic-embeddings",
     "relUrl": "/tools/semantica/#semantic-embeddings"
-  },"97": {
+  },"98": {
     "doc": "Semantica",
     "title": "Tools",
     "content": "Field . Functional Description . Finds concepts which are closely related to a given concept. Spatial Intuition . Finds concepts which are close to a given concept. Numerical Implementation . Finds concepts whose embeddings are the most similar to the embedding of a given concept. &gt;&gt;&gt; field('car') ['vehicle', 'cars', 'suv', 'minivan', 'truck', 'ford_focus', 'honda_civic', 'jeep'] &gt;&gt;&gt; field('galaxy') ['galaxies', 'milky_way', 'planets', 'supernova', 'galactic', 'universe', 'comet', 'planet', 'cosmos'] &gt;&gt;&gt; field('bed') ['beds', 'couch', 'sofa', 'sleep', 'duvet', 'sleeping', 'bunk', 'pillow', 'mattress'] . A semantic field is a set of words related in meaning. This tool can be used to expand concepts into their semantic fields. Mix . Functional Description . Blends given concepts into new ones. Spatial Intuition . Finds concepts which are close to the center of the given concepts. Numerical Implementation . Finds concepts whose embeddings are the most similar to the average embedding of the given concepts. &gt;&gt;&gt; mix('people', 'chaos') ['anarchy', 'mayhem', 'chaotic', 'civil_strife', 'bedlam', 'strife', 'bloodshed', 'upheaval'] &gt;&gt;&gt; mix('computer', 'virus') ['viruses', 'computers', 'antivirus_software', 'malware', 'spyware', 'worm', 'antivirus'] &gt;&gt;&gt; mix('brain', 'science') ['neuroscience', 'brains', 'biology', 'physiology', 'cognition', 'mathematics', 'neural', 'cognitive'] . Conceptual blending has been described as the process of partially projecting multiple concepts onto a blended mental space.8 If this explanation seems largely circular, that’s because it is. Still, this tool can be used to perform this ill-defined but intuitive task. Span . Functional Description . Finds a sequence of concepts which spans the continuum between two given concepts. Spatial Intuition . Finds concepts located along the line between two given concepts. Numerical Implementation . Finds concepts whose embeddings are the most similar to the interpolated embeddings of two given concepts. &gt;&gt;&gt; span('pond', 'ocean') ['pond', 'ponds', 'retention_pond', 'drainage_ditch', 'creek', 'creek_bed', 'lake', 'river', 'lagoon', 'marsh', 'sea', 'ocean'] &gt;&gt;&gt; span('city', 'house') ['city', 'mayor', 'municipality', 'municipal', 'district', 'downtown', 'town', 'neighborhoods', 'neighborhood', 'houses', 'house'] &gt;&gt;&gt; span('kindergarten', 'university') ['kindergarten', 'kindergartners', 'preschool', 'sixth_graders', 'eighth_grade', 'elementary', 'school', 'students', 'university'] . The selected samples are massively cherry-picked. However, in the envisioned use cases of this toolkit, there’s always a human-in-the-loop who is able to sift through some moderate amounts of noise. Shift . Functional Description . Captures the relation between two given concepts. Spatial Intuition . Determines the directed difference in location between two given concepts. Numerical Implementation . Computes the arithmetic difference between the embeddings of two given concepts. &gt;&gt;&gt; mix('cell', shift('biology', 'physics')) ['atoms', 'electron', 'electrons', 'photons', 'neutrons', 'particle', 'photon', 'physics'] &gt;&gt;&gt; mix('saxophone', shift('jazz', 'rock')) ['rock', 'guitar', 'bass_guitar', 'guitars', 'electric_guitar', 'rocks', 'guitar_riffs', 'trombone', 'guitarist'] &gt;&gt;&gt; mix('burrito', shift('Spain', 'Italy')) ['pizza', 'burger', 'sandwich', 'pasta', 'pizzas', 'cheeseburger', 'pizzeria', 'hamburger', 'sushi'] . Metaphor comes from the Latin metaphora, meaning to carry over. This tool can be used to carry over concepts from one domain to another. Match . Functional Description . Finds sets of concepts whose elements match the relations found in a given set of concepts. Spatial Intuition . Finds constellations of concepts which match the shape of a given constellation of concepts. Numerical Implementation . Finds sets of concepts whose internal differences in embeddings are the most similar to the ones found in a given set of concepts. &gt;&gt;&gt; match('people', 'society') ['members', 'membership'] ['players', 'team'] ['students', 'classroom'] ['women', 'womanhood'] ['customers', 'clientele'] ['workers', 'workforce'] ['fans', 'fandom'] ... &gt;&gt;&gt; match('physics', 'Einstein', target='science') ['biology', 'charles_darwin'] ['psychology', 'freud'] ['linguistics', 'chomsky'] ['philosophy', 'nietzsche'] ['astrophysics', 'stephen_hawking'] ... &gt;&gt;&gt; match('king', 'queen', target='acting') ['actor', 'actress'] ['al_pacino', 'meryl_streep'] ['cocky', 'bitchy'] ['best_actor', 'best_actress'] ['showman', 'diva'] ... Inspiration for this tool comes from a science fiction novel in which the main character needs to broadcast the location of a celestial body to an unknown civilization.9 However, given the lack of absolute reference frames available, he broadcasts the position of the celestial body relative to several neighboring ones. Here, because the dimensions of the semantic space aren’t inherently meaningful, a mental model is expressed as a set of distances from the first concept to each subsequent concept, forming a constellation of concepts. The Golden Records use a similar scheme to pinpoint the Earth.10 After finishing this write-up, I also came across this eerily related passage: . “The night sky is a partial representation of Prime Intellect’s mind. It’s called the Global Association Table. The points or stars represent concepts, and the lines are the links between them.” – Roger Williams11 . ",
     "url": "http://localhost:4000/tools/semantica/#tools",
     "relUrl": "/tools/semantica/#tools"
-  },"98": {
+  },"99": {
     "doc": "Semantica",
     "title": "Case Studies",
     "content": "Physicist &amp; Biologist . “My research group and I have been exploring potential applications of graphene for several years now. It’s a really fascinating material,” says the physicist. “You know, graphene is like… . &gt;&gt;&gt; mix('graphene', shift('physics', 'biology')) [... 'tissue' ...] . …tissue. Graphene is like a tissue of carbon atoms, in a similar way in which biological tissue is composed of a latticework of interconnected cells. It turns out to be quite resistant, yet flexible.” . Artist &amp; Scientist . “We see ourselves as living in two radically different worlds, but there’s a seamless transition between them,” says the artist. “Consider interdisciplinary fields such as… . &gt;&gt;&gt; span('art', 'science') [... 'humanities', 'museology' ...] . humanities or museology. We can meet each other halfway through.” . Sociologist &amp; Students . “Think of a society as a… . &gt;&gt;&gt; match('people', 'society', target='student') ['students', 'clasroom'] ... …classroom, composed of many independent students who all have their own individual beliefs, desires, and intentions.” . ",
     "url": "http://localhost:4000/tools/semantica/#case-studies",
     "relUrl": "/tools/semantica/#case-studies"
-  },"99": {
+  },"100": {
     "doc": "Semantica",
     "title": "Further Steps",
     "content": "Friendlier interfaces . From Photoshop-like stand-alones to Wolfram-like web apps, there are exciting ways of wrapping interfaces around these conceptual tools. Better tools . This early selection of tools merely scratches surface of how semantic embeddings can be used in building tools for thought. A largely unexplored space of possibilities is waiting for curious thinkers. Deeper integration . This toolkit only operates with knowledge on a conceptual level. In the future, it might be able to interface with definitions (e.g. from WordNet), multimedia content (e.g. from ImageNet), external resources (e.g. via Zotero), or more established tools for thought (e.g. Zettelkasten). Higher performance . The current software implementation has been developed for experimental purposes, rather than efficiency. Much needed code optimizations will significantly improve the speed of the algorithms involved. Better embeddings . Not all semantic embeddings are created equal. The ones used in this prototype have been obtained through a relatively rudimentary approach. Newer techniques capture meaning more effectively and with less bias.7 . ",
     "url": "http://localhost:4000/tools/semantica/#further-steps",
     "relUrl": "/tools/semantica/#further-steps"
-  },"100": {
+  },"101": {
     "doc": "Semantica",
     "title": "Contributions",
     "content": ". | The idea that semantic embeddings – specifically word embeddings – can be directly used to build tools for thought, rather than only as raw ingredients in downstream machine learning tasks. Earlier work explored the potential of interacting with abstract representations more generally.4 . | The idea that mental models can be formalized as constellations of semantic embeddings in semantic space. | The formalization and implementation of Span and Match. The other conceptual tools (i.e. Field, Mix, Shift) were already formalized and implemented in earlier work, one way or another. For example, Mix is based on additive composition of semantic embeddings.12 However, these operations were largely used to measure the quality of semantic embeddings for downstream tasks, rather than as first-hand tools. | The strengthened link between Photoshop and more radical tools for thought, through Photoshop-like names and descriptions. Photoshop has been extensively used as a prime example of tools for thought before, but the current work explores new ways of reinforcing this connection. | The name Semantica for a tool for conceptual thinking has been inspired by the name Mathematica, used to describe a tool for computational thinking.13 . | . ",
     "url": "http://localhost:4000/tools/semantica/#contributions",
     "relUrl": "/tools/semantica/#contributions"
-  },"101": {
+  },"102": {
     "doc": "Semantica",
     "title": "Acknowledgements",
     "content": "Our work is supported by awesome people: Adam Wiggins, Alex Iwaniuk, Andreas Stuhlmüller, Bruno Winck, Chris Boette, David Dohan, Flancia, I Do Recall, Inc., Nick Milo, Maggie Appleton, Serj Hunt, Yang Wao. ",
     "url": "http://localhost:4000/tools/semantica/#acknowledgements",
     "relUrl": "/tools/semantica/#acknowledgements"
-  },"102": {
+  },"103": {
     "doc": "Semantica",
     "title": "Support Us",
     "content": "Our only stakeholder is humanity. Help us keep it that way. By supporting our efforts, you’re investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you’re also setting in motion a broader movement around cognitive augmentation as a second-order consequence. Become a supporter . ",
     "url": "http://localhost:4000/tools/semantica/#support-us",
     "relUrl": "/tools/semantica/#support-us"
-  },"103": {
+  },"104": {
     "doc": "Semantica",
     "title": "Join Us",
     "content": "Do you want to contribute to the development of this project yourself? Join Psionica if you want to be part of an enthusiastic community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat. Become a member . ",
     "url": "http://localhost:4000/tools/semantica/#join-us",
     "relUrl": "/tools/semantica/#join-us"
-  },"104": {
+  },"105": {
     "doc": "Semantica",
     "title": "References",
     "content": ". | Farnam Street,Mental Models &#8617; . | Marvin Minsky,The Society of Mind &#8617; . | George Lakoff &amp; Mark Johnson,Metaphors We Live By &#8617; . | Shan Carter &amp; Michael Nielsen,Using Artificial Intelligence to Augment Human Intelligence &#8617; &#8617;2 . | Douglas Engelbart,Augmenting Human Intellect &#8617; &#8617;2 . | Christopher Olah,Deep Learning, NLP, and Representations &#8617; . | Daniel Jurafsky &amp; James Martin,Speech and Language Processing &#8617; &#8617;2 . | Gilles Fauconnier,The Encyclopedia of the Social and Behavioral Sciences &#8617; . | Cixin Liu,The Three-Body Problem Trilogy &#8617; . | NASA,The Golden Record Cover &#8617; . | Roger Williams,The Metamorphosis of Prime Intellect &#8617; . | Mikolov et al.,Distributed Representations of Words and Phrases and their Compositionality &#8617; . | Stephen Wolfram,Computational Universe &#8617; . | . ",
     "url": "http://localhost:4000/tools/semantica/#references",
     "relUrl": "/tools/semantica/#references"
-  },"105": {
+  },"106": {
     "doc": "Semantica",
     "title": "Semantica",
     "content": "This project is currently on standby. Reach out to its previous contributor(s) on Discord for guidance in advancing it to the next stage. ",
     "url": "http://localhost:4000/tools/semantica/",
     "relUrl": "/tools/semantica/"
-  },"106": {
+  },"107": {
     "doc": "Tools",
     "title": "Tools",
     "content": "Developing thoughtware from sketches to apps. ",
     "url": "http://localhost:4000/tools/tools/",
     "relUrl": "/tools/tools/"
-  },"107": {
+  },"108": {
+    "doc": "Tools",
+    "title": "Ideoscope",
+    "content": "STAGE 1 . An instrument for quantifying, understanding, and optimizing your thinking. ",
+    "url": "http://localhost:4000/tools/tools/#ideoscope",
+    "relUrl": "/tools/tools/#ideoscope"
+  },"109": {
     "doc": "Tools",
     "title": "Conceptarium",
     "content": "STAGE 2 . A fluid medium for storing, relating, and surfacing thoughts. ",
     "url": "http://localhost:4000/tools/tools/#conceptarium",
     "relUrl": "/tools/tools/#conceptarium"
-  },"108": {
+  },"110": {
     "doc": "Tools",
     "title": "Dual",
     "content": "STAGE 3 . Amplifying knowledge work through user-defined assistants. ",
     "url": "http://localhost:4000/tools/tools/#dual",
     "relUrl": "/tools/tools/#dual"
-  },"109": {
+  },"111": {
     "doc": "Tools",
     "title": "Autocards",
     "content": "STAGE 2 . Accelerating learning through machine-generated flashcards. ",
     "url": "http://localhost:4000/tools/tools/#autocards",
     "relUrl": "/tools/tools/#autocards"
-  },"110": {
+  },"112": {
     "doc": "Tools",
     "title": "Memory Navigator",
     "content": "STAGE 2 . Expanding propositional memory through text mining. ",
     "url": "http://localhost:4000/tools/tools/#memory-navigator",
     "relUrl": "/tools/tools/#memory-navigator"
-  },"111": {
+  },"113": {
     "doc": "Tools",
     "title": "Knowledge Probes",
     "content": "STAGE 2 . Promoting critical thinking through prompt generation. ",
     "url": "http://localhost:4000/tools/tools/#knowledge-probes",
     "relUrl": "/tools/tools/#knowledge-probes"
-  },"112": {
+  },"114": {
     "doc": "Tools",
     "title": "Semantica",
     "content": "STAGE 2 . Extending conceptual thinking through semantic embeddings. ",
     "url": "http://localhost:4000/tools/tools/#semantica",
     "relUrl": "/tools/tools/#semantica"
-  },"113": {
+  },"115": {
     "doc": "Augment Minds 2021",
     "title": "Augment Minds 2021",
     "content": " ",
