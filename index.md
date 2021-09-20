@@ -16,106 +16,34 @@ An open collective on a mission to augment thought for all.
 
 ---
 
-## Mission
-
 Just like there are sound frequencies we cannot hear and wavelengths of light we cannot see, there might very well be thoughts we cannot think.[^1] Being confined to a limited domain of thought is unsettling for many, especially considering our ideal of freedom of thought and the increasingly complex challenges we're facing as a species.
 
 However, just like there are advanced sensors that can help us detect sound and light beyond our bodily senses, there are transformative tools that can help us think beyond what was previously thinkable.[^2] We can engineer "spacecraft" for venturing into the depths of conceptual space, exploring what lies beyond the pale blue dot of native human cognition.[^3] Artificial intelligence is especially well-positioned to fuel the expansion of our cognitive horizons through its remarkable skill of manipulating abstract representations.[^5]
 
-What if you had a virtual assistant when navigating your thoughts? What if there was a Photoshop for editing concepts? What if you could radically edit your belief system on command? What if you could learn at a rate of decades per week? What if you could manipulate abstract representations with your body? Those are precisely the muddy, challenging, and daring questions we're interested in.
+What if you had a virtual assistant when navigating your thoughts? What if there was a Photoshop for editing concepts? What if you could radically edit your belief system on command? What if you could learn at a rate of decades per week? What if you could manipulate abstract representations with your body? Our mission is to provide a launchpad for ambitious projects aiming to augment thought in such transformative ways.
 
-Our mission is to provide a "launchpad" for ambitious projects aiming to augment thought in transformative ways.
+We achieve this through:
 
-Ready for takeoff.
-
----
-
-## Our Work
-
-## [Ideoscope](/tools/ideoscope)
-{: .d-inline-block .mt-4 }
-
-STAGE 1
-{: .label }
-
-An instrument for quantifying, understanding, and optimizing your thinking.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
-## [Conceptarium](/tools/conceptarium)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-A fluid medium for storing, relating, and surfacing thoughts.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
-## [Dual](/tools/dual)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-Amplifying knowledge work through user-defined assistants.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
-## [Autocards](/tools/autocards)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-Accelerating learning through machine-generated flashcards.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
-## [Semantica](/tools/semantica)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-Extending conceptual thinking through semantic embeddings.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
-## [Memory Navigator](/tools/memnav)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-Expanding propositional memory through text mining.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
-## [Knowledge Probes](/tools/k-probes)
-{: .d-inline-block .mt-0 }
-
-STAGE 2
-{: .label }
-
-Promoting critical thinking through prompt generation.
-{: .fs-4 .fw-300 .text-left .mt-0 }
-
----
-
-## Acknowledgements
-
-Our work is supported by awesome people: [Adam Wiggins](https://opencollective.com/adam-wiggins), [Alex Iwaniuk](https://opencollective.com/alex-hubert-iwaniuk), [Andreas Stuhlmüller](https://stuhlmueller.org/), [Bruno Winck](https://opencollective.com/bruno-winck), [Chris Boette](https://opencollective.com/chris-boette), [David Dohan](https://opencollective.com/david-d), [Flancia](https://opencollective.com/flancia), [I Do Recall, Inc.](https://opencollective.com/i-do-recall-inc), [Nick Milo](https://opencollective.com/nickmilo), [Maggie Appleton](https://opencollective.com/maggie-appleton), [Serj Hunt](https://opencollective.com/serjhunt_ark), [Yang Wao](https://opencollective.com/yangwao).
-
-## Support Us
-
-Our only stakeholder is humanity. Help us keep it that way.
-
-By supporting our efforts, you're investing in transparent research and development at the frontier of thought. Not only are you helping us deliver open source tools reshaping the landscape of knowledge work, but you're also setting in motion a broader movement around cognitive augmentation as a second-order consequence.
-
-[Become a supporter](https://opencollective.com/psionica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+1. Hosting a thoughtware discovery hub which helps connect knowledge workers with the creative artifacts of thoughtware engineers.
+2. Organizing online events which connect thoughtware engineers with knowledge workers in order to exchange ideas and best practices.
+3. Moderating a Discord server and Reddit sub for providing casual spaces for chatting about thoughtware.
 
 ---
 
 ## Join Us
 
-We're passionate about exploring what lies beyond the human mind, but we're still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering individuals around the world in fundamentally new ways. Contribute to existing projects, develop your own, or just hang around for an insightful chat.
+We're passionate about exploring what lies beyond the human mind, but we're still people (for now). Join Psionica if you want to be part of a growing community of designers, researchers, and developers committed to empowering knowledge workers in fundamentally new ways.
 
-[Become a member](https://discord.gg/NXYZUbhMNf){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[Discord Server](https://discord.gg/NXYZUbhMNf){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 } [Reddit Sub](https://reddit.com/r/augmentedMind/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .ml-2 }
+
+
+---
+
+## Acknowledgements
+
+Our efforts are supported by awesome people: [Adam Wiggins](https://opencollective.com/adam-wiggins), [Alex Iwaniuk](https://opencollective.com/alex-hubert-iwaniuk), [Andreas Stuhlmüller](https://stuhlmueller.org/), [Bruno Winck](https://opencollective.com/bruno-winck), [Chris Boette](https://opencollective.com/chris-boette), [David Dohan](https://opencollective.com/david-d), [Flancia](https://opencollective.com/flancia), [I Do Recall, Inc.](https://opencollective.com/i-do-recall-inc), [Nick Milo](https://opencollective.com/nickmilo), [Maggie Appleton](https://opencollective.com/maggie-appleton), [Serj Hunt](https://opencollective.com/serjhunt_ark), [Yang Wao](https://opencollective.com/yangwao).
+
+[Become a supporter](https://opencollective.com/psionica){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
