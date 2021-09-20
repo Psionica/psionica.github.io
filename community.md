@@ -3,6 +3,7 @@ layout: default
 title: Community
 nav_order: 3
 description: "Inner workings of our open collective."
+published: False
 ---
 
 # Community

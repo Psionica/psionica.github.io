@@ -392,6 +392,18 @@ hr {
   background-color: #44434d;
   border: 0; }
 
+.card {
+  background-color: #44434d;
+  border: 2px solid;
+  border-color: #264caf;
+  border-radius: 4px;
+  margin-bottom: 20px; }
+
+.card-body {
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
 .side-bar {
   z-index: 0;
   display: flex;
