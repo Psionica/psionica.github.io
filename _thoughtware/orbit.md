@@ -7,4 +7,4 @@ description: Orbit is an experimental platform for publishing and engaging with 
 mechanics: embedded flashcards, SRS API, flashcard removal by repeated dismissal. 
 ---
 
-**Useful links:** [Project Page](https://withorbit.com/), [Project Repo](https://github.com/andymatuschak/orbit), [Author Page](https://andymatuschak.org/)
+**Useful links:** [Project Page](https://withorbit.com/), [Project Repo](https://github.com/andymatuschak/orbit), [https://twitter.com/withorbit](Project Twitter), [Author Page](https://andymatuschak.org/)

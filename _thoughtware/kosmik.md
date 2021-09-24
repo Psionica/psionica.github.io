@@ -7,4 +7,4 @@ description: The Kosmik Universe is your infinite, digital playground to put obj
 mechanics: spatial hyperlinks, drag and drop links onto canvas as page objects, transclusion on a canvas.
 ---
 
-**Useful links:** [Project Page](https://kosmik.app/), [Author Page](https://mobile.twitter.com/Paul_Rony)
+**Useful links:** [Project Page](https://kosmik.app/), [Project Twitter](https://twitter.com/kosmik_app), [Author Page](https://mobile.twitter.com/Paul_Rony)

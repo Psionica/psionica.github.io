@@ -564,29 +564,47 @@
     "relUrl": "/thoughtware/"
   },"94": {
     "doc": "Thoughtware",
-    "title": "\n            Kosmik\n        ",
-    "content": "By Christophe Van Deputte, Paul Rony . memory knowledge management visual thinking . Description: The Kosmik Universe is your infinite, digital playground to put objects together, manipulate the objects and the relationships they share with each other, as you let the many become one until the One emerges out of the play. It is akin to a whiteboard transformed by all things digital, all things web-native, all things Internet. Such a new paradigm introduces a whole new set of creation flows and in our explorations, we’ve already seen some unprecedented possibilities. New mechanics: spatial hyperlinks, drag and drop links onto canvas as page objects, transclusion on a canvas. Useful links: Project Page, Author Page . ",
+    "title": "\n            Elicit\n        ",
+    "content": "By Ought . reasoning . Description: Elicit is a GPT-3 powered research assistant. Elicit helps you classify datasets, brainstorm research questions, and search through publications. New mechanics: steer language models by starring responses, GUI wizard for defining tasks for language models. Useful links: Project Page, Project Twitter, Author Page . ",
     "url": "http://localhost:4000/thoughtware/",
     "relUrl": "/thoughtware/"
   },"95": {
+    "doc": "Thoughtware",
+    "title": "\n            Kosmik\n        ",
+    "content": "By Christophe Van Deputte, Paul Rony . memory knowledge management visual thinking . Description: The Kosmik Universe is your infinite, digital playground to put objects together, manipulate the objects and the relationships they share with each other, as you let the many become one until the One emerges out of the play. It is akin to a whiteboard transformed by all things digital, all things web-native, all things Internet. Such a new paradigm introduces a whole new set of creation flows and in our explorations, we’ve already seen some unprecedented possibilities. New mechanics: spatial hyperlinks, drag and drop links onto canvas as page objects, transclusion on a canvas. Useful links: Project Page, Project Twitter, Author Page . ",
+    "url": "http://localhost:4000/thoughtware/",
+    "relUrl": "/thoughtware/"
+  },"96": {
     "doc": "Thoughtware",
     "title": "\n            Monocle\n        ",
     "content": "By Linus Lee . open source memory knowledge management . Description: Monocle is Linus's universal, personal search engine. It can query across tens of thousands of documents from his blog posts, journal entries, notes, Tweets, contacts, and more to act as his extended memory. Monocle is designed with a focus on speed, privacy, and hackability. New mechanics: universal personal search, personal search engine in the browser. Useful links: Project Page, Project Repo, Author Page . ",
     "url": "http://localhost:4000/thoughtware/",
     "relUrl": "/thoughtware/"
-  },"96": {
+  },"97": {
     "doc": "Thoughtware",
-    "title": "\n            Orbit\n        ",
-    "content": "By Andy Matuschak . open source memory spaced repetition . Description: Orbit is an experimental platform for publishing and engaging with small tasks repeatedly over time. In the short term, it's focused on supporting the \"mnemonic medium\", a way of augmenting texts so that readers can easily remember all the key details. More abstractly, Orbit aspires to offer a more general form of spaced repetition systems like Anki, as part of a connected cloud service. Orbit stores a collection of tasks and manages their schedules. Tasks can be ingested from around the web, via APIs or embedded iframes, or through various services running on your local computer. You can complete scheduled tasks in desktop, mobile, and web applications. A backend service syncs user data and orchestrates notifications. New mechanics: embedded flashcards, SRS API, flashcard removal by repeated dismissal. Useful links: Project Page, Project Repo, Author Page . ",
+    "title": "\n            Muse\n        ",
+    "content": "By Mark McGranghan, Julia Roggatz, Adam Wiggins, Lennart Ziburski, Adam Wulf . memory knowledge management visual thinking . Description: Muse is a spatial canvas for your research notes, reading, sketches, screenshots, and bookmarks. Because deep thinking doesn’t happen in front of a computer. Pull in relevant information , then arrange as you see fit. Muse lets you sift and sort through it all, helping you find new patterns and insights. Sketching in Muse isn‘t restricted to a dedicated space. Ink on top of, next to, or between things. Type a sentence, then scribble a note over it. The unique zooming interface lets you rely on your brain‘s spatial memory to switch contexts without ever getting lost. New mechanics: spatially nested canvases. Useful links: Project Page, Project Twitter . ",
     "url": "http://localhost:4000/thoughtware/",
     "relUrl": "/thoughtware/"
-  },"97": {
+  },"98": {
+    "doc": "Thoughtware",
+    "title": "\n            Napkin\n        ",
+    "content": "By David Felsmann, Fabian Wittel . memory knowledge management . Description: Napkin is an easy system to collect and reflect thoughts. Its network structure reveals connections you couldn't see in a classic list and folder structure. The interface is optimized for flow and inspiration and built around a directed graph instead of a classic file tree. Each thought becomes a node in a dynamic network and can convey more information than its mere content through either manually or automatically defined relationships to other thoughts. New mechanics: live surfacing of past thoughts while editing a new entry. Useful links: Project Page, Project Twitter, Author Page . ",
+    "url": "http://localhost:4000/thoughtware/",
+    "relUrl": "/thoughtware/"
+  },"99": {
+    "doc": "Thoughtware",
+    "title": "\n            Orbit\n        ",
+    "content": "By Andy Matuschak . open source memory spaced repetition . Description: Orbit is an experimental platform for publishing and engaging with small tasks repeatedly over time. In the short term, it's focused on supporting the \"mnemonic medium\", a way of augmenting texts so that readers can easily remember all the key details. More abstractly, Orbit aspires to offer a more general form of spaced repetition systems like Anki, as part of a connected cloud service. Orbit stores a collection of tasks and manages their schedules. Tasks can be ingested from around the web, via APIs or embedded iframes, or through various services running on your local computer. You can complete scheduled tasks in desktop, mobile, and web applications. A backend service syncs user data and orchestrates notifications. New mechanics: embedded flashcards, SRS API, flashcard removal by repeated dismissal. Useful links: Project Page, Project Repo, https://twitter.com/withorbit, Author Page . ",
+    "url": "http://localhost:4000/thoughtware/",
+    "relUrl": "/thoughtware/"
+  },"100": {
     "doc": "Thoughtware",
     "title": "Thoughtware",
     "content": " ",
     "url": "http://localhost:4000/thoughtware/",
     "relUrl": "/thoughtware/"
-  },"98": {
+  },"101": {
     "doc": "Augment Minds 2021",
     "title": "Augment Minds 2021",
     "content": " ",
