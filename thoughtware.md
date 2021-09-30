@@ -8,7 +8,7 @@ description: "A discovery hub for innovative tools for thought."
 # Thoughtware Discovery Hub
 {: .fs-9 .mt-0 }
 
-A curated repository of innovative tools for thought to make use of today.
+A curated repository of innovative tools for thought to make use of.
 {: .fs-6 .fw-300 .text-left }
 
 [Submit Tool](https://forms.gle/Y3oejDyLoHbw3Ytn9){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Tweet This](https://twitter.com/home?status=Psionica's%20moving%20from%20a%20portfolio%20of%20its%20own%20to%20a%20discovery%20hub%20for%20innovative%20thoughtware%20at%20large.%20Each%20listed%20tool%20introduces%20new%20mechanics%20%2F%20primitives%20%2F%20affordances.%20%20Skim%20through%20the%20tools%20and%20submit%20your%20own%3A%20https%3A%2F%2Fpsionica.org%2Fthoughtware){: .btn .fs-5 .mb-4 .mb-md-0 }
