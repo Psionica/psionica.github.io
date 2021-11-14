@@ -4,6 +4,7 @@ title: Semantica
 nav_order: 6
 parent: Tools
 description: "Extending conceptual thinking through semantic embeddings."
+redirect_to: https://paulbricman.com/thoughtware/semantica
 ---
 
 {: .info }

@@ -5,6 +5,7 @@ nav_order: 1
 parent: Tools
 description: "A fluid medium for storing, relating, and surfacing thoughts."
 published: True
+redirect_to: https://paulbricman.com/thoughtware/conceptarium
 ---
 
 # Conceptarium

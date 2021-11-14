@@ -5,6 +5,7 @@ nav_order: 3
 parent: Tools
 description: "Accelerating learning through machine-generated flashcards."
 published: True
+redirect_to: https://paulbricman.com/thoughtware/autocards
 ---
 
 # Autocards

@@ -5,6 +5,7 @@ nav_order: 0
 parent: Tools
 description: "An instrument for quantifying, understanding, and optimizing your thinking."
 published: True
+redirect_to: https://paulbricman.com/thoughtware/ideoscope
 ---
 
 # Ideoscope

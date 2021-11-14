@@ -5,6 +5,7 @@ nav_order: 4
 parent: Tools
 description: "Expanding propositional memory through text mining."
 published: True
+redirect_to: https://paulbricman.com/thoughtware/memnav
 ---
 
 {: .info }

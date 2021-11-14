@@ -6,6 +6,7 @@ parent: Tools
 description: "Amplifying knowledge work through user-defined assistants."
 published: True
 image: /assets/images/dual-thumbnail.png
+redirect_to: https://paulbricman.com/thoughtware/dual
 ---
 
 # Dual
