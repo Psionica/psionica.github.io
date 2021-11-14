@@ -4,6 +4,7 @@ title: K-Probes
 nav_order: 5
 parent: Tools
 description: "Promoting critical thinking through prompt generation."
+redirect_to: https://paulbricman.com/thoughtware/k-probes
 ---
 
 {: .info }
